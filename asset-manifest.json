@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/arlington-ma-town-member-voting/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/arlington-ma-town-member-voting/static/js/main.b2ab4837.chunk.js",
+    "main.js.map": "/arlington-ma-town-member-voting/static/js/main.b2ab4837.chunk.js.map",
+    "runtime-main.js": "/arlington-ma-town-member-voting/static/js/runtime-main.c9c6efcf.js",
+    "runtime-main.js.map": "/arlington-ma-town-member-voting/static/js/runtime-main.c9c6efcf.js.map",
+    "static/css/2.ef9168ec.chunk.css": "/arlington-ma-town-member-voting/static/css/2.ef9168ec.chunk.css",
+    "static/js/2.e9a7efd6.chunk.js": "/arlington-ma-town-member-voting/static/js/2.e9a7efd6.chunk.js",
+    "static/js/2.e9a7efd6.chunk.js.map": "/arlington-ma-town-member-voting/static/js/2.e9a7efd6.chunk.js.map",
+    "static/js/3.b650689e.chunk.js": "/arlington-ma-town-member-voting/static/js/3.b650689e.chunk.js",
+    "static/js/3.b650689e.chunk.js.map": "/arlington-ma-town-member-voting/static/js/3.b650689e.chunk.js.map",
+    "index.html": "/arlington-ma-town-member-voting/index.html",
+    "static/css/2.ef9168ec.chunk.css.map": "/arlington-ma-town-member-voting/static/css/2.ef9168ec.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/arlington-ma-town-member-voting/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.e9a7efd6.chunk.js.LICENSE.txt": "/arlington-ma-town-member-voting/static/js/2.e9a7efd6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9c6efcf.js",
+    "static/css/2.ef9168ec.chunk.css",
+    "static/js/2.e9a7efd6.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.b2ab4837.chunk.js"
+  ]
+}
