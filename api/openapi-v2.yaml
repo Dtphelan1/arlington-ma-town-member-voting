@@ -1,0 +1,155 @@
+openapi: 3.0.1
+info:
+  title: Arlington Vote Transparency
+  description: 'This is a sample server Petstore server.  You can find out more about     Swagger
+    at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).      For
+    this sample, you can use the api key `special-key` to test the authorization     filters.'
+  termsOfService: http://swagger.io/terms/
+  contact:
+    email: apiteam@swagger.io
+  version: 1.0.0
+tags:
+- name: avt
+  description: Arlington Vote Transparency
+paths:
+  /representatives:
+    get:
+      tags:
+      - avt
+      parameters:
+      - name: precincts
+        in: query
+        description: Precincts the user is interested in, or all if empty
+        schema:
+          type: array
+          items:
+            type: integer
+      description: Get representative data
+      responses:
+        200:
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Representative'
+  /representatives/history:
+    get:
+      tags:
+      - avt
+      parameters:
+      - name: representativeIds
+        in: query
+        description: Specific representatives if the user already knows their names, or all if empty
+        schema:
+          type: array
+          items:
+            type: integer
+      - name: precincts
+        in: query
+        description: Precincts the user is interested in, or all if empty
+        schema:
+          type: array
+          items:
+            type: integer
+      - name: articleIds
+        in: query
+        description: Specific articles to search for, or all if empty
+        schema:
+          type: array
+          items:
+            type: string
+      description: Get all representatives' voting history
+      responses:
+        200:
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/VoteHistory'
+  /articles:
+    get:
+      tags:
+      - avt
+      description: Get all articles that received votes
+      responses:
+        200:
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Article'
+components:
+  schemas:
+    Representative:
+      type: object
+      properties:
+        fullName:
+          type: string
+        id:
+          type: integer
+        precinct:
+          type: integer
+    VoteHistory:
+      type: object
+      properties:
+        representative:
+          $ref: '#/components/schemas/Representative'
+        votes:
+          type: array
+          items:
+            $ref: '#/components/schemas/ArticleVote'
+    ArticleVote:
+      type: object
+      properties:
+        article:
+          $ref: '#/components/schemas/Article'
+        infoUrl:
+          type: string
+          description: Link off to some external source for info
+        vote:
+          enum:
+          - 'yes'
+          - 'no'
+          - 'abstain'
+          - 'no data'
+        amendments:
+          type: array
+          items:
+            $ref: '#/components/schemas/AmendmentVote'
+    AmendmentVote:
+      properties:
+        amendmentId:
+          type: integer
+        vote:
+          enum:
+          - 'yes'
+          - 'no'
+          - 'abstain'
+          - 'no data'
+    Article:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        amendments:
+          type: array
+          items:
+            $ref: '#/components/schemas/Amendment'
+        votingDate:
+          type: string
+          format: date
+    Amendment:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
