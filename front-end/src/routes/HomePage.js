@@ -16,15 +16,15 @@ const homeCopy = {
 function HomePage() {
   const options = [
     {
-      value: 1,
+      value: '1',
       label: 'Precinct 1'
     },
     {
-      value: 2,
+      value: '2',
       label: 'Precinct 2'
     },
     {
-      value: 3,
+      value: '3',
       label: 'Precinct 3'
     }
   ];
@@ -36,21 +36,21 @@ function HomePage() {
 
   // Use Async to load the data anytime the APIURL changes
   const dataState = useAsync(async () => {
-    const response = await fetch(apiURL);
-    const result = await response.text();
-    return result;
-  }, [apiURL]);
+    const response = await fetch(`${apiURL}/representatives/history?precincts=${precinct.value}`);
+    return await response.json();
+  }, [precinct]);
 
   return (
     <section id="main">
       <Splash homeCopy={homeCopy} options={options} precinct={precinct} setPrecinct={setPrecinct} />
-      {dataState.loading ? (
-        <LoadingDisplay />
-      ) : dataState.error ? (
-        <ErrorDisplay />
-      ) : (
-        <DataDisplay data={dataState.value} />
-      )}
+      {precinct &&
+        (dataState.loading ? (
+          <LoadingDisplay />
+        ) : dataState.error ? (
+          <ErrorDisplay />
+        ) : (
+          <DataDisplay data={dataState.value} />
+        ))}
     </section>
   );
 }

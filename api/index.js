@@ -10,4 +10,6 @@ app.use(cors());
 
 setupRoutes(app);
 
+app.use(cors())
+
 server.listen(port, () => console.log(`app listen ${port} port`));
