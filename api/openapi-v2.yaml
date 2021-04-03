@@ -12,7 +12,7 @@ tags:
 - name: avt
   description: Arlington Vote Transparency
 paths:
-  /representatives:
+  /v1/representatives:
     get:
       tags:
       - avt
@@ -34,7 +34,7 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/Representative'
-  /representatives/history:
+  /v1/representatives/history:
     get:
       tags:
       - avt
@@ -70,7 +70,7 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/VoteHistory'
-  /articles:
+  /v1/articles:
     get:
       tags:
       - avt
@@ -136,8 +136,8 @@ components:
       type: object
       properties:
         id:
-          type: integer
-        name:
+          type: string
+        title:
           type: string
         amendments:
           type: array

@@ -2,8 +2,8 @@ const fs = require('fs');
 
 class FileBackedDataRepository {
   constructor(articleFilePath, votes2020_11_16FilePath) {
-    this.articleData = JSON.parse(fs.readFileSync(articleFilePath))
-    this.voteData = JSON.parse(fs.readFileSync(votes2020_11_16FilePath))
+    this.articleData = JSON.parse(fs.readFileSync("../data/articles/articles.json"))
+    // this.voteData = JSON.parse(fs.readFileSync(votes2020_11_16FilePath))
   }
 
   /**
@@ -53,11 +53,10 @@ class FileBackedDataRepository {
    * @return An array of articles that have been voted on in this data set and the ID we have given it
    */
   getArticleOptions() {
-    return this.articleData.map(article => {
-      return {"id": article.id, title: article.title}
-    })
+    return this.articleData;
   }
 }
 
-let repo = new FileBackedDataRepository("./articles.json", "./representative-votes-2020-11-16.json");
-console.log(repo.getVotingRecordByPrecinct('1'))
+module.exports = function () {
+  return new FileBackedDataRepository();
+};
