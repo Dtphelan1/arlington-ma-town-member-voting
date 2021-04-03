@@ -29,7 +29,7 @@ function Table({ data, columnFilters }) {
         sticky: 'left'
       },
       ...data.articleData
-        .filter(ad => columnFilters.some(cf => cf.value === ad.id))
+        .filter(ad => (columnFilters.length > 0 ? columnFilters.some(cf => cf.value === ad.id) : ad))
         .map(ad => ({
           Header: ad.title,
           accessor: ad.title
@@ -79,7 +79,7 @@ function Table({ data, columnFilters }) {
 
 function DataDisplay({ data }) {
   const options = useMemo(() => data.articleData.map((ad, i) => ({ value: ad.id, label: ad.title })), [data]);
-  const [columns, setColumns] = useState(options);
+  const [columns, setColumns] = useState([]);
 
   return (
     <div>
