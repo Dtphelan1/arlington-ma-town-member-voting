@@ -3,18 +3,16 @@ import FAQPage from './FAQPage';
 
 const routes = [
   {
-    name: "Home Page",
+    name: 'Home Page',
     path: '/',
     exact: true,
     component: HomePage
   },
   {
-    name: "FAQ Page",
+    name: 'FAQ Page',
     path: '/faq',
     component: FAQPage
   }
 ];
 
-export {
-  routes
-};
+export { routes };
