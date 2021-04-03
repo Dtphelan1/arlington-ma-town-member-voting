@@ -1,5 +1,5 @@
-// Variables before Bootstrap definitions to override
-@import "_variables.scss";
+// Variables must go before Bootstrap definitions
+@import '_variables.scss';
 
-@import "default.scss";
-@import "~bootstrap/scss/bootstrap.scss";
+@import '~bootstrap/scss/bootstrap.scss';
+@import 'default.scss';
