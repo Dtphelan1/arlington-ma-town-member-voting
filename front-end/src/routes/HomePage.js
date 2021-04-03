@@ -1,31 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useAsync } from 'react-use';
-import Select from 'react-select';
 import LoadingDisplay from '../components/LoadingDisplay';
 import ErrorDisplay from '../components/ErrorDisplay';
 import DataDisplay from '../components/DataDisplay';
-import '../styles/jumbotron.scss';
+import Splash from '../components/Splash';
+import '../styles/splash.scss';
 
 const homeCopy = {
-  title: 'Voting Record of Arlington Town Members',
+  title: 'Voting Record of Arlington, MA Town Meeting Members',
   subtitle: 'See how your representatives voted in 2020 before you vote in 2021',
   inputPlaceholder: 'Precinct #',
   inputHelperText: 'Find your precinct here'
 };
-
-function Jumbotron({ options }) {
-  return (
-    <section id="homepage-jumbotron">
-      <div id="jumbotron-text">
-        <h1>{homeCopy.title}</h1>
-        <p>{homeCopy.subtitle}</p>
-        <Select classNamePrefix="react-select" options={options} placeholder={homeCopy.inputHelperText} />
-
-        <a href="">{homeCopy.inputHelperText}</a>
-      </div>
-    </section>
-  );
-}
 
 function HomePage() {
   const options = [
@@ -43,6 +29,8 @@ function HomePage() {
     }
   ];
 
+  const [precinct, setPrecinct] = useState(null);
+
   // Define the URL
   const apiURL = process.env.REACT_APP_API_BASEURL + process.env.REACT_APP_API_SLUG;
 
@@ -55,7 +43,7 @@ function HomePage() {
 
   return (
     <section id="main">
-      <Jumbotron options={options} />
+      <Splash homeCopy={homeCopy} options={options} precinct={precinct} setPrecinct={setPrecinct} />
       {dataState.loading ? (
         <LoadingDisplay />
       ) : dataState.error ? (

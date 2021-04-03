@@ -3,13 +3,17 @@ $linen: hsl(33, 15%, 97%);
 $arl-red: #691214;
 $arl-gold: #d2b33a;
 
-//  Override bootstrap variables
-$font-family-sans-serif: "Source Sans Pro";
-$headings-font-family: "Crimson Text";
-$white: $linen;
-$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
-$font-size-lg: $font-size-base * 1.25 !default;
-$font-size-sm: $font-size-base * 0.875 !default;
+$arl-red-light: lighten(
+  $color: $arl-red,
+  $amount: 35
+);
 
-// :export {
-// }
+//  Override bootstrap variables
+$font-family-sans-serif: 'Source Sans Pro';
+$headings-font-family: 'Crimson Text';
+$white: $linen;
+
+:export {
+  arl-red: $arl-red;
+  arl-red-lighten: $arl-red-light;
+}
