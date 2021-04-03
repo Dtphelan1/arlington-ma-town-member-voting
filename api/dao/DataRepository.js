@@ -2,8 +2,8 @@ const fs = require('fs');
 
 class FileBackedDataRepository {
   constructor(articleFilePath, votes2020_11_16FilePath) {
-    this.articleData = JSON.parse(fs.readFileSync("../data/articles/articles.json"))
-    // this.voteData = JSON.parse(fs.readFileSync(votes2020_11_16FilePath))
+    this.articleData = JSON.parse(fs.readFileSync("./dao/articles.json"))
+    this.representativeVotes = JSON.parse(fs.readFileSync("./dao/representative-votes.json"))
   }
 
   /**
@@ -52,7 +52,7 @@ class FileBackedDataRepository {
   /**
    * @return An array of articles that have been voted on in this data set and the ID we have given it
    */
-  getArticleOptions() {
+  getArticles() {
     return this.articleData;
   }
 }

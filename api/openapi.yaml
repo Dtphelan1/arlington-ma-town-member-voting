@@ -19,7 +19,7 @@ paths:
       parameters:
       - name: precincts
         in: query
-        description: Precincts the user is interested in, or all if empty
+        description: CSV list of precincts the user is interested in, or all if empty
         schema:
           type: array
           items:
