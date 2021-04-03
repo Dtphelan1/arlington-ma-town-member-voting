@@ -1,7 +1,7 @@
 import React from 'react';
 import PrecinctSelect from './PrecinctSelect';
 
-function Splash({ homeCopy, options, precinct, setPrecinct }) {
+function Splash({ homeCopy, options, setPrecinct }) {
   return (
     <section id="homepage-splash">
       <div id="splash-content" className="d-flex flex-column justify-content-between flex-wrap">
@@ -10,12 +10,7 @@ function Splash({ homeCopy, options, precinct, setPrecinct }) {
           <p>{homeCopy.subtitle}</p>
         </div>
         <div className="pt-5 pb-5">
-          <PrecinctSelect
-            options={options}
-            precinct={precinct}
-            placeholder={homeCopy.inputPlaceholder}
-            setPrecinct={setPrecinct}
-          />
+          <PrecinctSelect options={options} placeholder={homeCopy.inputPlaceholder} setPrecinct={setPrecinct} />
           <a
             href="https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
             target="_blank"

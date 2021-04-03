@@ -1,5 +1,6 @@
 import HomePage from './HomePage';
 import FAQPage from './FAQPage';
+import DataPage from './DataPage';
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     name: 'FAQ Page',
     path: '/faq',
     component: FAQPage
+  },
+  {
+    name: 'Data Viewer',
+    path: '/data',
+    component: DataPage
   }
 ];
 

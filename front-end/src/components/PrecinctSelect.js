@@ -85,13 +85,12 @@ function onSelectChange(setStateFn) {
   };
 }
 
-function PrecinctSelect({ options, precinct, setPrecinct, placeholder }) {
+function PrecinctSelect({ options, setPrecinct, placeholder }) {
   return (
     <Select
       styles={customSelectStyles}
       options={options}
       placeholder={placeholder}
-      value={precinct}
       onChange={onSelectChange(setPrecinct)}
     />
   );
