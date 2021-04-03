@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+## Dev Environment
+This project was built using the following:
+- yarn `v1.22.10`
+- node `v15.13.0`
+
 ## Available Scripts
 
 In the project directory, you can run:
