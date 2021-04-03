@@ -1,19 +1,17 @@
 import React, { useMemo, useState } from 'react';
+import _ from 'lodash';
 import { useTable } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import Select from 'react-select';
 import '../styles/table.scss';
 
-function Table({ data, columnFilters }) {
+function Table({ data, columnFilters, articles }) {
   const tableData = useMemo(() => {
     const mappedData = [];
-    Object.keys(data.precinctData).forEach(member => {
-      const voteObj = { member };
-      data.precinctData[member].forEach(v => {
-        const articleInfo = data.articleData.find(a => a.id === v.articleId);
-        if (articleInfo) {
-          voteObj[articleInfo.title] = v.vote;
-        }
+    data.forEach(({ representative, votes }) => {
+      const voteObj = { member: representative.fullName };
+      votes.forEach(v => {
+        voteObj[v.article.title] = v.vote;
       });
       mappedData.push(voteObj);
     });
@@ -28,14 +26,14 @@ function Table({ data, columnFilters }) {
         accessor: 'member',
         sticky: 'left'
       },
-      ...data.articleData
-        .filter(ad => (columnFilters.length > 0 ? columnFilters.some(cf => cf.value === ad.id) : ad))
+      ...articles
+        .filter(ad => (columnFilters.length > 0 ? columnFilters.some(cf => cf.value === ad.value) : ad))
         .map(ad => ({
-          Header: ad.title,
-          accessor: ad.title
+          Header: ad.label,
+          accessor: ad.label
         }))
     ];
-  }, [data, columnFilters]);
+  }, [columnFilters, articles]);
 
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = useTable(
     { columns, data: tableData },
@@ -78,7 +76,15 @@ function Table({ data, columnFilters }) {
 }
 
 function DataDisplay({ data }) {
-  const options = useMemo(() => data.articleData.map((ad, i) => ({ value: ad.id, label: ad.title })), [data]);
+  const options = useMemo(
+    () =>
+      _(data)
+        .flatMap(d => d.votes)
+        .map(v => ({ value: v.article.id, label: v.article.title }))
+        .uniqBy('value')
+        .value(),
+    [data]
+  );
   const [columns, setColumns] = useState([]);
 
   return (
@@ -93,7 +99,7 @@ function DataDisplay({ data }) {
         }}
         menuPlacement="top"
       />
-      <Table data={data} columnFilters={columns} />
+      <Table data={data} columnFilters={columns} articles={options} />
     </div>
   );
 }

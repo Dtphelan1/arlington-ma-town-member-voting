@@ -5,7 +5,6 @@ import ErrorDisplay from '../components/ErrorDisplay';
 import DataDisplay from '../components/DataDisplay';
 import Splash from '../components/Splash';
 import '../styles/splash.scss';
-import DataRepository from '../data/DataRepository';
 
 const homeCopy = {
   title: 'Voting Record of Arlington, MA Town Meeting Members',
@@ -33,16 +32,12 @@ function HomePage() {
   const [precinct, setPrecinct] = useState(null);
 
   // Define the URL
-  //const apiURL = process.env.REACT_APP_API_BASEURL + process.env.REACT_APP_API_SLUG;
+  const apiURL = process.env.REACT_APP_API_BASEURL + process.env.REACT_APP_API_SLUG;
 
   // Use Async to load the data anytime the APIURL changes
   const dataState = useAsync(async () => {
-    //const response = await fetch(apiURL);
-    //const result = await response.text();
-    const dataRep = new DataRepository();
-    const precinctData = dataRep.getVotingRecordByPrecinct(precinct.value);
-    const articleData = dataRep.getAllArticles();
-    return { precinctData, articleData };
+    const response = await fetch(`${apiURL}/representatives/history?precincts=${precinct.value}`);
+    return await response.json();
   }, [precinct]);
 
   return (
