@@ -19,20 +19,22 @@ function DataPage() {
 
   // Use Async to load the data anytime the APIURL changes
   const dataState = useAsync(async () => {
-    const response = await fetch(`${apiURL}/representatives/history?precincts=${precinct}`);
-    return await response.json();
+    if (precinct) {
+      const response = await fetch(`${apiURL}/representatives/history?precincts=${precinct}`);
+      return await response.json();
+    }
+    return [];
   }, [precinct]);
 
   return (
     <section>
-      {precinct &&
-        (dataState.loading ? (
-          <LoadingDisplay />
-        ) : dataState.error ? (
-          <ErrorDisplay />
-        ) : (
-          <DataDisplay data={dataState.value} columnFilters={filters} precinct={precinct} />
-        ))}
+      {dataState.loading ? (
+        <LoadingDisplay />
+      ) : dataState.error ? (
+        <ErrorDisplay />
+      ) : (
+        <DataDisplay data={dataState.value} columnFilters={filters} precinct={precinct} />
+      )}
     </section>
   );
 }
