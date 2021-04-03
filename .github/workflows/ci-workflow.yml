@@ -6,12 +6,12 @@ jobs:
   lint:
     name: Check Lint
     runs-on: ubuntu-latest
-    working-directory: ./front-end
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@v1
       with:
         node-version: '14.x'
+    - run: cd front-end
     - run: npm ci
     - run: npm run lint
       env:
