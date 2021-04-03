@@ -4,6 +4,33 @@ import Select from 'react-select';
 import LoadingDisplay from '../components/LoadingDisplay';
 import ErrorDisplay from '../components/ErrorDisplay';
 import DataDisplay from '../components/DataDisplay';
+import '../styles/jumbotron.scss';
+
+const homeCopy = {
+  title: 'Voting Record of Arlington Town Members',
+  subtitle: 'See how your representatives voted in 2020 before you vote in 2021',
+  inputPlaceholder: 'Precinct #',
+  inputHelperText: 'Find your precinct here',
+};
+
+
+function Jumbotron({options}) {
+  return (
+    <section id="homepage-jumbotron">
+      <div id="jumbotron-text">
+        <h1>
+          {homeCopy.title}
+        </h1>
+        <p>
+          {homeCopy.subtitle}
+        </p>
+        <Select classNamePrefix="react-select" options={options} placeholder={homeCopy.inputHelperText}/>
+
+        <a href="">{homeCopy.inputHelperText}</a>
+      </div>
+    </section>
+  );
+}
 
 function HomePage() {
   const options = [
@@ -35,9 +62,7 @@ function HomePage() {
 
   return (
     <section id="main">
-      <h1>Arlington 2020 Town Meeting Voting Results</h1>
-      <p>See how your representatives voted on 2020 Arlington Articles</p>
-      <Select options={options}/>
+      <Jumbotron options={options}/>
       {dataState.loading
         ? <LoadingDisplay/>
         : (dataState.error
