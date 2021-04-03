@@ -17,15 +17,15 @@ const homeCopy = {
 function HomePage() {
   const options = [
     {
-      value: 1,
+      value: '1',
       label: 'Precinct 1'
     },
     {
-      value: 2,
+      value: '2',
       label: 'Precinct 2'
     },
     {
-      value: 3,
+      value: '3',
       label: 'Precinct 3'
     }
   ];
@@ -40,22 +40,22 @@ function HomePage() {
     //const response = await fetch(apiURL);
     //const result = await response.text();
     const dataRep = new DataRepository();
-    const precinctData = dataRep.getVotingRecordByPrecinct('1');
+    const precinctData = dataRep.getVotingRecordByPrecinct(precinct.value);
     const articleData = dataRep.getAllArticles();
-
     return { precinctData, articleData };
-  }, []);
+  }, [precinct]);
 
   return (
     <section id="main">
       <Splash homeCopy={homeCopy} options={options} precinct={precinct} setPrecinct={setPrecinct} />
-      {dataState.loading ? (
-        <LoadingDisplay />
-      ) : dataState.error ? (
-        <ErrorDisplay />
-      ) : (
-        <DataDisplay data={dataState.value} />
-      )}
+      {precinct &&
+        (dataState.loading ? (
+          <LoadingDisplay />
+        ) : dataState.error ? (
+          <ErrorDisplay />
+        ) : (
+          <DataDisplay data={dataState.value} />
+        ))}
     </section>
   );
 }
