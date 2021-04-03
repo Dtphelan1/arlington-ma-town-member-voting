@@ -12,70 +12,144 @@ tags:
 - name: avt
   description: Arlington Vote Transparency
 paths:
-  /vote-history:
+  /v1/representatives:
     get:
       tags:
       - avt
       parameters:
-        - name: precinct
-          in: query
-          description: User's precinct number
-          schema:
+      - name: precincts
+        in: query
+        description: Precincts the user is interested in, or all if empty
+        schema:
+          type: array
+          items:
             type: integer
+      description: Get representative data
       responses:
         200:
           description: success
           content:
             application/json:
               schema:
-                type: object
-                $ref: '#/components/schemas/VoteHistoryResponse'
+                type: array
+                items:
+                  $ref: '#/components/schemas/Representative'
+  /v1/representatives/history:
+    get:
+      tags:
+      - avt
+      parameters:
+      - name: representativeIds
+        in: query
+        description: Specific representatives if the user already knows their names, or all if empty
+        schema:
+          type: array
+          items:
+            type: integer
+      - name: precincts
+        in: query
+        description: Precincts the user is interested in, or all if empty
+        schema:
+          type: array
+          items:
+            type: integer
+      - name: articleIds
+        in: query
+        description: Specific articles to search for, or all if empty
+        schema:
+          type: array
+          items:
+            type: string
+      description: Get all representatives' voting history
+      responses:
+        200:
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/VoteHistory'
+  /v1/articles:
+    get:
+      tags:
+      - avt
+      description: Get all articles that received votes
+      responses:
+        200:
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Article'
 components:
   schemas:
-    VoteHistoryResponse:
+    Representative:
       type: object
       properties:
-        articles:
-          description: abc
-          type: array
-          items:
-            $ref: '#/components/schemas/Article'
-    Article:
-      type: object
-      properties:
-        name:
+        fullName:
           type: string
-        amendments:
-          type: array
-          items:
-            $ref: '#/components/schemas/Amendment'
-        voteRecords:
-          type: array
-          items:
-            $ref: '#/components/schemas/Vote'
-    Amendment:
-      type: object
-      properties:
-        name:
-          type: string
-        voteRecords:
-          type: array
-          items:
-            $ref: '#/components/schemas/Vote'
-    Vote:
-      type: object
-      properties:
+        id:
+          type: integer
         precinct:
           type: integer
-        representativeFullName:
+    VoteHistory:
+      type: object
+      properties:
+        representative:
+          $ref: '#/components/schemas/Representative'
+        votes:
+          type: array
+          items:
+            $ref: '#/components/schemas/ArticleVote'
+    ArticleVote:
+      type: object
+      properties:
+        article:
+          $ref: '#/components/schemas/Article'
+        infoUrl:
           type: string
+          description: Link off to some external source for info
         vote:
           enum:
           - 'yes'
           - 'no'
           - 'abstain'
-        date:
+          - 'no data'
+        amendments:
+          type: array
+          items:
+            $ref: '#/components/schemas/AmendmentVote'
+    AmendmentVote:
+      properties:
+        amendmentId:
+          type: integer
+        vote:
+          enum:
+          - 'yes'
+          - 'no'
+          - 'abstain'
+          - 'no data'
+    Article:
+      type: object
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+        amendments:
+          type: array
+          items:
+            $ref: '#/components/schemas/Amendment'
+        votingDate:
           type: string
           format: date
-        
-    
+    Amendment:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
