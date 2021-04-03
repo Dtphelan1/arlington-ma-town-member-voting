@@ -39,27 +39,13 @@ paths:
       tags:
       - avt
       parameters:
-      - name: representativeIds
-        in: query
-        description: Specific representatives if the user already knows their names, or all if empty
-        schema:
-          type: array
-          items:
-            type: integer
       - name: precincts
         in: query
-        description: Precincts the user is interested in, or all if empty
+        description: CSV precincts the user is interested in, or all if empty
         schema:
           type: array
           items:
             type: integer
-      - name: articleIds
-        in: query
-        description: Specific articles to search for, or all if empty
-        schema:
-          type: array
-          items:
-            type: string
       description: Get all representatives' voting history
       responses:
         200:
@@ -141,9 +127,6 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Amendment'
-        votingDate:
-          type: string
-          format: date
     Amendment:
       type: object
       properties:
