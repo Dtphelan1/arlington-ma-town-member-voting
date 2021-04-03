@@ -1,0 +1,36 @@
+@import '_variables.scss';
+
+#homepage-splash {
+  width: 100vw;
+  height: 70vh;
+  background-position: center left;
+  background-image: url('../images/mail-vote.jpg');
+  background-size: cover;
+  #splash-content {
+    width: 45vw;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: $white;
+    padding: 2rem;
+    h1 {
+      max-width: 550px;
+      margin-bottom: 2rem;
+    }
+    p {
+      max-width: 300px;
+      margin-bottom: 2rem;
+    }
+    a {
+      max-width: 450px;
+      font-style: italic;
+      color: $arl-red-light;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #homepage-splash #splash-content {
+    width: 33vw;
+  }
+}
