@@ -3,6 +3,7 @@ import _ from 'lodash';
 import { useTable } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import Select from 'react-select';
+import { useHistory } from 'react-router';
 import '../styles/table.scss';
 
 function Table({ data, columnFilters, articles }) {
@@ -75,7 +76,7 @@ function Table({ data, columnFilters, articles }) {
   );
 }
 
-function DataDisplay({ data }) {
+function DataDisplay({ data, precinct, columnFilters = [] }) {
   const options = useMemo(
     () =>
       _(data)
@@ -85,7 +86,14 @@ function DataDisplay({ data }) {
         .value(),
     [data]
   );
-  const [columns, setColumns] = useState([]);
+  const [columns, setColumns] = useState(columnFilters.map(cf => options.find(o => o.value === cf)));
+
+  const history = useHistory();
+
+  const pushFiltersToHistory = filters => {
+    setColumns(filters);
+    history.push(`/data?precinct=${precinct}&articles=${filters.map(c => c.value).join(',')}`);
+  };
 
   return (
     <div>
@@ -94,9 +102,7 @@ function DataDisplay({ data }) {
         options={options}
         closeMenuOnSelect={false}
         value={columns}
-        onChange={newVal => {
-          setColumns(newVal);
-        }}
+        onChange={pushFiltersToHistory}
         menuPlacement="top"
       />
       <Table data={data} columnFilters={columns} articles={options} />

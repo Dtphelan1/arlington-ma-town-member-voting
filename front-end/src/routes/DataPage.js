@@ -12,6 +12,7 @@ function useQuery() {
 function DataPage() {
   const query = useQuery();
   const precinct = query.get('precinct');
+  const filters = query.get('articles') ? query.get('articles').split(',') : [];
 
   // Define the URL
   const apiURL = process.env.REACT_APP_API_BASEURL + process.env.REACT_APP_API_SLUG;
@@ -30,7 +31,7 @@ function DataPage() {
         ) : dataState.error ? (
           <ErrorDisplay />
         ) : (
-          <DataDisplay data={dataState.value} />
+          <DataDisplay data={dataState.value} columnFilters={filters} precinct={precinct} />
         ))}
     </section>
   );
