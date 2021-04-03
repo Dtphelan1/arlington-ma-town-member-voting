@@ -5,13 +5,13 @@ import { routes } from './routes';
 
 function App() {
   return (
-    <Router >
-      <AppHeader routes={routes}/>
+    <Router>
+      <AppHeader routes={routes} />
       <Switch>
-        {routes.map((route) => {
+        {routes.map(route => {
           return (
             <Route exact={route.exact} path={route.path} key={route.path}>
-              <route.component/>
+              <route.component />
             </Route>
           );
         })}
