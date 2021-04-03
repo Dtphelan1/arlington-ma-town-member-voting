@@ -11,8 +11,9 @@ class FileBackedDataRepository {
    * @return A map of precinct string name to array of representative names
    */
   getRepresentativesByPrecinct(precinct = null) {
+    console.log("Running with ", precinct)
     let intermediate = {}
-    this.voteData.forEach(voteRecord => {
+    this.representativeVotes.forEach(voteRecord => {
       if (precinct == null || voteRecord.precinct === precinct) {
         if (voteRecord.precinct in intermediate) {
           intermediate[voteRecord.precinct].add(voteRecord.representativeFullName)
@@ -29,6 +30,27 @@ class FileBackedDataRepository {
     return result
   }
 
+  getRepresentatives(precinct = null) {
+    const seenRepresentatives = new Set();
+    const representatives = [];
+    this.representativeVotes.forEach(voteRecord => {
+      if (
+          seenRepresentatives.has(voteRecord.representativeFullName) ||
+          (precinct != null && voteRecord.precinct !== precinct)
+      ) {
+        return;
+      }
+
+      representatives.push({
+        fullName: voteRecord.representativeFullName,
+        precinct: voteRecord.precinct,
+      })
+      seenRepresentatives.add(voteRecord.representativeFullName);
+    })
+
+    return representatives;
+  }
+
   /**
    * @param precinct The string name of the precinct we're interested in, or omit for all precincts
    * @return A map of representative name to (articleId, vote) tuples. Note that there's no distinction
@@ -36,7 +58,7 @@ class FileBackedDataRepository {
    */
   getVotingRecordByPrecinct(precinct = null) {
     const representativeNameToVotes = {}
-    this.voteData
+    this.representativeVotes
       .filter(record => precinct == null || record.precinct === precinct)
       .forEach(record => {
         if (record.representativeFullName in representativeNameToVotes) {

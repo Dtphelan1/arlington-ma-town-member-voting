@@ -6,8 +6,17 @@ const apiPrefix = '/v1'
 
 function setupRoutes(app) {
     app.get(`${apiPrefix}/representatives`, function (req, res) {
-        const precincts = req.query.precincts.split(',');
-        return res.send(precincts);
+        const precincts = req.query.precincts && req.query.precincts.split(',');
+        if (precincts == null || precincts.length === 0) {
+            return res.send(dao.getRepresentatives());
+        } else {
+            const result = [];
+            precincts.forEach(precinct => {
+                result.push(...dao.getRepresentatives(precinct))
+            })
+
+            return res.send(result);
+        }
     })
 
     app.get(`${apiPrefix}/articles`, function (req, res) {
