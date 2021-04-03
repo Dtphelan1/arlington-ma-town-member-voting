@@ -4,13 +4,13 @@ import DataPage from './DataPage';
 
 const routes = [
   {
-    name: 'Home Page',
+    name: 'Home',
     path: '/',
     exact: true,
     component: HomePage
   },
   {
-    name: 'FAQ Page',
+    name: 'FAQ',
     path: '/faq',
     component: FAQPage
   },

@@ -4,7 +4,7 @@ import PrecinctSelect from './PrecinctSelect';
 function Splash({ homeCopy, options, setPrecinct }) {
   return (
     <section id="homepage-splash">
-      <div id="splash-content" className="d-flex flex-column justify-content-between flex-wrap">
+      <div id="splash-content" className="d-flex flex-column justify-content-between flex-wrap p-5">
         <div className="pt-5 pb-5">
           <h1>{homeCopy.title}</h1>
           <p>{homeCopy.subtitle}</p>
