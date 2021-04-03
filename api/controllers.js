@@ -43,13 +43,6 @@ function setupRoutes(app) {
                 })
             })
 
-            // const articleIds = new Set(articles.map(a => a.id))
-            // console.log(articles.map(a => a.amendments))
-            // const amendmentIds = new Set(articles
-            //     .map(a => a.amendments)
-            //     .filter(a => a != null)
-            //     .flatMap(amendments => amendments.map(a => a.id))
-            // )
             const representatives = dao.getRepresentatives();
             precincts.forEach(precinct => {
                 const representativeNameToVotes = dao.getVotingRecordByPrecinct(precinct);
