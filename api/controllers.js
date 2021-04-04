@@ -64,10 +64,10 @@ function setupRoutes(app) {
                         voteHistory.votes.push({
                             article: {
                                 id: voteRecord.articleId,
-                                // title: article.title,
+                                title: article.title,
                                 amendments: article.amendments && article.amendments.map(a => ({
                                     id: a.id,
-                                    // name: a.comment,
+                                    name: a.comment,
                                 }))
                             },
                             vote: voteRecord.vote.trim(),
