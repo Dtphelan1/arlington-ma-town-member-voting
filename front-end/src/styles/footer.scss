@@ -1,0 +1,22 @@
+@import '_variables.scss';
+
+footer {
+  background: rgba(0, 0, 0, 0.8);
+  nav {
+    padding: 1rem 0;
+    .nav-link {
+      &:first-of-type {
+        padding-left: 0;
+      }
+      &:last-of-type {
+        padding-right: 0;
+      }
+    }
+  }
+  a {
+    color: $primary;
+  }
+  p {
+    margin-bottom: 0.25rem;
+  }
+}

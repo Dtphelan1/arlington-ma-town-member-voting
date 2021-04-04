@@ -1,8 +1,5 @@
-import React, { useState } from 'react';
-import { useAsync } from 'react-use';
-import LoadingDisplay from '../components/LoadingDisplay';
-import ErrorDisplay from '../components/ErrorDisplay';
-import DataDisplay from '../components/DataDisplay';
+import React, { useCallback } from 'react';
+import { useHistory } from 'react-router';
 import Splash from '../components/Splash';
 import '../styles/splash.scss';
 
@@ -16,41 +13,31 @@ const homeCopy = {
 function HomePage() {
   const options = [
     {
-      value: 1,
+      value: '1',
       label: 'Precinct 1'
     },
     {
-      value: 2,
+      value: '2',
       label: 'Precinct 2'
     },
     {
-      value: 3,
+      value: '3',
       label: 'Precinct 3'
     }
   ];
 
-  const [precinct, setPrecinct] = useState(null);
+  const history = useHistory();
 
-  // Define the URL
-  const apiURL = process.env.REACT_APP_API_BASEURL + process.env.REACT_APP_API_SLUG;
-
-  // Use Async to load the data anytime the APIURL changes
-  const dataState = useAsync(async () => {
-    const response = await fetch(apiURL);
-    const result = await response.text();
-    return result;
-  }, [apiURL]);
+  const setPrecinct = useCallback(
+    precinct => {
+      history.push(`/data?precinct=${precinct.value}`);
+    },
+    [history]
+  );
 
   return (
     <section id="main">
-      <Splash homeCopy={homeCopy} options={options} precinct={precinct} setPrecinct={setPrecinct} />
-      {dataState.loading ? (
-        <LoadingDisplay />
-      ) : dataState.error ? (
-        <ErrorDisplay />
-      ) : (
-        <DataDisplay data={dataState.value} />
-      )}
+      <Splash homeCopy={homeCopy} options={options} setPrecinct={setPrecinct} />
     </section>
   );
 }

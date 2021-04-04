@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import AppHeader from './components/AppHeader';
+import AppFooter from './components/AppFooter';
 import { routes } from './routes';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           );
         })}
       </Switch>
+      <AppFooter routes={routes} />
     </Router>
   );
 }
