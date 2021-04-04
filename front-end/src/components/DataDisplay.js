@@ -96,7 +96,7 @@ function DataDisplay({ data }) {
   };
 
   return (
-    <div className="container-fluid app-lr-padding pr-0">
+    <div className="container-fluid app-lr-padding pr-0" style={{ maxWidth: '100vw' }}>
       {showAlert && (
         <div className="row no-gutters">
           <div className="col-sm-12 ">
