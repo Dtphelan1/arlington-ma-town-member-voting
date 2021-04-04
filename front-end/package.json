@@ -1,6 +1,5 @@
 {
   "name": "front-end",
-  "homepage": "http://dtphelan1.github.io/arlington-ma-town-member-voting",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

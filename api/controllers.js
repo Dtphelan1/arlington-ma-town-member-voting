@@ -2,7 +2,7 @@
 
 const dataAccessObjectBuilder = require('./dao');
 const dao = dataAccessObjectBuilder();
-const apiPrefix = '/v1'
+const apiPrefix = '/api/v1'
 
 function setupRoutes(app) {
     function getPrecinctsQueryParam(req) {

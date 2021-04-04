@@ -1,1 +1,4 @@
 **/node_modules
+
+# This is the non-prod env file
+./front-end/.env

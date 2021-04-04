@@ -7,9 +7,8 @@ const port = process.env.PORT;
 const setupRoutes = require('./controllers')
 
 app.use(cors());
-
 setupRoutes(app);
 
-app.use(cors())
+app.use(express.static('public'))
 
 server.listen(port, () => console.log(`app listen ${port} port`));
