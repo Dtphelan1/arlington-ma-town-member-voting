@@ -107,11 +107,13 @@ function DataDisplay({ data }) {
         </div>
       )}
       <div className="row no-gutters">
-        <section id="table-filters" className="col-sm-4 col-md-3">
-          <h1>{precinct ? dataDisplayCopy.heading + precinct : dataDisplayCopy.headingSansPrecinct}</h1>
-          <button className="btn btn-primary" onClick={copyShareLink}>
-            {dataDisplayCopy.shareText}
-          </button>
+        <section id="table-info" className="col-sm-4 col-md-3 pd-r-3">
+          <div id="table-heading" className="mb-3 mt-3">
+            <h1>{precinct ? dataDisplayCopy.heading + precinct : dataDisplayCopy.headingSansPrecinct}</h1>
+            <button className="btn btn-primary" onClick={copyShareLink}>
+              {dataDisplayCopy.shareText}
+            </button>
+          </div>
           <br />
           <h2>{dataDisplayCopy.filterTitle}</h2>
           <div className="filter">
