@@ -22,6 +22,16 @@
     th[role='columnheader'] {
       vertical-align: top;
     }
+    .info-button {
+      position: relative;
+      right: 0;
+      top: 5px;
+    }
+    .column-header-wrapper {
+      max-height: 30px;
+      max-width: 150px;
+      margin-right: 10px;
+    }
 
     .header {
       position: sticky;
