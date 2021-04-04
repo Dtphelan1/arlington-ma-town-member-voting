@@ -7,17 +7,25 @@ import { routes } from './routes';
 function App() {
   return (
     <Router>
-      <AppHeader routes={routes} />
-      <Switch>
-        {routes.map(route => {
-          return (
-            <Route exact={route.exact} path={route.path} key={route.path}>
-              <route.component />
-            </Route>
-          );
-        })}
-      </Switch>
-      <AppFooter routes={routes} />
+      <div
+        style={{
+          minHeight: '100%',
+          display: 'grid',
+          gridTemplateRows: 'auto 1fr auto'
+        }}
+      >
+        <AppHeader routes={routes} />
+        <Switch>
+          {routes.map(route => {
+            return (
+              <Route exact={route.exact} path={route.path} key={route.path}>
+                <route.component />
+              </Route>
+            );
+          })}
+        </Switch>
+        <AppFooter routes={routes} />
+      </div>
     </Router>
   );
 }
