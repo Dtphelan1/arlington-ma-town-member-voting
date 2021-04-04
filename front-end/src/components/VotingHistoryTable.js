@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react';
+import _ from 'lodash';
 import { useTable } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import '../styles/table.scss';
@@ -28,7 +29,8 @@ function Table({ data, articleFilters, articles }) {
         .filter(ad => (articleFilters.length > 0 ? articleFilters.some(cf => cf.value === ad.value) : ad))
         .map(ad => ({
           Header: ad.label,
-          accessor: ad.label
+          accessor: ad.label,
+          Cell: ({ value }) => (!_.isEmpty(value) ? String(value) : <i>No Data</i>)
         }))
     ];
   }, [articleFilters, articles]);

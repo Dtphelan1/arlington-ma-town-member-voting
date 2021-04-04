@@ -98,7 +98,7 @@ function DataDisplay({ data }) {
   return (
     <div className="container-fluid app-lr-padding pr-0">
       {showAlert && (
-        <div className="row">
+        <div className="row no-gutters">
           <div className="col-sm-12 ">
             <div className="alert alert-primary" role="alert">
               Link copied to clipboard
@@ -106,7 +106,7 @@ function DataDisplay({ data }) {
           </div>
         </div>
       )}
-      <div className="row">
+      <div className="row no-gutters">
         <section id="table-filters" className="col-sm-4 col-md-3">
           <h1>{precinct ? dataDisplayCopy.heading + precinct : dataDisplayCopy.headingSansPrecinct}</h1>
           <button className="btn btn-primary" onClick={copyShareLink}>
@@ -114,35 +114,38 @@ function DataDisplay({ data }) {
           </button>
           <br />
           <h2>{dataDisplayCopy.filterTitle}</h2>
-          <label>{dataDisplayCopy.precinctFilterLabel}</label>
-          <Select
-            placeholder="Select Precinct..."
-            options={precinctOptions}
-            value={precinctOptions.find(precinctOption => precinctOption.value === precinct)}
-            onChange={pushPrecinctToHistory}
-            styles={{
-              menu: provided => ({
-                ...provided,
-                zIndex: 4
-              })
-            }}
-          />
-
-          <label>{dataDisplayCopy.articleFilterLabel}</label>
-          <Select
-            placeholder="Select Articles..."
-            isMulti={true}
-            options={articleOptions}
-            closeMenuOnSelect={false}
-            value={articleFilters.map(cf => articleOptions.find(o => o.value === cf))}
-            onChange={pushArticleFiltersToHistory}
-            styles={{
-              menu: provided => ({
-                ...provided,
-                zIndex: 4
-              })
-            }}
-          />
+          <div className="filter">
+            <label>{dataDisplayCopy.precinctFilterLabel}</label>
+            <Select
+              placeholder="Select Precinct..."
+              options={precinctOptions}
+              value={precinctOptions.find(precinctOption => precinctOption.value === precinct)}
+              onChange={pushPrecinctToHistory}
+              styles={{
+                menu: provided => ({
+                  ...provided,
+                  zIndex: 4
+                })
+              }}
+            />
+          </div>
+          <div className="filter">
+            <label>{dataDisplayCopy.articleFilterLabel}</label>
+            <Select
+              placeholder="Select Articles..."
+              isMulti={true}
+              options={articleOptions}
+              closeMenuOnSelect={false}
+              value={articleFilters.map(cf => articleOptions.find(o => o.value === cf))}
+              onChange={pushArticleFiltersToHistory}
+              styles={{
+                menu: provided => ({
+                  ...provided,
+                  zIndex: 4
+                })
+              }}
+            />
+          </div>
         </section>
         <div className="col-sm-8 col-md-9">
           <VotingHistoryTable data={data} articleFilters={getArticleFiltersProp()} articles={articleOptions} />
