@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import _ from 'lodash';
 import { useTable } from 'react-table';
 import { useSticky } from 'react-table-sticky';
@@ -42,7 +42,7 @@ function Table({ data, columnFilters, articles }) {
   );
 
   return (
-    <table {...getTableProps()} className="table table-responsive table-striped sticky">
+    <table {...getTableProps()} className="table table-responsive table-striped table-bordered sticky">
       <thead>
         {headerGroups.map(headerGroup => (
           <tr {...headerGroup.getHeaderGroupProps()}>
@@ -86,26 +86,36 @@ function DataDisplay({ data, precinct, columnFilters = [] }) {
         .value(),
     [data]
   );
-  const [columns, setColumns] = useState(columnFilters.map(cf => options.find(o => o.value === cf)));
 
   const history = useHistory();
 
   const pushFiltersToHistory = filters => {
-    setColumns(filters);
     history.push(`/data?precinct=${precinct}&articles=${filters.map(c => c.value).join(',')}`);
   };
 
+  const getColumnFilterProp = () => {
+    return columnFilters.map(aid => options.find(o => o.value === aid));
+  };
+
   return (
-    <div>
-      <Select
-        isMulti={true}
-        options={options}
-        closeMenuOnSelect={false}
-        value={columns}
-        onChange={pushFiltersToHistory}
-        menuPlacement="top"
-      />
-      <Table data={data} columnFilters={columns} articles={options} />
+    <div className="container">
+      <div className="row">
+        <div className="col-sm-6 offset-sm-3">
+          <Select
+            isMulti={true}
+            options={options}
+            closeMenuOnSelect={false}
+            value={columnFilters.map(cf => options.find(o => o.value === cf))}
+            onChange={pushFiltersToHistory}
+            menuPlacement="top"
+          />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-sm-12">
+          <Table data={data} columnFilters={getColumnFilterProp()} articles={options} />
+        </div>
+      </div>
     </div>
   );
 }
