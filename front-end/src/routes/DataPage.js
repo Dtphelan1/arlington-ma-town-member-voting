@@ -29,7 +29,13 @@ function DataPage() {
   return (
     <section>
       {dataState.loading ? (
-        <LoadingDisplay />
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-sm-12" style={{ display: 'flex', justifyContent: 'center' }}>
+              <LoadingDisplay />
+            </div>
+          </div>
+        </div>
       ) : dataState.error ? (
         <ErrorDisplay />
       ) : (

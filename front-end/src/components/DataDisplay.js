@@ -112,10 +112,6 @@ function DataDisplay({ data, precinct, columnFilters = [] }) {
               menu: provided => ({
                 ...provided,
                 zIndex: 4
-              }),
-              container: provided => ({
-                ...provided,
-                color: 'red'
               })
             }}
           />
