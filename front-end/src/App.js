@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div
         style={{
-          minHeight: '100%',
+          minHeight: '100vh',
           display: 'grid',
           gridTemplateRows: 'auto 1fr auto'
         }}
