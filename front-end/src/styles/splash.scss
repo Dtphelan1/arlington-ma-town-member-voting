@@ -2,7 +2,7 @@
 
 #homepage-splash {
   width: 100vw;
-  height: 70vh;
+  height: 76vh;
   background-position: center left;
   background-image: url('../images/mail-vote.jpg');
   background-size: cover;
@@ -11,18 +11,20 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
     color: $white;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
     h1 {
       max-width: 550px;
-      margin-bottom: 2rem;
     }
     p {
       max-width: 300px;
-      margin-bottom: 2rem;
+      font-size: 1.25rem;
     }
     a {
       max-width: 450px;
       font-style: italic;
-      color: $arl-red-light;
+      color: $primary;
       text-decoration: underline;
     }
   }
@@ -31,5 +33,33 @@
 @media only screen and (min-width: 1200px) {
   #homepage-splash #splash-content {
     width: 33vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #homepage-splash {
+    width: 100vw;
+    height: 50vh;
+    #splash-content {
+      width: 100vw;
+      height: 50vh;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+}
+@media only screen and (max-width: 576px) {
+  #homepage-splash {
+    width: 100vw;
+    height: 50vh;
+    background-position: center;
+    #splash-content {
+      width: 100vw;
+      height: 50vh;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
   }
 }

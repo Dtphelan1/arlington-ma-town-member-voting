@@ -7,17 +7,23 @@ $arl-red-light: lighten(
   $color: $arl-red,
   $amount: 35
 );
+$arl-gold-light: lighten(
+  $color: $arl-gold,
+  $amount: 35
+);
 
 //  Override bootstrap variables
+$primary: $arl-gold;
+$primary-emph: $arl-gold-light;
+
 $font-family-sans-serif: 'Source Sans Pro';
 $headings-font-family: 'Crimson Text';
 $white: $linen;
 
-:export {
-  arl-red: $arl-red;
-  arl-red-light: $arl-red-light;
-}
-
 // Table coloring
 $row-odd: #f9f9f9;
 $row-even: #fff;
+
+:export {
+  arl: $arl-red;
+}

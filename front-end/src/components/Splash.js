@@ -4,12 +4,12 @@ import PrecinctSelect from './PrecinctSelect';
 function Splash({ homeCopy, options, setPrecinct }) {
   return (
     <section id="homepage-splash">
-      <div id="splash-content" className="d-flex flex-column justify-content-between flex-wrap p-5">
-        <div className="pt-5 pb-5">
-          <h1>{homeCopy.title}</h1>
-          <p>{homeCopy.subtitle}</p>
+      <div id="splash-content" className="d-flex p-xl-5 p-lg-5 p-3">
+        <div className="pt-md-5 pt-sm-3 pt-0 w-100">
+          <h1 className="mb-2 mb-md-5">{homeCopy.title}</h1>
+          <p className="mb-0 mb-sm-2 mb-md-5">{homeCopy.subtitle}</p>
         </div>
-        <div className="pt-5 pb-5">
+        <div className="pb-lg-5 pb-md-4 pt-sm-3 pb-0">
           <PrecinctSelect options={options} placeholder={homeCopy.inputPlaceholder} setPrecinct={setPrecinct} />
           <a
             href="https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"

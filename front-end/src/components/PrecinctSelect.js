@@ -1,13 +1,12 @@
 import Select from 'react-select';
-import variables from '../styles/_variables.scss';
+// import variables from '../styles/_variables.scss';
 
-const primaryColor = variables['arl-red'];
-
+const primaryColor = '#d2b33a';
 const customSelectStyles = {
   container: (provided, state) => ({
     ...provided,
     margin: '10px 0 10px 0',
-    width: 300
+    maxWidth: 300
   }),
   menuList: (provided, state) => {
     return {
@@ -17,7 +16,6 @@ const customSelectStyles = {
   },
   option: (provided, state) => {
     const highlight = state.isFocused || state.isSelected || state.isHovered;
-
     return {
       ...provided,
       background: `${highlight ? 'rgba(0,0,0,0.2)' : ''}`,
@@ -47,7 +45,7 @@ const customSelectStyles = {
       },
       color: 'white',
       ...(highlight && { boxShadow: `0px 0px 1px 1px ${primaryColor}` }),
-      width: 300
+      maxWidth: 300
     };
   }
 };
