@@ -3,3 +3,15 @@
 a {
   color: $primary;
 }
+
+.app-lr-padding {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media only screen and (min-width: 920px) {
+  .app-lr-padding {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}

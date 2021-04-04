@@ -20,7 +20,7 @@ const footerCopy = {
 
 function AppFooter({ routes }) {
   return (
-    <footer className="pl-5 pr-5 pt-3 pb-3">
+    <footer className="app-lr-padding">
       <nav className="nav text-dark">
         {routes.map(route => (
           <NavLink key={route.name} exact={route.exact} className="nav-link" activeClassName="active" to={route.path}>
