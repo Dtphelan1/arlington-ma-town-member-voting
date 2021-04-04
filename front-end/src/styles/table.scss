@@ -19,12 +19,13 @@
   &.sticky {
     overflow: scroll;
 
-    .header {
-      position: sticky;
-      width: fit-content;
+    th[role='columnheader'] {
+      vertical-align: top;
     }
 
     .header {
+      position: sticky;
+      width: fit-content;
       top: 0;
       box-shadow: 0px 3px 3px #ccc;
     }

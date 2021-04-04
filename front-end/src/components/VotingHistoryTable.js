@@ -46,7 +46,9 @@ function Table({ data, articleFilters, articles }) {
         {headerGroups.map(headerGroup => (
           <tr {...headerGroup.getHeaderGroupProps()}>
             {headerGroup.headers.map(column => (
-              <th {...column.getHeaderProps()}>{column.render('Header')}</th>
+              <th style={{ verticalAlign: 'top' }} {...column.getHeaderProps()}>
+                <div style={{ maxHeight: '75px' }}>{column.render('Header')}</div>
+              </th>
             ))}
           </tr>
         ))}
