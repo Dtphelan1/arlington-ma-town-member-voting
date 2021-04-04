@@ -102,12 +102,22 @@ function DataDisplay({ data, precinct, columnFilters = [] }) {
       <div className="row">
         <div className="col-sm-6 offset-sm-3">
           <Select
+            placeholder="Select Articles to Display"
             isMulti={true}
             options={options}
             closeMenuOnSelect={false}
             value={columnFilters.map(cf => options.find(o => o.value === cf))}
             onChange={pushFiltersToHistory}
-            menuPlacement="top"
+            styles={{
+              menu: provided => ({
+                ...provided,
+                zIndex: 4
+              }),
+              container: provided => ({
+                ...provided,
+                color: 'red'
+              })
+            }}
           />
         </div>
       </div>
