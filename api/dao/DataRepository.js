@@ -2,8 +2,8 @@ const fs = require('fs');
 
 class FileBackedDataRepository {
   constructor() {
-    this.articleData = JSON.parse(fs.readFileSync("./dao/articles.json"))
-    this.representativeVotes = JSON.parse(fs.readFileSync("./dao/representative-votes.json"))
+    this.articleData = JSON.parse(fs.readFileSync('./dao/articles.json'));
+    this.representativeVotes = JSON.parse(fs.readFileSync('./dao/representative-votes.json'));
   }
 
   getRepresentatives(precinct = null) {
@@ -11,18 +11,18 @@ class FileBackedDataRepository {
     const representatives = [];
     this.representativeVotes.forEach(voteRecord => {
       if (
-          seenRepresentatives.has(voteRecord.representativeFullName) ||
-          (precinct != null && voteRecord.precinct !== precinct)
+        seenRepresentatives.has(voteRecord.representativeFullName) ||
+        (precinct != null && voteRecord.precinct !== precinct)
       ) {
         return;
       }
 
       representatives.push({
         fullName: voteRecord.representativeFullName,
-        precinct: voteRecord.precinct,
-      })
+        precinct: voteRecord.precinct
+      });
       seenRepresentatives.add(voteRecord.representativeFullName);
-    })
+    });
 
     return representatives;
   }
@@ -33,18 +33,18 @@ class FileBackedDataRepository {
    * between representatives from different precincts, if `null` is passed into this function
    */
   getVotingRecordByPrecinct(precinct = null) {
-    const representativeNameToVotes = {}
+    const representativeNameToVotes = {};
     this.representativeVotes
       .filter(record => precinct == null || record.precinct === precinct)
       .forEach(record => {
         if (record.representativeFullName in representativeNameToVotes) {
-          representativeNameToVotes[record.representativeFullName].push(...record.votes)
+          representativeNameToVotes[record.representativeFullName].push(...record.votes);
         } else {
-          representativeNameToVotes[record.representativeFullName] = [...record.votes]
+          representativeNameToVotes[record.representativeFullName] = [...record.votes];
         }
-      })
+      });
 
-    return representativeNameToVotes
+    return representativeNameToVotes;
   }
 
   /**
