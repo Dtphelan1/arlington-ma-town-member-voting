@@ -9,7 +9,7 @@
   #splash-content {
     width: 45vw;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: $dark-transparent;
     color: $white;
     flex-direction: column;
     flex-wrap: wrap;
@@ -40,20 +40,6 @@
   #homepage-splash {
     width: 100vw;
     height: 50vh;
-    #splash-content {
-      width: 100vw;
-      height: 50vh;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-  }
-}
-@media only screen and (max-width: 576px) {
-  #homepage-splash {
-    width: 100vw;
-    height: 50vh;
-    background-position: center;
     #splash-content {
       width: 100vw;
       height: 50vh;
