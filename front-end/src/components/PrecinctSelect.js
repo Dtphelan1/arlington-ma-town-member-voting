@@ -52,8 +52,6 @@ const customSelectStyles = {
 
 function onSelectChange(setStateFn) {
   return (option, { action }) => {
-    console.log('action', action);
-    console.log('option', option);
     switch (action) {
       case 'select-option':
         setStateFn(option);
@@ -83,11 +81,11 @@ function onSelectChange(setStateFn) {
   };
 }
 
-function PrecinctSelect({ options, setPrecinct, placeholder }) {
+function PrecinctSelect({ precinctOptions, setPrecinct, placeholder }) {
   return (
     <Select
       styles={customSelectStyles}
-      options={options}
+      options={precinctOptions}
       placeholder={placeholder}
       onChange={onSelectChange(setPrecinct)}
     />

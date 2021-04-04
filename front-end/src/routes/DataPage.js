@@ -12,7 +12,6 @@ function useQuery() {
 function DataPage() {
   const query = useQuery();
   const precinct = query.get('precinct');
-  const filters = query.get('articles') ? query.get('articles').split(',') : [];
 
   // Define the URL
   const apiURL = process.env.REACT_APP_API_BASEURL + process.env.REACT_APP_API_SLUG;
@@ -29,17 +28,11 @@ function DataPage() {
   return (
     <section>
       {dataState.loading ? (
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-sm-12" style={{ display: 'flex', justifyContent: 'center' }}>
-              <LoadingDisplay />
-            </div>
-          </div>
-        </div>
+        <LoadingDisplay />
       ) : dataState.error ? (
         <ErrorDisplay />
       ) : (
-        <DataDisplay data={dataState.value} columnFilters={filters} precinct={precinct} />
+        <DataDisplay data={dataState.value} />
       )}
     </section>
   );

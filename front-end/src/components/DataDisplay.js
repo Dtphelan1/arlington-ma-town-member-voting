@@ -1,83 +1,26 @@
 import React, { useMemo, useState } from 'react';
+import qs from 'qs';
 import _ from 'lodash';
-import { useTable } from 'react-table';
-import { useSticky } from 'react-table-sticky';
 import Select from 'react-select';
-import { useHistory } from 'react-router';
-import '../styles/table.scss';
+import { useHistory, useLocation } from 'react-router';
+import { precinctOptions } from '../helpers/precinctOptions';
+import VotingHistoryTable from './VotingHistoryTable';
 
-function Table({ data, columnFilters, articles }) {
-  const tableData = useMemo(() => {
-    const mappedData = [];
-    data.forEach(({ representative, votes }) => {
-      const voteObj = { member: representative.fullName };
-      votes.forEach(v => {
-        voteObj[v.article.title] = v.vote;
-      });
-      mappedData.push(voteObj);
-    });
+const dataDisplayCopy = {
+  heading: '2020 Votes for Town Meeting Members in Precinct ',
+  headingSansPrecinct: 'Select a Precinct to See 2020 Voting Data',
+  filterTitle: 'Filter Voting Data',
+  articleFilterLabel: 'Filter Articles',
+  articlePlaceholder: 'Articles',
+  precinctFilterLabel: 'Precinct Selected',
+  shareText: 'Share'
+  // memberFilterLabel: ''
+};
 
-    return mappedData;
-  }, [data]);
-
-  const columns = useMemo(() => {
-    return [
-      {
-        Header: 'Member',
-        accessor: 'member',
-        sticky: 'left'
-      },
-      ...articles
-        .filter(ad => (columnFilters.length > 0 ? columnFilters.some(cf => cf.value === ad.value) : ad))
-        .map(ad => ({
-          Header: ad.label,
-          accessor: ad.label
-        }))
-    ];
-  }, [columnFilters, articles]);
-
-  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = useTable(
-    { columns, data: tableData },
-    useSticky
-  );
-
-  return (
-    <table {...getTableProps()} className="table table-responsive table-striped table-bordered sticky">
-      <thead>
-        {headerGroups.map(headerGroup => (
-          <tr {...headerGroup.getHeaderGroupProps()}>
-            {headerGroup.headers.map(column => (
-              <th {...column.getHeaderProps()}>{column.render('Header')}</th>
-            ))}
-          </tr>
-        ))}
-      </thead>
-      <tbody {...getTableBodyProps()}>
-        {rows.map(row => {
-          prepareRow(row);
-          return (
-            <tr {...row.getRowProps()}>
-              {row.cells.map(cell => {
-                return cell.column.id === 'member' ? (
-                  <th scope="row" {...cell.getCellProps()} className="header">
-                    {cell.render('Cell')}
-                  </th>
-                ) : (
-                  <td className="body" {...cell.getCellProps()}>
-                    {cell.render('Cell')}
-                  </td>
-                );
-              })}
-            </tr>
-          );
-        })}
-      </tbody>
-    </table>
-  );
-}
-
-function DataDisplay({ data, precinct, columnFilters = [] }) {
-  const options = useMemo(
+function DataDisplay({ data }) {
+  // Props management and methods for articleFilters
+  // Parse article options from the list of all votingHistories
+  const articleOptions = useMemo(
     () =>
       _(data)
         .flatMap(d => d.votes)
@@ -86,19 +29,44 @@ function DataDisplay({ data, precinct, columnFilters = [] }) {
         .value(),
     [data]
   );
+  const getArticleFiltersProp = () => {
+    return articleFilters.map(aid => articleOptions.find(o => o.value === aid));
+  };
 
+  // Query Param data and methods
   const history = useHistory();
+  const location = useLocation();
+  const searchParams = qs.parse(location.search, { ignoreQueryPrefix: true });
+  const pathname = location.pathname;
+  // Generic function for pushing new queryParameters to the browser history
+  function pushNewQueryParams(newParams) {
+    history.push({
+      pathname,
+      search: qs.stringify({
+        ...searchParams,
+        ...newParams
+      })
+    });
+  }
+  // Precinct information
+  const precinct = searchParams.precinct ? searchParams.precinct : '';
+  const pushPrecinctToHistory = precinct => {
+    const articleParams = {
+      precinct: precinct.value
+    };
+    pushNewQueryParams(articleParams);
+  };
+  // Article Filters
+  const articleFilters = searchParams.articles ? searchParams.articles.split(',') : [];
+  const pushArticleFiltersToHistory = articleFilters => {
+    const articleParams = {
+      articles: articleFilters.map(c => c.value).join(',')
+    };
+    pushNewQueryParams(articleParams);
+  };
 
+  // State and methods for managing share-link alerts
   const [showAlert, setShowAlert] = useState(false);
-
-  const pushFiltersToHistory = filters => {
-    history.push(`/data?precinct=${precinct}&articles=${filters.map(c => c.value).join(',')}`);
-  };
-
-  const getColumnFilterProp = () => {
-    return columnFilters.map(aid => options.find(o => o.value === aid));
-  };
-
   const copyShareLink = async () => {
     // TODO: Replace with window.location.href for full-url
     // 'localhost' doesn't work in bitly
@@ -128,7 +96,7 @@ function DataDisplay({ data, precinct, columnFilters = [] }) {
   };
 
   return (
-    <div className="container">
+    <div className="container-fluid app-lr-padding pr-0">
       {showAlert && (
         <div className="row">
           <div className="col-sm-12 ">
@@ -139,19 +107,19 @@ function DataDisplay({ data, precinct, columnFilters = [] }) {
         </div>
       )}
       <div className="row">
-        <div className="col-sm-1">
+        <section id="table-filters" className="col-sm-4 col-md-3">
+          <h1>{precinct ? dataDisplayCopy.heading + precinct : dataDisplayCopy.headingSansPrecinct}</h1>
           <button className="btn btn-primary" onClick={copyShareLink}>
-            Share
+            {dataDisplayCopy.shareText}
           </button>
-        </div>
-        <div className="col-sm-6 offset-sm-2">
+          <br />
+          <h2>{dataDisplayCopy.filterTitle}</h2>
+          <label>{dataDisplayCopy.precinctFilterLabel}</label>
           <Select
-            placeholder="Select Articles to Display"
-            isMulti={true}
-            options={options}
-            closeMenuOnSelect={false}
-            value={columnFilters.map(cf => options.find(o => o.value === cf))}
-            onChange={pushFiltersToHistory}
+            placeholder="Select Precinct..."
+            options={precinctOptions}
+            value={precinctOptions.find(precinctOption => precinctOption.value === precinct)}
+            onChange={pushPrecinctToHistory}
             styles={{
               menu: provided => ({
                 ...provided,
@@ -159,11 +127,25 @@ function DataDisplay({ data, precinct, columnFilters = [] }) {
               })
             }}
           />
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-sm-12">
-          <Table data={data} columnFilters={getColumnFilterProp()} articles={options} />
+
+          <label>{dataDisplayCopy.articleFilterLabel}</label>
+          <Select
+            placeholder="Select Articles..."
+            isMulti={true}
+            options={articleOptions}
+            closeMenuOnSelect={false}
+            value={articleFilters.map(cf => articleOptions.find(o => o.value === cf))}
+            onChange={pushArticleFiltersToHistory}
+            styles={{
+              menu: provided => ({
+                ...provided,
+                zIndex: 4
+              })
+            }}
+          />
+        </section>
+        <div className="col-sm-8 col-md-9">
+          <VotingHistoryTable data={data} articleFilters={getArticleFiltersProp()} articles={articleOptions} />
         </div>
       </div>
     </div>

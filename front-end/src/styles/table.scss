@@ -1,6 +1,19 @@
-@import "_variables.scss";
+@import '_variables.scss';
+
+#table-filters {
+  h1 {
+    font-size: 1.5rem;
+    padding: 1rem 0 2rem 0;
+  }
+  h2 {
+    font-size: 1.25rem;
+    font-style: italic;
+  }
+}
 
 .table {
+  height: 85vh;
+  margin-bottom: 0 !important;
   &.sticky {
     overflow: scroll;
 
@@ -38,14 +51,14 @@
   }
 }
 
-.table-striped>tbody>tr:nth-child(odd)>td, 
-.table-striped>thead>tr:nth-child(odd)>th, 
-.table-striped>tbody>tr:nth-child(odd)>th {
-   background-color: $row-odd;
- }
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > thead > tr:nth-child(odd) > th,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: $row-odd;
+}
 
-.table-striped>tbody>tr:nth-child(even)>td, 
-.table-striped>thead>tr:nth-child(even)>th, 
-.table-striped>tbody>tr:nth-child(even)>th {
-   background-color: $row-even;
- }
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > thead > tr:nth-child(even) > th,
+.table-striped > tbody > tr:nth-child(even) > th {
+  background-color: $row-even;
+}
