@@ -36,12 +36,6 @@ function setupRoutes(app) {
 
             const articles = dao.getArticles();
             const articleIds = new Set(articles.map(a => a.id))
-            const amendmentIdToArticle = {}
-            articles.forEach(article => {
-                article.amendments && article.amendments.forEach(amendmentData => {
-                    amendmentIdToArticle[amendmentData.id] = article;
-                })
-            })
 
             const representatives = dao.getRepresentatives();
             precincts.forEach(precinct => {
@@ -58,17 +52,39 @@ function setupRoutes(app) {
 
                     representativeNameToVotes[memberName].forEach(voteRecord => {
                         const isArticle = articleIds.has(voteRecord.articleId);
-                        const isAmendment = voteRecord.articleId in amendmentIdToArticle;
 
+                        // The data is structured on-disk with amendment votes being at the same level,
+                        // in terms of entities, as articles. This could arguably be cleaned up in the data
+                        // but speed wins
                         if (isArticle) {
                             const article = articles.find(a => a.id === voteRecord.articleId);
                             voteHistory.votes.push({
                                 article: {
                                     id: voteRecord.articleId,
                                     title: article.title,
+                                    amendments: article.amendments && article.amendments.map(a => ({
+                                        id: a.id,
+                                        name: a.comment,
+                                    }))
                                 },
                                 vote: voteRecord.vote.trim(),
-                                infoUrl: article.urls && (article.urls.menotomyMatters || article.urls.arlingtonGov)
+                                infoUrl: article.urls && (article.urls.menotomyMatters || article.urls.arlingtonGov),
+                                amendmentVotes: article.amendments && article.amendments
+                                    .map(amendment => {
+                                        const amendmentVote = representativeNameToVotes[memberName].find(voteable => voteable.articleId === amendment.id)
+
+                                        // We may encounter this if the public voting data does not include votes for some amendments
+                                        // An example is the 2020 ranked choice voting article which had three amendments but none of those votes
+                                        // show up in the public vote data.
+                                        if (amendmentVote == null) {
+                                            console.log(memberName, "\n", voteRecord, "\n", amendment, "\n", representativeNameToVotes[memberName])
+                                            return null;
+                                        }
+                                        return {
+                                            amendmentId: amendment.id,
+                                            vote: amendmentVote.vote.trim(),
+                                        }
+                                    }).filter(o => o != null)
                             })
                         }
                     })
@@ -77,7 +93,7 @@ function setupRoutes(app) {
                 })
             })
 
-            res.send(result);
+            return res.send(result);
         }
     })
 
@@ -90,7 +106,6 @@ function setupRoutes(app) {
                 id: amendment.id,
                 name: amendment.comment,
             }))
-            // TODO: voting date
         }))
 
         return res.send(result);
