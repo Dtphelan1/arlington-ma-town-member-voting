@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import _ from 'lodash';
 import { useTable } from 'react-table';
 import { useSticky } from 'react-table-sticky';
@@ -89,6 +89,8 @@ function DataDisplay({ data, precinct, columnFilters = [] }) {
 
   const history = useHistory();
 
+  const [showAlert, setShowAlert] = useState(false);
+
   const pushFiltersToHistory = filters => {
     history.push(`/data?precinct=${precinct}&articles=${filters.map(c => c.value).join(',')}`);
   };
@@ -97,10 +99,52 @@ function DataDisplay({ data, precinct, columnFilters = [] }) {
     return columnFilters.map(aid => options.find(o => o.value === aid));
   };
 
+  const copyShareLink = async () => {
+    // TODO: Replace with window.location.href for full-url
+    // 'localhost' doesn't work in bitly
+    const longUrl = `${
+      window.location.hostname === 'localhost' ? `http://127.0.0.1:3000/${window.location.hash}` : window.location.href
+    }`;
+
+    const apiURL = process.env.REACT_APP_API_BASEURL + process.env.REACT_APP_API_SLUG;
+
+    const response = await fetch(`${apiURL}/share`, {
+      method: 'post',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        longUrl
+      })
+    });
+
+    const { link } = await response.json();
+    navigator.clipboard.writeText(link);
+    setShowAlert(true);
+
+    setTimeout(() => {
+      setShowAlert(false);
+    }, 4000);
+  };
+
   return (
     <div className="container">
+      {showAlert && (
+        <div className="row">
+          <div className="col-sm-12 ">
+            <div className="alert alert-primary" role="alert">
+              Link copied to clipboard
+            </div>
+          </div>
+        </div>
+      )}
       <div className="row">
-        <div className="col-sm-6 offset-sm-3">
+        <div className="col-sm-1">
+          <button className="btn btn-primary" onClick={copyShareLink}>
+            Share
+          </button>
+        </div>
+        <div className="col-sm-6 offset-sm-2">
           <Select
             placeholder="Select Articles to Display"
             isMulti={true}
