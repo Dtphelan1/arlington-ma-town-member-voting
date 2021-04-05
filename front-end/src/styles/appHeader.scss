@@ -4,6 +4,9 @@ header {
   background: $dark-transparent;
   font-family: $headings-font-family;
   a {
-    color: $primary;
+    color: $primary !important;
+  }
+  .navbar {
+    padding: 0;
   }
 }

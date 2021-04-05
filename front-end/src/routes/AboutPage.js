@@ -3,7 +3,7 @@ import '../styles/about.scss';
 
 function AboutPage() {
   return (
-    <section id="about-page" className="container ">
+    <section id="about-page" className="container app-lr-padding">
       <div id="intro" className="mb-sm-5">
         <h1 className="d-flex justify-content-center" id="all-about-vote-smart-arlington">
           Vote Smart Arlington
@@ -59,7 +59,10 @@ function AboutPage() {
 
         <div className="faq-entry">
           <h3 id="how-can-i-contact-the-team">How Can I Contact The Team?</h3>
-          <p>All questions, comments, and feedback can be directed to <a href="mailto:contact@votesmartarlington.com">contact@votesmartarlington.com</a>.</p>
+          <p>
+            All questions, comments, and feedback can be directed to{' '}
+            <a href="mailto:contact@votesmartarlington.com">contact@votesmartarlington.com</a>.
+          </p>
         </div>
 
         <div className="faq-entry">
@@ -116,10 +119,10 @@ function AboutPage() {
             Is Vote Smart Arlington collecting information about me?
           </h3>
           <p>
-            We do not use any third-party trackers (Google, Facebook, etc.), advertising technology, or cookies. We collect
-            some basic usage stats about which pages are accessed and how often, but this is not personally-identifying information.
-            Our open-source code on GitHub will be the source of truth for exactly which anonymized metrics are recorded, but we will
-            never track user behavior beyond that.
+            We do not use any third-party trackers (Google, Facebook, etc.), advertising technology, or cookies. We
+            collect some basic usage stats about which pages are accessed and how often, but this is not
+            personally-identifying information. Our open-source code on GitHub will be the source of truth for exactly
+            which anonymized metrics are recorded, but we will never track user behavior beyond that.
           </p>
         </div>
       </div>
