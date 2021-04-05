@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react';
 import _ from 'lodash';
+import { Info } from 'react-feather';
 import { useTable } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import '../styles/table.scss';
@@ -46,8 +47,11 @@ function Table({ data, articleFilters, articles }) {
         {headerGroups.map(headerGroup => (
           <tr {...headerGroup.getHeaderGroupProps()}>
             {headerGroup.headers.map(column => (
-              <th style={{ verticalAlign: 'top' }} {...column.getHeaderProps()}>
-                <div style={{ maxHeight: '75px' }}>{column.render('Header')}</div>
+              <th {...column.getHeaderProps()}>
+                <div className="column-header-wrapper">{column.render('Header')}</div>
+                <button className="btn btn-sm btn-link info-button">
+                  <Info />
+                </button>
               </th>
             ))}
           </tr>
