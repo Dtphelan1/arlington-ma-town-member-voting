@@ -149,7 +149,7 @@ function DataDisplay({ data }) {
             />
           </div>
         </section>
-        <div className="col-sm-8 col-md-9">
+        <div className="col-sm-8 col-md-9 table-wrapper">
           <VotingHistoryTable data={data} articleFilters={getArticleFiltersProp()} articles={articleOptions} />
         </div>
       </div>

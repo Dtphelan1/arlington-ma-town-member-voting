@@ -48,11 +48,13 @@ function Table({ data, articleFilters, articles }) {
         {headerGroups.map(headerGroup => (
           <tr {...headerGroup.getHeaderGroupProps()}>
             {headerGroup.headers.map(column => (
-              <th {...column.getHeaderProps()}>
+              <th {...column.getHeaderProps()} className={column.id === 'member' && 'header'}>
                 <div className="d-flex flex-row">
-                  <button className="btn btn-sm btn-link d-flex align-self-center">
-                    <Info />
-                  </button>
+                  {column.id !== 'member' && (
+                    <button className="btn btn-sm btn-link d-flex align-self-center">
+                      <Info />
+                    </button>
+                  )}
                   <div className="column-header-wrapper" data-tip={column.Header}>
                     {column.render('Header')}
                   </div>
@@ -71,7 +73,7 @@ function Table({ data, articleFilters, articles }) {
               {row.cells.map(cell => {
                 return cell.column.id === 'member' ? (
                   <th scope="row" {...cell.getCellProps()} className="header">
-                    {cell.render('Cell')}
+                    <div>{cell.render('Cell')}</div>
                   </th>
                 ) : (
                   <td className="body" {...cell.getCellProps()}>

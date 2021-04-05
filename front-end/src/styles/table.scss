@@ -43,6 +43,9 @@
     }
 
     .header {
+      * {
+        width: 100px;
+      }
       position: sticky;
       width: fit-content;
       top: 0;
@@ -83,4 +86,10 @@
 .table-striped > thead > tr:nth-child(even) > th,
 .table-striped > tbody > tr:nth-child(even) > th {
   background-color: $row-even;
+}
+
+@media only screen and (max-width: 768px) {
+  .table-wrapper {
+    margin-left: -0.75rem;
+  }
 }
