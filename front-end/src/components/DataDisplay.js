@@ -15,6 +15,7 @@ const dataDisplayCopy = {
   precinctFilterLabel: 'Precinct Selected',
   precinctFilterHelperText: "Don't know your precinct?",
   precinctFilterHelperTextLink: 'https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx',
+  reelectionToggleLabel: 'Only Candidates Running for Reelection',
   shareText: 'Share'
   // memberFilterLabel: ''
 };
@@ -65,6 +66,14 @@ function DataDisplay({ data }) {
       articles: articleFilters.map(c => c.value).join(',')
     };
     pushNewQueryParams(articleParams);
+  };
+  // Toggle to show re-election candidates only
+  const reelectionToggle = searchParams.onlyReelection ? searchParams.onlyReelection === 'true' : false;
+  const pushReelectionToggleToHistory = () => {
+    const reelectionParams = {
+      onlyReelection: !reelectionToggle
+    };
+    pushNewQueryParams(reelectionParams);
   };
 
   // State and methods for managing share-link alerts
@@ -118,6 +127,22 @@ function DataDisplay({ data }) {
           </div>
           <br />
           <h2>{dataDisplayCopy.filterTitle}</h2>
+          {/* Reelection Toggle */}
+          <div className="filter">
+            <div className="custom-control custom-switch">
+              <input
+                type="checkbox"
+                className="custom-control-input"
+                value={reelectionToggle}
+                onChange={pushReelectionToggleToHistory}
+                id="customSwitch1"
+              />
+              <label className="custom-control-label" htmlFor="customSwitch1">
+                {dataDisplayCopy.reelectionToggleLabel}
+              </label>
+            </div>
+          </div>
+          {/* Precinct Select */}
           <div className="filter">
             <label>
               {dataDisplayCopy.precinctFilterLabel}
@@ -143,6 +168,7 @@ function DataDisplay({ data }) {
               }}
             />
           </div>
+          {/* Article Select */}
           <div className="filter">
             <label>{dataDisplayCopy.articleFilterLabel}</label>
             <Select
@@ -162,7 +188,12 @@ function DataDisplay({ data }) {
           </div>
         </section>
         <div className="col-sm-8 col-md-9 table-wrapper">
-          <VotingHistoryTable data={data} articleFilters={getArticleFiltersProp()} articles={articleOptions} />
+          <VotingHistoryTable
+            data={data}
+            articleFilters={getArticleFiltersProp()}
+            reelectionToggle={reelectionToggle}
+            articles={articleOptions}
+          />
         </div>
       </div>
     </div>
