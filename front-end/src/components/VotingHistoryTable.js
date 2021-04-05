@@ -7,7 +7,7 @@ import Tooltip from 'react-tooltip';
 import ArticleModal from './ArticleModal';
 import '../styles/table.scss';
 
-function Table({ data, articleFilters, articles }) {
+function Table({ data, articleFilters, reelectionToggle, articles }) {
   const tableData = useMemo(() => {
     const mappedData = [];
     data.forEach(({ representative, votes }) => {
