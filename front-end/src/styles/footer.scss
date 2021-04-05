@@ -7,14 +7,6 @@ footer {
   .nav {
     font-family: $headings-font-family;
     margin-bottom: 1rem;
-    .nav-link {
-      &:first-of-type {
-        padding-left: 0;
-      }
-      &:last-of-type {
-        padding-right: 0;
-      }
-    }
   }
   a {
     color: $primary;
