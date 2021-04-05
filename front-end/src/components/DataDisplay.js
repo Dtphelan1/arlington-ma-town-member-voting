@@ -17,7 +17,7 @@ const dataDisplayCopy = {
   precinctFilterLabel: 'Precinct Selected',
   precinctFilterHelperText: "Don't know your precinct?",
   precinctFilterHelperTextLink: 'https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx',
-  reelectionToggleLabel: 'Only Candidates Running for Reelection',
+  reelectionToggleLabel: 'Highlight Candidates Running for Reelection',
   shareText: 'Share'
   // memberFilterLabel: ''
 };
