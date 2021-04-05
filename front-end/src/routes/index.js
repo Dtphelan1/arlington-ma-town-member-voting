@@ -1,5 +1,5 @@
 import HomePage from './HomePage';
-import FAQPage from './FAQPage';
+import AboutPage from './AboutPage';
 import DataPage from './DataPage';
 
 const routes = [
@@ -10,9 +10,9 @@ const routes = [
     component: HomePage
   },
   {
-    name: 'FAQ',
-    path: '/faq',
-    component: FAQPage
+    name: 'About',
+    path: '/about',
+    component: AboutPage
   },
   {
     name: 'Data Viewer',

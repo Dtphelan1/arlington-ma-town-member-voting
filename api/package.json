@@ -9,7 +9,6 @@
     "prettier:fix": "prettier --write \"**/*.js\"",
     "lint": "eslint \"**/*.js\"",
     "lint:fix": "eslint --fix \"**/*.js\""
-
   },
   "author": "",
   "license": "ISC",
