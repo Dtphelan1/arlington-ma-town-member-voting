@@ -53,6 +53,14 @@ class FileBackedDataRepository {
   getArticles() {
     return this.articleData;
   }
+
+  /**
+   * @param id ID of the article to find
+   * @return Details for a specific article that was voted on
+   */
+  getArticleById(id) {
+    return this.articleData.find(a => a.id === id);
+  }
 }
 
 module.exports = function () {

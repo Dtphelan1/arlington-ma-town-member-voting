@@ -121,6 +121,11 @@ function setupRoutes(app) {
     return res.send(result);
   });
 
+  app.get(`${apiPrefix}/article/:id`, function (req, res) {
+    const article = dao.getArticleById(req.params.id);
+    return res.json(article);
+  });
+
   app.post(`${apiPrefix}/share`, async (req, res) => {
     const response = await axios.post(
       'https://api-ssl.bitly.com/v4/shorten',

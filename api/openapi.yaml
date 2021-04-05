@@ -70,6 +70,27 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/Article'
+  /api/v1/article/{id}:
+    get:
+      tags:
+      - avt
+      description: Get the information for a specific article
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: String ID of the desired article
+      responses:
+        200:
+          description: success
+          content:
+            application/json:
+              schema:
+                type: object 
+                items:
+                  $ref: '#/components/schemas/Article'
 components:
   schemas:
     Representative:
