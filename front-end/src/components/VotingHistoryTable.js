@@ -56,7 +56,7 @@ function Table({ data, articleFilters, articles }) {
                   <div className="column-header-wrapper" data-tip={column.Header}>
                     {column.render('Header')}
                   </div>
-                  <Tooltip />
+                  <Tooltip className="column-header-tooltip" />
                 </div>
               </th>
             ))}

@@ -36,6 +36,12 @@
       -webkit-box-orient: vertical;
     }
 
+    .column-header-tooltip {
+      max-width: 200px;
+      text-align: center;
+      word-wrap: break-word;
+    }
+
     .header {
       position: sticky;
       width: fit-content;
