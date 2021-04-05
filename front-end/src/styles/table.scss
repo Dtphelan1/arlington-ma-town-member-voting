@@ -28,9 +28,12 @@
       top: 5px;
     }
     .column-header-wrapper {
-      max-height: 30px;
-      max-width: 150px;
-      margin-right: 10px;
+      margin: auto;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
     }
 
     .header {
