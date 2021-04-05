@@ -23,7 +23,11 @@ app.use(function(req, res, next) {
 
 // set up access logging
 if (process.env.DATABASE_URL) {
-    const accessLogger = new AccessLogger(process.env.DATABASE_URL);
+    let dbUrl = process.env.DATABASE_URL
+    if (dbUrl.indexOf('?ssl=true') !== -1) {
+        dbUrl = dbUrl + '?ssl=true'
+    }
+    const accessLogger = new AccessLogger(dbUrl);
     app.use(function (req, res, next) {
         console.log(req.url)
         accessLogger.log(req.headers['X-Forwarded-For'], req.query.precincts);
