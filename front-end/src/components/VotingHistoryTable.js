@@ -8,12 +8,10 @@ import ArticleModal from './ArticleModal';
 import '../styles/table.scss';
 
 function repUpForReelection(representative) {
-  console.log('representative', representative);
   return representative.reelection === '2021';
 }
 
 function Table({ data, articleFilters, reelectionToggle, articles }) {
-  console.log('data', data);
   const tableData = useMemo(() => {
     const mappedData = [];
     data.forEach(({ representative, votes }) => {
