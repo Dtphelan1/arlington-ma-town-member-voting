@@ -3,7 +3,7 @@ const fs = require('fs');
 class FileBackedDataRepository {
   constructor() {
     this.articleData = JSON.parse(fs.readFileSync('./dao/articles.json'));
-    this.representativeVotes = JSON.parse(fs.readFileSync('./dao/representative-votes.json'));
+    this.representativeVotes = JSON.parse(fs.readFileSync('./dao/representative-votes-with-reelection.json'));
   }
 
   getRepresentatives(precinct = null) {
@@ -19,7 +19,8 @@ class FileBackedDataRepository {
 
       representatives.push({
         fullName: voteRecord.representativeFullName,
-        precinct: voteRecord.precinct
+        precinct: voteRecord.precinct,
+        reelection: voteRecord.reelection,
       });
       seenRepresentatives.add(voteRecord.representativeFullName);
     });
