@@ -12,10 +12,15 @@ $arl-gold-light: lighten(
   $color: $arl-gold,
   $amount: 35
 );
+$arl-gold-dark: darken(
+  $color: $arl-gold,
+  $amount: 25
+);
 
 //  Override bootstrap variables
 $primary: $arl-gold;
 $primary-emph: $arl-gold-light;
+$primary-dark: $arl-gold-dark;
 
 $font-family-sans-serif: 'Source Sans Pro';
 $headings-font-family: 'Crimson Text';

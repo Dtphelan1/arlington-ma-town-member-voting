@@ -3,4 +3,7 @@
 header {
   background: $dark-transparent;
   font-family: $headings-font-family;
+  a {
+    color: $primary;
+  }
 }
