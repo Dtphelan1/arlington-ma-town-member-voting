@@ -5,9 +5,11 @@ import Select from 'react-select';
 import { useHistory, useLocation } from 'react-router';
 import { precinctOptions } from '../helpers/precinctOptions';
 import VotingHistoryTable from './VotingHistoryTable';
+import '../styles/dataDisplay.scss'
 
 const dataDisplayCopy = {
   heading: '2020 Votes for Town Meeting Members in Precinct ',
+  selectPrecinctPrompt: 'Select a precinct to get started',
   headingSansPrecinct: 'Select a Precinct to See 2020 Voting Data',
   filterTitle: 'Filter Voting Data',
   articleFilterLabel: 'Filter Articles',
@@ -106,8 +108,22 @@ function DataDisplay({ data }) {
     }, 4000);
   };
 
+  let tableContent = <VotingHistoryTable
+    data={data}
+    articleFilters={getArticleFiltersProp()}
+    reelectionToggle={reelectionToggle}
+    articles={articleOptions}
+  />
+  if (data.length === 0) {
+    tableContent = <div className="d-flex flex-wrap align-content-center justify-content-center" id="select-precinct-prompt">
+      <div style={{minHeight: '100%'}}>
+        <h3 style={{}}>{dataDisplayCopy.selectPrecinctPrompt}</h3>
+      </div>
+    </div>
+  }
+
   return (
-    <div className="container-fluid app-lr-padding pr-0" style={{ maxWidth: '100vw' }}>
+    <div className="container-fluid app-lr-padding pr-0" id="data-display-container">
       {showAlert && (
         <div className="row no-gutters">
           <div className="col-sm-12 ">
@@ -188,12 +204,7 @@ function DataDisplay({ data }) {
           </div>
         </section>
         <div className="col-sm-8 col-md-9 table-wrapper">
-          <VotingHistoryTable
-            data={data}
-            articleFilters={getArticleFiltersProp()}
-            reelectionToggle={reelectionToggle}
-            articles={articleOptions}
-          />
+          {tableContent}
         </div>
       </div>
     </div>
