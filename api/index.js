@@ -5,6 +5,7 @@ const app = express();
 const cors = require('cors');
 const server = require('http').createServer(app);
 const setupRoutes = require('./controllers');
+const { AccessLogger } = require('./dao')
 
 dotenv.config();
 
@@ -18,6 +19,18 @@ app.use(function(req, res, next) {
     } else {
         res.redirect('https://' + req.headers.host + req.url);
     }
+})
+
+if (process.env.DATABASE_URL) {
+    const accessLogger = new AccessLogger(process.env.DATABASE_URL);
+    app.use(function (req, res, next) {
+        accessLogger.log(req.headers['X-Forwarded-For'], req.query.precincts)
+    })
+}
+// access logging
+app.use(function(req, res, next) {
+
+    next();
 })
 app.use(cors());
 app.use(express.json());

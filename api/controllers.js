@@ -1,7 +1,7 @@
 'use strict';
 
 const axios = require('axios');
-const dataAccessObjectBuilder = require('./dao');
+const { dataAccessObjectBuilder } = require('./dao');
 const dao = dataAccessObjectBuilder();
 const apiPrefix = '/api/v1';
 
