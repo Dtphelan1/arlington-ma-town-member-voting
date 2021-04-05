@@ -3,6 +3,7 @@ import _ from 'lodash';
 import { Info } from 'react-feather';
 import { useTable } from 'react-table';
 import { useSticky } from 'react-table-sticky';
+import Tooltip from 'react-tooltip';
 import '../styles/table.scss';
 
 function Table({ data, articleFilters, articles }) {
@@ -48,10 +49,15 @@ function Table({ data, articleFilters, articles }) {
           <tr {...headerGroup.getHeaderGroupProps()}>
             {headerGroup.headers.map(column => (
               <th {...column.getHeaderProps()}>
-                <div className="column-header-wrapper">{column.render('Header')}</div>
-                <button className="btn btn-sm btn-link info-button">
-                  <Info />
-                </button>
+                <div className="d-flex flex-row">
+                  <button className="btn btn-sm btn-link d-flex align-self-center">
+                    <Info />
+                  </button>
+                  <div className="column-header-wrapper" data-tip={column.Header}>
+                    {column.render('Header')}
+                  </div>
+                  <Tooltip />
+                </div>
               </th>
             ))}
           </tr>
