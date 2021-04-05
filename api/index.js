@@ -29,8 +29,9 @@ if (process.env.DATABASE_URL) {
     }
     const accessLogger = new AccessLogger(dbUrl);
     app.use(function (req, res, next) {
-        console.log(req.url)
-        accessLogger.log(req.headers['X-Forwarded-For'], req.query.precincts);
+        if (req.url.indexOf('/static/') === -1 && req.url.indexOf('favicon') === -1) {
+            accessLogger.log(req.headers['X-Forwarded-For'], req.query.precincts, req.url);
+        }
         next();
     })
 }
