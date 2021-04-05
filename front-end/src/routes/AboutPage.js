@@ -78,12 +78,18 @@ function AboutPage() {
 
         <div className="faq-entry">
           <h3 id="where-does-this-data-come-from-">Where Does This Data Come From?</h3>
-          <p>This data is combined in a novel way from two sources:</p>
+          <p>This website presents data from three main sources:</p>
           <ol>
             <li>
               Public voting records on the Arlington town government website:{' '}
               <a href="https://www.arlingtonma.gov/town-governance/town-meeting/2020-town-meeting">
                 https://www.arlingtonma.gov/town-governance/town-meeting/2020-town-meeting
+              </a>
+            </li>
+            <li>
+              Candidates who are up for Arlington Town Meeting Member election in 2021:{' '}
+              <a href="https://www.arlingtonma.gov/home/showpublisheddocument?id=55221">
+                https://www.arlingtonma.gov/home/showpublisheddocument?id=55221
               </a>
             </li>
             <li>

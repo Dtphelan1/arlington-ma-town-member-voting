@@ -29,7 +29,7 @@ function AppFooter({ routes }) {
             </NavLink>
           ))}
         </nav>
-        <div id="footer-disclaimers" className="col-sm-8">
+        <div id="footer-disclaimers" className="col-sm-8 text-sm-right">
           {footerCopy.disclaimers.map(({ label, link }) => (
             <p key={label} className="text-light">
               {label} {link && <a href={link}>{link}</a>}
