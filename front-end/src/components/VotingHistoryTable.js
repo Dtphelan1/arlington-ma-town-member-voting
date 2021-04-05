@@ -58,10 +58,10 @@ function Table({ data, articleFilters, articles }) {
                   <div className="column-header-wrapper" data-tip={column.Header}>
                     {column.render('Header')}
                   </div>
-                  <Tooltip className="column-header-tooltip" />
                 </div>
               </th>
             ))}
+            <Tooltip className="column-header-tooltip" />
           </tr>
         ))}
       </thead>
