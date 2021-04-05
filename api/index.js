@@ -30,7 +30,7 @@ if (process.env.DATABASE_URL) {
     const accessLogger = new AccessLogger(dbUrl);
     app.use(function (req, res, next) {
         if (req.url.indexOf('/static/') === -1 && req.url.indexOf('favicon') === -1) {
-            accessLogger.log(req.headers['X-Forwarded-For'], req.query.precincts, req.url);
+            accessLogger.log(req.headers['x-proxyuser-ip'], req.query.precincts, req.url);
         }
         next();
     })
