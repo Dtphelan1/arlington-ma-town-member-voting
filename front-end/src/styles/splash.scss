@@ -3,16 +3,17 @@
 #homepage-splash {
   width: 100vw;
   height: 80vh;
+  min-height: 450px;
   background-position: center left;
   background-image: url('../images/mail-vote.jpg');
   background-size: cover;
   #splash-content {
     width: 45vw;
     height: 100%;
+    min-height: 450px;
     background: $dark-transparent;
     color: $white;
     flex-direction: column;
-    flex-wrap: wrap;
     h1 {
       max-width: 550px;
     }
@@ -42,9 +43,6 @@
     #splash-content {
       width: 100vw;
       height: 50vh;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
     }
   }
 }
