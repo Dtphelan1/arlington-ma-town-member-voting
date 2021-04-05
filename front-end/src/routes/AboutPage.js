@@ -104,12 +104,15 @@ function AboutPage() {
         </div>
 
         <div className="faq-entry">
-          <h3 id="where-can-i-see-the-code-running-this-website-">Where Can I See The Code Running This Website?</h3>
+          <h3 id="where-can-i-see-the-code-running-this-website-">
+            What About The Other Elected Positions (e.g The Select Board)?
+          </h3>
           <p>
-            Our code and data are available licensed under the GNU General Public License v3.0 on GitHub:{' '}
-            <a href="https://github.com/Dtphelan1/arlington-ma-town-member-voting">
-              https://github.com/Dtphelan1/arlington-ma-town-member-voting
-            </a>
+            Currently, this site only provides insight into the voting history of Arlington Town Meeting Members. The
+            team is hopeful that, for future elections, we will be able to present information about a variety of
+            elected seats. In the meantime, we encourage you to survey the Arlington town government website for more
+            information:{' '}
+            <a href="https://www.arlingtonma.gov/town-governance/">https://www.arlingtonma.gov/town-governance/</a>
           </p>
         </div>
 
@@ -122,6 +125,16 @@ function AboutPage() {
             <a href="https://www.arlingtonma.gov/town-governance/elections-voting">
               https://www.arlingtonma.gov/town-governance/elections-voting
             </a>{' '}
+          </p>
+        </div>
+
+        <div className="faq-entry">
+          <h3 id="where-can-i-see-the-code-running-this-website-">Where Can I See The Code Running This Website?</h3>
+          <p>
+            Our code and data are available licensed under the GNU General Public License v3.0 on GitHub:{' '}
+            <a href="https://github.com/Dtphelan1/arlington-ma-town-member-voting">
+              https://github.com/Dtphelan1/arlington-ma-town-member-voting
+            </a>
           </p>
         </div>
 
