@@ -6,7 +6,7 @@ function Splash({ homeCopy, precinctOptions, setPrecinct }) {
     <section id="homepage-splash">
       <div id="splash-content" className="d-flex app-lr-padding pt-lg-4 pt-3 pb-lg-5 pb-3">
         <div className="pt-md-5 pt-sm-3 pt-0 w-100">
-          <h1 className="mb-2 mb-md-5">{homeCopy.title}</h1>
+          <h1 className="mb-2 mb-md-3">{homeCopy.title}</h1>
           <p className="mb-0 mb-sm-2 mb-md-5">{homeCopy.subtitle}</p>
         </div>
         <div className="pb-lg-5 pb-md-4 pt-sm-3 pb-0">
