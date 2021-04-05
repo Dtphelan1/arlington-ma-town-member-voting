@@ -7,10 +7,18 @@ import Tooltip from 'react-tooltip';
 import ArticleModal from './ArticleModal';
 import '../styles/table.scss';
 
+function repUpForReelection(representative) {
+  console.log('representative', representative);
+  return representative.reelection === '2021';
+}
+
 function Table({ data, articleFilters, reelectionToggle, articles }) {
+  console.log('data', data);
   const tableData = useMemo(() => {
     const mappedData = [];
     data.forEach(({ representative, votes }) => {
+      // IF the reelectionToggle is on and the rep is not up for reelection, skip them
+      if (reelectionToggle && !repUpForReelection(representative)) return;
       const voteObj = { member: representative.fullName };
       votes.forEach(v => {
         voteObj[v.article.title] = v.vote;
@@ -19,7 +27,7 @@ function Table({ data, articleFilters, reelectionToggle, articles }) {
     });
 
     return mappedData;
-  }, [data]);
+  }, [data, reelectionToggle]);
 
   const columns = useMemo(() => {
     return [
@@ -60,7 +68,7 @@ function Table({ data, articleFilters, reelectionToggle, articles }) {
           {headerGroups.map(headerGroup => (
             <tr {...headerGroup.getHeaderGroupProps()}>
               {headerGroup.headers.map(column => (
-                <th {...column.getHeaderProps()} className={column.id === 'member' && 'header'}>
+                <th {...column.getHeaderProps()} className={column.id === 'member' ? 'header' : ''}>
                   <div className="d-flex flex-row">
                     {column.id !== 'member' && (
                       <button
