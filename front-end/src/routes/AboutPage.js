@@ -59,7 +59,7 @@ function AboutPage() {
 
         <div className="faq-entry">
           <h3 id="how-can-i-contact-the-team">How Can I Contact The Team?</h3>
-          <p>All questions, comments, and feedback can be directed to contact@votesmartarlington.com.</p>
+          <p>All questions, comments, and feedback can be directed to <a href="mailto:contact@votesmartarlington.com">contact@votesmartarlington.com</a>.</p>
         </div>
 
         <div className="faq-entry">
