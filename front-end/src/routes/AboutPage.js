@@ -92,17 +92,10 @@ function AboutPage() {
         <div className="faq-entry">
           <h3 id="where-can-i-see-the-code-running-this-website-">Where Can I See The Code Running This Website?</h3>
           <p>
-            Our code and data is available under a copyleft license on GitHub:{' '}
+            Our code and data are available licensed under the GNU General Public License v3.0 on GitHub:{' '}
             <a href="https://github.com/Dtphelan1/arlington-ma-town-member-voting">
               https://github.com/Dtphelan1/arlington-ma-town-member-voting
             </a>
-          </p>
-        </div>
-
-        <div className="faq-entry">
-          <h3 id="how-is-this-data-licensed-">How Is This Data Licensed?</h3>
-          <p>
-            Our data is available under a copyleft license. See our GitHub repository for more detailed information.
           </p>
         </div>
 
@@ -115,6 +108,18 @@ function AboutPage() {
             <a href="https://www.arlingtonma.gov/town-governance/elections-voting">
               https://www.arlingtonma.gov/town-governance/elections-voting
             </a>{' '}
+          </p>
+        </div>
+
+        <div className="faq-entry">
+          <h3 id="is-vote-smart-arlington-collecting-information-about-me">
+            Is Vote Smart Arlington collecting information about me?
+          </h3>
+          <p>
+            We do not use any third-party trackers (Google, Facebook, etc.), advertising technology, or cookies. We collect
+            some basic usage stats about which pages are accessed and how often, but this is not personally-identifying information.
+            Our open-source code on GitHub will be the source of truth for exactly which anonymized metrics are recorded, but we will
+            never track user behavior beyond that.
           </p>
         </div>
       </div>
