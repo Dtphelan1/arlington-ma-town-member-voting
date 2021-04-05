@@ -1,56 +1,67 @@
 import React from 'react';
 import '../styles/about.scss';
 
+const aboutPageCopy = {
+  introHeading: 'Vote Smart Arlington',
+  introContent: [
+    `Vote Smart Arlington is an effort to present Arlington, MA town member voting records in a novel and
+    accessible way. Our site gives Arlington town residents the ability to select their precinct and view their
+    town meeting members' voting history for all of 2020, which we hope will serve as an informational resource as
+    we approach the municipal election on April 10, 2021.`,
+    `This project is not affiliated with the town government of Arlington in any way. While some of our data was
+    sourced from publicly available data on the town government website (see below), this project and our approach
+    to its presentation are purely our own.`
+  ],
+  teamHeading: 'Meet The Team',
+  team: [
+    {
+      name: 'Dylan Phelan',
+      bio: `Dylan Phelan is a full-time software engineer at The MITRE Corporation and a part-time Master’s student at
+      Tufts University. His work ranges from web development and ETL projects in Healthcare IT, to researching
+      the operationalization of Ethics in Software Engineering and the impact of different electoral systems on
+      minority representation. Dylan has been an Arlington resident for 5 years and lives in Precinct 9.
+`
+    },
+    {
+      name: 'Graham Goudeau',
+      bio: `Graham Goudeau is currently a full-time software engineer at chewy.com. He is primarily interested in
+      backend development in distributed microservice topologies, with a special focus on cloud-native
+      technologies like service meshes. He has also worked on performance-critical auction logic and site
+      reliability for high-traffic web applications. Graham is an Arlington resident and lives in Precinct 11.
+`
+    },
+    {
+      name: 'Matt Gramigna',
+      bio: `Matt Gramigna is a full-time software engineer at The MITRE Corporation, specializing in open-source
+      healthcare software. He enjoys contributing to meaningful web-based projects in his free time, from Vote
+      Smart Arlington to web apps for emotion-based movie recommendations. Matt has been a resident of
+      Somerville, MA for 2 years.
+`
+    }
+  ]
+};
+
 function AboutPage() {
   return (
     <section id="about-page" className="container app-lr-padding">
       <div id="intro" className="mb-sm-5">
         <h1 className="d-flex justify-content-center" id="all-about-vote-smart-arlington">
-          Vote Smart Arlington
+          {aboutPageCopy.introHeading}
         </h1>
-        <p>
-          Vote Smart Arlington is an effort to present Arlington, MA town member voting records in a novel and
-          accessible way. Our site gives Arlington town residents the ability to select their precinct and view their
-          town meeting members' voting history for all of 2020, which we hope will serve as an informational resource as
-          we approach the municipal election on April 10, 2021.
-        </p>
-        <p>
-          This project is not affiliated with the town government of Arlington in any way. While some of our data was
-          sourced from publicly available data on the town government website (see below), this project and our approach
-          to its presentation are purely our own.
-        </p>
+        {aboutPageCopy.introContent.map(para => (
+          <p>{para}</p>
+        ))}
       </div>
 
       <div id="meet-the-team-section" className="mb-sm-5">
-        <h2 id="meet-the-team">Meet The Team</h2>
+        <h2 id="meet-the-team">{aboutPageCopy.teamHeading}</h2>
         <div className="d-flex justify-content-center row">
-          <div id="dylan-bio" className="col-md-4">
-            <h3 id="dylan-phelan">Dylan Phelan</h3>
-            <p>
-              Dylan Phelan is a full-time software engineer at The MITRE Corporation and a part-time Master’s student at
-              Tufts University. His work ranges from web development and ETL projects in Healthcare IT, to researching
-              the operationalization of Ethics in Software Engineering and the impact of different electoral systems on
-              minority representation. Dylan has been an Arlington resident for 5 years and lives in Precinct 9.
-            </p>
-          </div>
-          <div id="graham-bio" className="pl-sm-3 pr-sm-3 col-md-4">
-            <h3 id="graham-goudeau">Graham Goudeau</h3>
-            <p>
-              Graham Goudeau is currently a full-time software engineer at chewy.com. He is primarily interested in
-              backend development in distributed microservice topologies, with a special focus on cloud-native
-              technologies like service meshes. He has also worked on performance-critical auction logic and site
-              reliability for high-traffic web applications. Graham is an Arlington resident and lives in Precinct 11.
-            </p>
-          </div>
-          <div id="matt-bio" className="col-md-4">
-            <h3 id="matt-gramigna">Matt Gramigna</h3>
-            <p>
-              Matt Gramigna is a full-time software engineer at The MITRE Corporation, specializing in open-source
-              healthcare software. He enjoys contributing to meaningful web-based projects in his free time, from Vote
-              Smart Arlington to web apps for emotion-based movie recommendations. Matt has been a resident of
-              Somerville, MA for 2 years.
-            </p>
-          </div>
+          {aboutPageCopy.team.map(member => (
+            <div className="col-md-4">
+              <h3>{member.name}</h3>
+              <p>{member.bio}</p>
+            </div>
+          ))}
         </div>
       </div>
 

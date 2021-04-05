@@ -6,7 +6,7 @@ import '../styles/splash.scss';
 
 const homeCopy = {
   title: 'Voting Record of Arlington, MA Town Meeting Members',
-  subtitle: 'See how your representatives voted in 2020 before you vote in 2021',
+  subtitle: 'See how your precinct town member members voted in 2020 before you vote in 2021',
   inputPlaceholder: 'Precinct #',
   inputHelperText: 'Find your precinct here'
 };
