@@ -21,10 +21,13 @@ app.use(function(req, res, next) {
     }
 })
 
+// set up access logging
 if (process.env.DATABASE_URL) {
     const accessLogger = new AccessLogger(process.env.DATABASE_URL);
     app.use(function (req, res, next) {
-        accessLogger.log(req.headers['X-Forwarded-For'], req.query.precincts)
+        console.log(req.url)
+        accessLogger.log(req.headers['X-Forwarded-For'], req.query.precincts);
+        next();
     })
 }
 // access logging
