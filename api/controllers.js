@@ -47,7 +47,8 @@ function setupRoutes(app) {
         const voteHistory = {
           representative: {
             fullName: memberName,
-            precinct: representativeData.precinct
+            precinct: representativeData.precinct,
+            reelection: representativeData.reelection,
           },
           votes: []
         };
