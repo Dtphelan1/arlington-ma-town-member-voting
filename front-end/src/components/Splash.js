@@ -15,11 +15,7 @@ function Splash({ homeCopy, precinctOptions, setPrecinct }) {
             placeholder={homeCopy.inputPlaceholder}
             setPrecinct={setPrecinct}
           />
-          <a
-            href="https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={homeCopy.inputHelperTextLink} target="_blank" rel="noopener noreferrer">
             {homeCopy.inputHelperText}
           </a>
         </div>

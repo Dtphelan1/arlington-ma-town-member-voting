@@ -13,6 +13,8 @@ const dataDisplayCopy = {
   articleFilterLabel: 'Filter Articles',
   articlePlaceholder: 'Articles',
   precinctFilterLabel: 'Precinct Selected',
+  precinctFilterHelperText: "Don't know your precinct?",
+  precinctFilterHelperTextLink: 'https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx',
   shareText: 'Share'
   // memberFilterLabel: ''
 };
@@ -117,7 +119,17 @@ function DataDisplay({ data }) {
           <br />
           <h2>{dataDisplayCopy.filterTitle}</h2>
           <div className="filter">
-            <label>{dataDisplayCopy.precinctFilterLabel}</label>
+            <label>
+              {dataDisplayCopy.precinctFilterLabel}
+              <a
+                className="filter-helper-link"
+                href={dataDisplayCopy.precinctFilterHelperTextLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {dataDisplayCopy.precinctFilterHelperText}
+              </a>
+            </label>
             <Select
               placeholder="Select Precinct..."
               options={precinctOptions}
