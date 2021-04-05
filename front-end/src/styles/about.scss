@@ -1,21 +1,22 @@
 #about-page {
-  height: 100%;
-  padding: 1% 10% 0 10%;
-  font-size: 1.1rem;
-  max-width: 100%;
-
   h1 {
     font-size: 3rem;
+    margin-top: 1rem;
   }
   h2 {
     font-size: 2.5rem;
-    border-width: 0 0 0 0;
+    // border-width: 0 0 0 0;
     border-bottom: 1px solid black;
   }
+  p,
+  ol {
+    margin-bottom: 0.5rem;
+  }
   .faq-entry {
-    margin-bottom: 2.5%;
+    margin-bottom: 2rem;
   }
   #intro {
-    padding: 0 20% 0 20%;
+    max-width: 800px;
+    margin: auto;
   }
 }
