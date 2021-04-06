@@ -21,3 +21,7 @@ brew tap heroku/brew && brew install heroku
 When Docker and the Heroku CLI are installed on your system, you can use the Makefile here
 at the top of the repo for running a deployment. You may need the owner of the Heroku app (Graham)
 to add you as a collaborator.
+
+## License
+
+This project is built using the CopyLeft, GPL-3.0 License. The text of this license can be found [here](./LICENSE)
