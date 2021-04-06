@@ -23,7 +23,7 @@ function Table({ data, articleFilters, reelectionToggle, articles }) {
     });
 
     return mappedData;
-  }, [data, reelectionToggle]);
+  }, [data]);
 
   const membersUpForReelection = useMemo(() => {
     const result = new Set();
@@ -57,18 +57,23 @@ function Table({ data, articleFilters, reelectionToggle, articles }) {
     useSticky
   );
 
-  const [showModal, setShowModal] = useState(false);
+  // const [showModal, setShowModal] = useState(false);
   const [selectedArticle, setSelectedArticle] = useState(null);
 
   const openModal = col => {
     const article = articles.find(a => a.label === col.id);
     setSelectedArticle(article.value);
-    setShowModal(true);
+    // setShowModal(true);
+  };
+
+  const closeModal = () => {
+    // setShowModal(false);
+    setSelectedArticle(null);
   };
 
   return (
     <>
-      {showModal && <ArticleModal articleId={selectedArticle} />}
+      <ArticleModal articleId={selectedArticle} handleClose={closeModal} />
       <table {...getTableProps()} className="table table-responsive table-striped table-bordered sticky">
         <thead>
           {headerGroups.map(headerGroup => (

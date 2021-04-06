@@ -73,6 +73,7 @@
 
     [data-sticky-td] {
       position: sticky;
+      left: -1px !important;
     }
 
     [data-sticky-last-left-td] {
