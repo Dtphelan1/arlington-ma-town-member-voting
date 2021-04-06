@@ -29,11 +29,11 @@ function Table({ data, articleFilters, reelectionToggle, articles }) {
     const result = new Set();
     data.forEach(({ representative }) => {
       if (reelectionToggle && repUpForReelection(representative)) {
-        result.add(representative.fullName)
+        result.add(representative.fullName);
       }
-    })
+    });
     return result;
-  }, [data, reelectionToggle])
+  }, [data, reelectionToggle]);
 
   const columns = useMemo(() => {
     return [
@@ -100,7 +100,6 @@ function Table({ data, articleFilters, reelectionToggle, articles }) {
             return (
               <tr {...row.getRowProps()}>
                 {row.cells.map(cell => {
-
                   return cell.column.id === 'member' ? (
                     <th
                       scope="row"

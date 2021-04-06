@@ -1,11 +1,11 @@
-import React, {useEffect, useMemo, useState} from 'react';
+import React, { useMemo, useState } from 'react';
 import qs from 'qs';
 import _ from 'lodash';
 import Select from 'react-select';
 import { useHistory, useLocation } from 'react-router';
 import { precinctOptions } from '../helpers/precinctOptions';
 import VotingHistoryTable from './VotingHistoryTable';
-import '../styles/dataDisplay.scss'
+import '../styles/dataDisplay.scss';
 
 const dataDisplayCopy = {
   heading: '2020 Votes for Town Meeting Members in Precinct ',
@@ -71,24 +71,18 @@ function DataDisplay({ data }) {
   };
 
   // Toggle to show re-election candidates only
-  const [reelectionToggle, setReelectionToggle] = useState(false);
-  useEffect(() => {
-    setReelectionToggle(searchParams.onlyReelection ? searchParams.onlyReelection === 'true' : false)
-  }, [searchParams, searchParams.onlyReelection]);
-
+  const reelectionToggle = searchParams.onlyReelection ? searchParams.onlyReelection === 'true' : false;
   const pushReelectionToggleToHistory = () => {
     const reelectionParams = {
       onlyReelection: !reelectionToggle
     };
 
     pushNewQueryParams(reelectionParams);
-    setReelectionToggle(reelectionParams.onlyReelection);
   };
 
   // State and methods for managing share-link alerts
   const [showAlert, setShowAlert] = useState(false);
   const copyShareLink = async () => {
-    // TODO: Replace with window.location.href for full-url
     // 'localhost' doesn't work in bitly
     const longUrl = `${
       window.location.hostname === 'localhost' ? `http://127.0.0.1:3000/${window.location.hash}` : window.location.href
@@ -115,18 +109,22 @@ function DataDisplay({ data }) {
     }, 4000);
   };
 
-  let tableContent = <VotingHistoryTable
-    data={data}
-    articleFilters={getArticleFiltersProp()}
-    reelectionToggle={reelectionToggle}
-    articles={articleOptions}
-  />
+  let tableContent = (
+    <VotingHistoryTable
+      data={data}
+      articleFilters={getArticleFiltersProp()}
+      reelectionToggle={reelectionToggle}
+      articles={articleOptions}
+    />
+  );
   if (data.length === 0) {
-    tableContent = <div className="d-flex flex-wrap align-content-center justify-content-center" id="select-precinct-prompt">
-      <div style={{minHeight: '100%'}}>
-        <h3 style={{}}>{dataDisplayCopy.selectPrecinctPrompt}</h3>
+    tableContent = (
+      <div className="d-flex flex-wrap align-content-center justify-content-center" id="select-precinct-prompt">
+        <div style={{ minHeight: '100%' }}>
+          <h3 style={{}}>{dataDisplayCopy.selectPrecinctPrompt}</h3>
+        </div>
       </div>
-    </div>
+    );
   }
 
   return (
@@ -210,9 +208,7 @@ function DataDisplay({ data }) {
             />
           </div>
         </section>
-        <div className="col-sm-8 col-md-9 table-wrapper">
-          {tableContent}
-        </div>
+        <div className="col-sm-8 col-md-9 table-wrapper">{tableContent}</div>
       </div>
     </div>
   );

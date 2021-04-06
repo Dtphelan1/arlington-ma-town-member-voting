@@ -48,7 +48,7 @@ function setupRoutes(app) {
           representative: {
             fullName: memberName,
             precinct: representativeData.precinct,
-            reelection: representativeData.reelection,
+            reelection: representativeData.reelection
           },
           votes: []
         };

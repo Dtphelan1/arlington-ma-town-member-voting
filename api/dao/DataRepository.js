@@ -20,7 +20,7 @@ class FileBackedDataRepository {
       representatives.push({
         fullName: voteRecord.representativeFullName,
         precinct: voteRecord.precinct,
-        reelection: voteRecord.reelection,
+        reelection: voteRecord.reelection
       });
       seenRepresentatives.add(voteRecord.representativeFullName);
     });
