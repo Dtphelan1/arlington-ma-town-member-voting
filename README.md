@@ -1,4 +1,6 @@
-# arlington-ma-town-member-voting
+# Vote Smart Arlington
+
+Vote Smart Arlington is an effort to present Arlington, MA town member voting records in a novel and accessible way. Our site gives Arlington town residents the ability to select their precinct and view their town meeting members' voting history for all of 2020, which we hope will serve as an informational resource as we approach the municipal election on April 10, 2021.
 
 ## Local Development
 
