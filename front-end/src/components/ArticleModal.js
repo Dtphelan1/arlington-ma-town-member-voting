@@ -4,6 +4,7 @@ import { Video, Link, Link2 } from 'react-feather';
 import ReactMarkdown from 'react-markdown';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import '../styles/ArticleModal.scss';
 
 // Error display for the modal body when data is inaccessible
 function ErrorModal() {
@@ -42,7 +43,7 @@ function LoadingModal() {
 
 function ArticleDescription({ articleData }) {
   return (
-    <div id="article-description" className="mb-2 font-italic">
+    <div id="article-description" className="mb-3 font-italic">
       <div id="article-status">
         {articleData.status.toLowerCase() === 'pass' ? 'Article Passed' : 'Article Failed'}
         {' | '}
@@ -70,7 +71,6 @@ function ArticleModalWithData({ articleData }) {
       </Modal.Header>
       <Modal.Body>
         <ArticleDescription articleData={articleData} />
-        {/* <p>{articleData.text} </p> */}
         <ReactMarkdown source={articleData.text} />
       </Modal.Body>
       <Modal.Footer>
