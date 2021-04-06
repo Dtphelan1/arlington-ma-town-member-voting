@@ -146,7 +146,7 @@ function AboutPage() {
 
         <div className="faq-entry">
           <h3 id="is-vote-smart-arlington-collecting-information-about-me">
-            Is Vote Smart Arlington collecting information about me?
+            Is Vote Smart Arlington Collecting Information About Me?
           </h3>
           <p>
             We do not use any third-party trackers (Google, Facebook, etc.), advertising technology, or cookies. We

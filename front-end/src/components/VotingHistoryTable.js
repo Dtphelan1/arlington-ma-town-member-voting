@@ -15,8 +15,6 @@ function Table({ data, articleFilters, reelectionToggle, articles }) {
   const tableData = useMemo(() => {
     const mappedData = [];
     data.forEach(({ representative, votes }) => {
-      // IF the reelectionToggle is on and the rep is not up for reelection, skip them
-      if (reelectionToggle && !repUpForReelection(representative)) return;
       const voteObj = { member: representative.fullName };
       votes.forEach(v => {
         voteObj[v.article.title] = v.vote;
@@ -26,6 +24,16 @@ function Table({ data, articleFilters, reelectionToggle, articles }) {
 
     return mappedData;
   }, [data, reelectionToggle]);
+
+  const membersUpForReelection = useMemo(() => {
+    const result = new Set();
+    data.forEach(({ representative }) => {
+      if (reelectionToggle && repUpForReelection(representative)) {
+        result.add(representative.fullName)
+      }
+    })
+    return result;
+  }, [data, reelectionToggle])
 
   const columns = useMemo(() => {
     return [
@@ -92,8 +100,13 @@ function Table({ data, articleFilters, reelectionToggle, articles }) {
             return (
               <tr {...row.getRowProps()}>
                 {row.cells.map(cell => {
+
                   return cell.column.id === 'member' ? (
-                    <th scope="row" {...cell.getCellProps()} className="header">
+                    <th
+                      scope="row"
+                      {...cell.getCellProps()}
+                      className={`header ${membersUpForReelection.has(cell.value) ? 'reelection-row' : ''}`}
+                    >
                       <div>{cell.render('Cell')}</div>
                     </th>
                   ) : (

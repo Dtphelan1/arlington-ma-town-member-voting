@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, {useEffect, useMemo, useState} from 'react';
 import qs from 'qs';
 import _ from 'lodash';
 import Select from 'react-select';
@@ -69,13 +69,20 @@ function DataDisplay({ data }) {
     };
     pushNewQueryParams(articleParams);
   };
+
   // Toggle to show re-election candidates only
-  const reelectionToggle = searchParams.onlyReelection ? searchParams.onlyReelection === 'true' : false;
+  const [reelectionToggle, setReelectionToggle] = useState(false);
+  useEffect(() => {
+    setReelectionToggle(searchParams.onlyReelection ? searchParams.onlyReelection === 'true' : false)
+  }, [searchParams, searchParams.onlyReelection]);
+
   const pushReelectionToggleToHistory = () => {
     const reelectionParams = {
       onlyReelection: !reelectionToggle
     };
+
     pushNewQueryParams(reelectionParams);
+    setReelectionToggle(reelectionParams.onlyReelection);
   };
 
   // State and methods for managing share-link alerts
@@ -149,7 +156,7 @@ function DataDisplay({ data }) {
               <input
                 type="checkbox"
                 className="custom-control-input"
-                value={reelectionToggle}
+                checked={reelectionToggle}
                 onChange={pushReelectionToggleToHistory}
                 id="customSwitch1"
               />
