@@ -47,7 +47,7 @@ function Table({ data, articleFilters, reelectionToggle, articles }) {
         .map(ad => ({
           Header: ad.label,
           accessor: ad.label,
-          Cell: ({ value }) => (!_.isEmpty(value) ? String(value) : <i>No Vote</i>)
+          Cell: ({ value }) => (!_.isEmpty(value) ? String(value) : <i>Vote Not Recorded</i>)
         }))
     ];
   }, [articleFilters, articles]);
