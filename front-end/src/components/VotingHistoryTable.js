@@ -158,30 +158,32 @@ function Table({ data, precinct, articleFilters, tmm = '', reelectionToggle, art
           })}
         </tbody>
       </table>
-      <div id="pagination-controls" className="d-flex justify-content-center align-items-center ml-0 mt-3 mb-3 mr-0">
-        <button
-          className="btn btn-primary mr-2 d-inline-flex align-items-center"
-          onClick={() => previousPage()}
-          disabled={!canPreviousPage}
-        >
-          <ArrowLeft size={16} />
-          Previous Page
-        </button>
-        <span>
-          Page{' '}
-          <em>
-            {pageIndex + 1} of {pageOptions.length}
-          </em>
-        </span>
-        <button
-          className="btn btn-primary d-inline-flex align-items-center ml-2"
-          onClick={() => nextPage()}
-          disabled={!canNextPage}
-        >
-          Next Page
-          <ArrowRight size={16} />
-        </button>
-      </div>
+      {(canNextPage || canPreviousPage) && (
+        <div id="pagination-controls" className="d-flex justify-content-center align-items-center ml-0 mt-3 mb-3 mr-0">
+          <button
+            className="btn btn-primary mr-2 d-inline-flex align-items-center"
+            onClick={() => previousPage()}
+            disabled={!canPreviousPage}
+          >
+            <ArrowLeft size={16} />
+            Previous Page
+          </button>
+          <span>
+            Page{' '}
+            <em>
+              {pageIndex + 1} of {pageOptions.length}
+            </em>
+          </span>
+          <button
+            className="btn btn-primary d-inline-flex align-items-center ml-2"
+            onClick={() => nextPage()}
+            disabled={!canNextPage}
+          >
+            Next Page
+            <ArrowRight size={16} />
+          </button>
+        </div>
+      )}
     </>
   );
 }
