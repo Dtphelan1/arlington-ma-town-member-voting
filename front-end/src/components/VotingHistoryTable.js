@@ -12,11 +12,10 @@ function repUpForReelection(representative) {
 }
 
 function Table({ data, precinct, articleFilters, tmm = '', reelectionToggle, articles }) {
-  console.log('precinct', precinct);
   const tableData = useMemo(() => {
     const mappedData = [];
     data.forEach(({ representative, votes }) => {
-      const voteObj = { member: representative.fullName, precinct: representative.precinct, dummycol: 'ayo' };
+      const voteObj = { member: representative.fullName, precinct: representative.precinct };
       votes.forEach(v => {
         voteObj[v.article.title] = v.vote;
       });
