@@ -1,9 +1,24 @@
+@import '_variables.scss';
+
 #data-display-container {
   max-width: 100vw;
   min-height: 80vh;
+}
 
-  #select-precinct-prompt {
-    min-height: 40vh;
+#table-info {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  .filter {
+    padding-bottom: 1rem;
+  }
+  .filter-helper-link {
+    font-size: 0.75rem;
     font-style: italic;
+    display: block;
+    padding: 0;
   }
 }

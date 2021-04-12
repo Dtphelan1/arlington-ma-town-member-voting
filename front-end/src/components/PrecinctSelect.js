@@ -1,5 +1,4 @@
 import Select from 'react-select';
-// import variables from '../styles/_variables.scss';
 
 const primaryColor = '#d2b33a';
 const customSelectStyles = {

@@ -1,5 +1,9 @@
 const precinctOptions = [
   {
+    value: undefined,
+    label: 'All Precincts'
+  },
+  {
     value: '1',
     label: 'Precinct 1'
   },

@@ -1,19 +1,19 @@
 import React, { useMemo, useState } from 'react';
 import qs from 'qs';
 import _ from 'lodash';
-import Select from 'react-select';
 import { useHistory, useLocation } from 'react-router';
-import { precinctOptions } from '../helpers/precinctOptions';
 import VotingHistoryTable from './VotingHistoryTable';
+import TableInfoFilters from './TableInfoFilters';
 import '../styles/dataDisplay.scss';
 
 const dataDisplayCopy = {
-  heading: '2020 Votes for Town Meeting Members in Precinct ',
-  selectPrecinctPrompt: 'Select a precinct to get started',
+  heading: '2020 Votes for Town Meeting Members in ',
   headingSansPrecinct: 'Select a Precinct to See 2020 Voting Data',
   filterTitle: 'Filter Voting Data',
   articleFilterLabel: 'Filter Articles',
   articlePlaceholder: 'Articles',
+  tmmSearchLabel: 'Search Town Meeting Members',
+  tmmPlaceholder: "Town Member's Name",
   precinctFilterLabel: 'Precinct Selected',
   precinctFilterHelperText: "Don't know your precinct?",
   precinctFilterHelperTextLink: 'https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx',
@@ -54,12 +54,21 @@ function DataDisplay({ data }) {
     });
   }
   // Precinct information
-  const precinct = searchParams.precinct ? searchParams.precinct : '';
+  const precinct = searchParams.precinct;
   const pushPrecinctToHistory = precinct => {
-    const articleParams = {
+    const precinctParams = {
       precinct: precinct.value
     };
-    pushNewQueryParams(articleParams);
+    pushNewQueryParams(precinctParams);
+  };
+  // Representative of Interest
+  const tmm = searchParams.tmm ? searchParams.tmm : '';
+  const pushTMMQueryToHistory = e => {
+    const tmm = e.target.value;
+    const tmmParams = {
+      tmm: tmm
+    };
+    pushNewQueryParams(tmmParams);
   };
   // Article Filters
   const articleFilters = searchParams.articles ? searchParams.articles.split(',') : [];
@@ -69,7 +78,6 @@ function DataDisplay({ data }) {
     };
     pushNewQueryParams(articleParams);
   };
-
   // Toggle to show re-election candidates only
   const reelectionToggle = searchParams.onlyReelection ? searchParams.onlyReelection === 'true' : false;
   const pushReelectionToggleToHistory = () => {
@@ -109,24 +117,6 @@ function DataDisplay({ data }) {
     }, 4000);
   };
 
-  let tableContent = (
-    <VotingHistoryTable
-      data={data}
-      articleFilters={getArticleFiltersProp()}
-      reelectionToggle={reelectionToggle}
-      articles={articleOptions}
-    />
-  );
-  if (data.length === 0) {
-    tableContent = (
-      <div className="d-flex flex-wrap align-content-center justify-content-center" id="select-precinct-prompt">
-        <div style={{ minHeight: '100%' }}>
-          <h3 style={{}}>{dataDisplayCopy.selectPrecinctPrompt}</h3>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <div className="container-fluid app-lr-padding pr-0" id="data-display-container">
       {showAlert && (
@@ -139,76 +129,29 @@ function DataDisplay({ data }) {
         </div>
       )}
       <div className="row no-gutters">
-        <section id="table-info" className="col-sm-4 col-md-3 pr-3">
-          <div id="table-heading" className="mb-3 mt-3">
-            <h1>{precinct ? dataDisplayCopy.heading + precinct : dataDisplayCopy.headingSansPrecinct}</h1>
-            <button className="btn btn-primary" onClick={copyShareLink}>
-              {dataDisplayCopy.shareText}
-            </button>
-          </div>
-          <br />
-          <h2>{dataDisplayCopy.filterTitle}</h2>
-          {/* Reelection Toggle */}
-          <div className="filter">
-            <div className="custom-control custom-switch">
-              <input
-                type="checkbox"
-                className="custom-control-input"
-                checked={reelectionToggle}
-                onChange={pushReelectionToggleToHistory}
-                id="customSwitch1"
-              />
-              <label className="custom-control-label" htmlFor="customSwitch1">
-                {dataDisplayCopy.reelectionToggleLabel}
-              </label>
-            </div>
-          </div>
-          {/* Precinct Select */}
-          <div className="filter">
-            <label>
-              {dataDisplayCopy.precinctFilterLabel}
-              <a
-                className="filter-helper-link"
-                href={dataDisplayCopy.precinctFilterHelperTextLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {dataDisplayCopy.precinctFilterHelperText}
-              </a>
-            </label>
-            <Select
-              placeholder="Select Precinct..."
-              options={precinctOptions}
-              value={precinctOptions.find(precinctOption => precinctOption.value === precinct)}
-              onChange={pushPrecinctToHistory}
-              styles={{
-                menu: provided => ({
-                  ...provided,
-                  zIndex: 4
-                })
-              }}
-            />
-          </div>
-          {/* Article Select */}
-          <div className="filter">
-            <label>{dataDisplayCopy.articleFilterLabel}</label>
-            <Select
-              placeholder="Select Articles..."
-              isMulti={true}
-              options={articleOptions}
-              closeMenuOnSelect={false}
-              value={articleFilters.map(cf => articleOptions.find(o => o.value === cf))}
-              onChange={pushArticleFiltersToHistory}
-              styles={{
-                menu: provided => ({
-                  ...provided,
-                  zIndex: 4
-                })
-              }}
-            />
-          </div>
-        </section>
-        <div className="col-sm-8 col-md-9 table-wrapper">{tableContent}</div>
+        <TableInfoFilters
+          copy={dataDisplayCopy}
+          copyShareLink={copyShareLink}
+          precinct={precinct}
+          onPrecinctChange={pushPrecinctToHistory}
+          tmm={tmm}
+          onTMMChange={pushTMMQueryToHistory}
+          articleOptions={articleOptions}
+          articleFilters={articleFilters}
+          onArticleFiltersChange={pushArticleFiltersToHistory}
+          reelectionToggle={reelectionToggle}
+          onReelectionToggleChange={pushReelectionToggleToHistory}
+        />
+        <div className="col-sm-8 col-md-9 table-wrapper">
+          <VotingHistoryTable
+            data={data}
+            precinct={precinct}
+            articleFilters={getArticleFiltersProp()}
+            tmm={tmm}
+            reelectionToggle={reelectionToggle}
+            articles={articleOptions}
+          />
+        </div>
       </div>
     </div>
   );

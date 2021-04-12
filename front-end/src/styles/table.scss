@@ -1,23 +1,5 @@
 @import '_variables.scss';
 
-#table-info {
-  h1 {
-    font-size: 1.5rem;
-  }
-  h2 {
-    font-size: 1.25rem;
-  }
-  .filter {
-    padding-bottom: 1rem;
-  }
-  .filter-helper-link {
-    font-size: 0.75rem;
-    font-style: italic;
-    display: block;
-    padding: 0;
-  }
-}
-
 .table {
   height: 85vh;
   margin-bottom: 0 !important;
@@ -26,6 +8,7 @@
 
     th[role='columnheader'] {
       vertical-align: top;
+      padding: 0.5rem;
     }
     .info-button {
       position: relative;
@@ -48,9 +31,6 @@
     }
 
     .header {
-      * {
-        width: 100px;
-      }
       position: sticky;
       width: fit-content;
       top: 0;
@@ -85,8 +65,9 @@
     }
 
     td.body {
-      text-align: center;
-      vertical-align: middle;
+      justify-content: center;
+      align-items: center;
+      display: flex;
     }
   }
 }
