@@ -1,5 +1,4 @@
 import { useMemo } from 'react';
-import _ from 'lodash';
 import Select from 'react-select';
 import { precinctOptions } from '../helpers/precinctOptions';
 const primaryColor = '#d2b33a';
@@ -100,7 +99,7 @@ function TableInfoFilters({
               }}
             />
           ),
-          [precinct]
+          [precinct, onPrecinctChange]
         )}
       </div>
       {/* Representative Search */}
@@ -137,7 +136,7 @@ function TableInfoFilters({
               }}
             />
           ),
-          [articleFilters]
+          [articleFilters, articleOptions, onArticleFiltersChange]
         )}
       </div>
     </section>
