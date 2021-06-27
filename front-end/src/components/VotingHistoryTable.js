@@ -11,7 +11,7 @@ function repUpForReelection(representative) {
   return representative.reelection === '2021';
 }
 
-function Table({ data, precinct, articleFilters, tmm = '', reelectionToggle, articles }) {
+function VotingHistoryTable({ data, precinct, articleFilters, tmm = '', reelectionToggle, articles }) {
   const tableData = useMemo(() => {
     const mappedData = [];
     data.forEach(({ representative, votes }) => {
@@ -92,7 +92,6 @@ function Table({ data, precinct, articleFilters, tmm = '', reelectionToggle, art
     useFlexLayout
   );
 
-  // const [showModal, setShowModal] = useState(false);
   const [selectedArticle, setSelectedArticle] = useState(null);
 
   const openModal = col => {
@@ -119,7 +118,10 @@ function Table({ data, precinct, articleFilters, tmm = '', reelectionToggle, art
                 >
                   {/* Only display an info button for article-columns */}
                   {column.id !== 'member' && column.id !== 'precinct' && (
-                    <button className="btn btn-sm btn-link d-flex align-self-center" onClick={() => openModal(column)}>
+                    <button
+                      className="btn btn-sm btn-link d-flex align-self-center pl-0"
+                      onClick={() => openModal(column)}
+                    >
                       <Info />
                     </button>
                   )}
@@ -166,7 +168,7 @@ function Table({ data, precinct, articleFilters, tmm = '', reelectionToggle, art
             disabled={!canPreviousPage}
           >
             <ArrowLeft size={16} />
-            Previous Page
+            Previous
           </button>
           <span>
             Page{' '}
@@ -179,7 +181,7 @@ function Table({ data, precinct, articleFilters, tmm = '', reelectionToggle, art
             onClick={() => nextPage()}
             disabled={!canNextPage}
           >
-            Next Page
+            Next
             <ArrowRight size={16} />
           </button>
         </div>
@@ -188,4 +190,4 @@ function Table({ data, precinct, articleFilters, tmm = '', reelectionToggle, art
   );
 }
 
-export default React.memo(Table);
+export default React.memo(VotingHistoryTable);

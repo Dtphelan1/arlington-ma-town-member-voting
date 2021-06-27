@@ -129,20 +129,22 @@ function DataDisplay({ data }) {
         </div>
       )}
       <div className="row no-gutters">
-        <TableInfoFilters
-          copy={dataDisplayCopy}
-          copyShareLink={copyShareLink}
-          precinct={precinct}
-          onPrecinctChange={pushPrecinctToHistory}
-          tmm={tmm}
-          onTMMChange={pushTMMQueryToHistory}
-          articleOptions={articleOptions}
-          articleFilters={articleFilters}
-          onArticleFiltersChange={pushArticleFiltersToHistory}
-          reelectionToggle={reelectionToggle}
-          onReelectionToggleChange={pushReelectionToggleToHistory}
-        />
-        <div className="col-sm-8 col-md-9 table-wrapper">
+        <section id="table-info-filters" className="col-sm-12 col-md-3 pr-3">
+          <TableInfoFilters
+            copy={dataDisplayCopy}
+            copyShareLink={copyShareLink}
+            precinct={precinct}
+            onPrecinctChange={pushPrecinctToHistory}
+            tmm={tmm}
+            onTMMChange={pushTMMQueryToHistory}
+            articleOptions={articleOptions}
+            articleFilters={articleFilters}
+            onArticleFiltersChange={pushArticleFiltersToHistory}
+            reelectionToggle={reelectionToggle}
+            onReelectionToggleChange={pushReelectionToggleToHistory}
+          />
+        </section>
+        <section id="table-info" className="col-sm-12 col-md-9 table-wrapper">
           <VotingHistoryTable
             data={data}
             precinct={precinct}
@@ -151,7 +153,7 @@ function DataDisplay({ data }) {
             reelectionToggle={reelectionToggle}
             articles={articleOptions}
           />
-        </div>
+        </section>
       </div>
     </div>
   );

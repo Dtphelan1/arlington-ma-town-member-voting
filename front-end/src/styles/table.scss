@@ -1,8 +1,9 @@
 @import '_variables.scss';
 
 .table {
-  height: 85vh;
+  // height: 85vh;
   margin-bottom: 0 !important;
+  font-size: 0.75rem;
   &.sticky {
     overflow: scroll;
 
@@ -87,5 +88,8 @@
 @media only screen and (max-width: 768px) {
   .table-wrapper {
     margin-left: -0.75rem;
+  }
+  .table {
+    height: auto;
   }
 }
