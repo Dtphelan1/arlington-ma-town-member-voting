@@ -59,7 +59,6 @@ function ArticleDescription({ articleData }) {
 }
 
 function ArticleModalWithData({ articleData }) {
-  console.log('articleData', articleData);
   const isVideoExplanation = articleData.video;
   const isOfficialLink = articleData.official;
   const isMenotomyMattersLink = articleData.urls && articleData.urls.menotomyMatters;

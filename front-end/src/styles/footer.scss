@@ -2,16 +2,29 @@
 
 footer {
   background: $dark-transparent;
-  padding: 1rem 0;
+  font-size: 0.8rem;
+  padding: 0.5rem 0;
 
   .nav {
     font-family: $headings-font-family;
-    margin-bottom: 1rem;
   }
+
   a {
     color: $primary;
   }
   p {
     margin-bottom: 0.25rem;
+  }
+  #footer-disclaimers {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 0.5rem 0;
+    .nav {
+      margin-bottom: 0.5rem;
+    }
   }
 }

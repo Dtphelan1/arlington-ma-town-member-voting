@@ -1,31 +1,14 @@
 @import '_variables.scss';
 
-#table-info {
-  h1 {
-    font-size: 1.5rem;
-  }
-  h2 {
-    font-size: 1.25rem;
-  }
-  .filter {
-    padding-bottom: 1rem;
-  }
-  .filter-helper-link {
-    font-size: 0.75rem;
-    font-style: italic;
-    display: block;
-    padding: 0;
-  }
-}
-
 .table {
-  height: 85vh;
   margin-bottom: 0 !important;
+  font-size: 0.75rem;
   &.sticky {
     overflow: scroll;
 
     th[role='columnheader'] {
       vertical-align: top;
+      padding: 0.5rem;
     }
     .info-button {
       position: relative;
@@ -48,9 +31,6 @@
     }
 
     .header {
-      * {
-        width: 100px;
-      }
       position: sticky;
       width: fit-content;
       top: 0;
@@ -85,8 +65,9 @@
     }
 
     td.body {
-      text-align: center;
-      vertical-align: middle;
+      justify-content: center;
+      align-items: center;
+      display: flex;
     }
   }
 }
@@ -106,5 +87,8 @@
 @media only screen and (max-width: 768px) {
   .table-wrapper {
     margin-left: -0.75rem;
+  }
+  .table {
+    height: auto;
   }
 }

@@ -17,7 +17,11 @@ function HomePage() {
 
   const setPrecinct = useCallback(
     precinct => {
-      history.push(`/data?precinct=${precinct.value}`);
+      if (precinct.value) {
+        history.push(`/data?precinct=${precinct.value}`);
+      } else {
+        history.push(`/data`);
+      }
     },
     [history]
   );
