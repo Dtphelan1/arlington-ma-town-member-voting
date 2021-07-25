@@ -2,7 +2,7 @@ jq --slurp --raw-input \
   'split("\n")
   | map(split(","))
   | .[1][2:] as $articles
-  | .[4:]
+  | .[4:]                    # ignore the first four rows
   | . as $voters
   | [foreach ($voters | length | range(.)) as $i ({}; true; {
     "precinct": $voters[$i][0] | rtrimstr("\r"),
@@ -13,5 +13,5 @@ jq --slurp --raw-input \
       }
     )]
   })]
-  ' 2021_ATM_all_votes.csv > representative-votes.json
+  ' 2021_ATM_all_votes.csv > extracted-representative-votes.json
 

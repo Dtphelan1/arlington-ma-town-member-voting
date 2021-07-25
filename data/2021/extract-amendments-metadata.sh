@@ -1,6 +1,6 @@
 jq --slurp --raw-input \
-  'split("\n") | map(split(","))  | match(["art-\d\d:", "ig"]) | transpose | .[2:] |
-  map(if .[2] == "No Action" then {
+  'split("\n") | map(split(","))  | match(["foo", "ig"]) | transpose | .[2:] |
+    map( if .[2] == "No Action" then {
     "article": .[1] | rtrimstr("\r"),
     "voteType": "No Action",
     "for": .[-5] | rtrimstr("\r"),
