@@ -1,6 +1,16 @@
 jq --slurp --raw-input \
-  'split("\n") | map(split(","))  | match(["foo", "ig"]) | transpose | .[2:] |
-    map( if .[2] == "No Action" then {
+  'split("\n") |
+  map(split(",")) |
+  transpose |
+  .[2:] |
+  map(
+    select(
+      .[1] |
+      select(. != null) |
+      test(["art-\\d+-amend.*:", "ig"])
+    )
+  ) |
+  map( if .[2] == "No Action" then {
     "article": .[1] | rtrimstr("\r"),
     "voteType": "No Action",
     "for": .[-5] | rtrimstr("\r"),
@@ -14,5 +24,5 @@ jq --slurp --raw-input \
     "against": .[-4] | rtrimstr("\r"),
     "abstain": .[-3] | rtrimstr("\r"),
     "status": .[-1] | rtrimstr("\r")
-  } end)' 2021_ATM_all_votes.csv > extracted-votes-metadata.json
+  } end)' 2021_ATM_all_votes.csv > extracted-amendments-metadata.json
 
