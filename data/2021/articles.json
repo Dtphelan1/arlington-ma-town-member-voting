@@ -8,10 +8,7 @@
     "text": "To hear the Chair of the Select Board review important events in the past year in Arlington and preview expectations for next year.",
     "insertby": "(Inserted at the request of Envision Arlington)",
     "inserturl": "https://www.arlingtonma.gov/town-governance/all-boards-and-committees/envision-arlington",
-    "related": [
-      "article2",
-      "article65"
-    ]
+    "related": ["article2", "article65"]
   },
   {
     "article": "ARTICLE 3",
@@ -22,10 +19,7 @@
     "text": "To receive, hear, and act upon the reports of the Select Board, Finance Committee, Redevelopment Board, School Committee and other committees, commissions, and boards heretofore appointed, or dissolve any inactive committees; and take any action related thereto.",
     "insertby": "(Inserted at the request of the Town Moderator)",
     "inserturl": "https://www.arlingtonma.gov/town-governance/town-meeting",
-    "related": [
-      "article3",
-      "article5"
-    ]
+    "related": ["article3", "article5"]
   },
   {
     "article": "ARTICLE 4",
@@ -62,10 +56,7 @@
     "text": "To elect a Town Meeting Member as Assistant Moderator for a term of one year, as provided in Title I, Article 1, Section 11.A, of the Bylaws; or take any action related thereto.",
     "insertby": " (Inserted at the request of the Town Moderator)",
     "inserturl": "https://www.arlingtonma.gov/town-governance/town-meeting",
-    "related": [
-      "article3",
-      "article5"
-    ]
+    "related": ["article3", "article5"]
   },
   {
     "article": "ARTICLE 6",
@@ -1582,8 +1573,8 @@
     ],
     "supplements": [
       {
-      "comment": "ARFRR Town Meeting Members' Guide to the Zoning Articles",
-      "https://blog-arfrr.blogspot.com/2021/04/town-meeting-members-guide-to-zoning.html": "Arlington Residents For Responsible Redevelopment website"
+        "comment": "ARFRR Town Meeting Members' Guide to the Zoning Articles",
+        "https://blog-arfrr.blogspot.com/2021/04/town-meeting-members-guide-to-zoning.html": "Arlington Residents For Responsible Redevelopment website"
       },
       {
         "comment": "IMPORTANT: There are many amendments offered to this article, see the official list.",
@@ -1891,7 +1882,7 @@
       {
         "comment": "Proposed Amendment by T. Fields",
         "https://www.arlingtonma.gov/home/showdocument?id=55976": "Amendment - T Fields"
-      }
+      },
       {
         "comment": "ARFRR Town Meeting Members' Guide to the Zoning Articles",
         "https://blog-arfrr.blogspot.com/2021/04/town-meeting-members-guide-to-zoning.html": "Arlington Residents For Responsible Redevelopment website"
@@ -2043,7 +2034,7 @@
     "supplements": [
       {
         "comment": "Pay and Classification Plan for town employees",
-        "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=12656&ItemID=11493": "	FY21_Class_and_Pay_Plan_v_Oct_2020.pdf"
+        "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=12656&ItemID=11493": "FY21_Class_and_Pay_Plan_v_Oct_2020.pdf"
       },
       {
         "comment": "That the Classification Plan, as established by Title 1, Article 6, Section 1, Schedule A of the By-Laws, be and hereby is amended as follows: ...",
@@ -2116,11 +2107,7 @@
       "article63",
       "article64"
     ],
-    "supplements": [
-      {
-
-      }
-    ]
+    "supplements": [{}]
   },
   {
     "article": "ARTICLE 56",
@@ -2179,9 +2166,7 @@
     "inserturl": "https://www.arlingtonma.gov/departments/treasurer",
     "board": "Finance Committee",
     "recommend": "Finance Committee",
-    "related": [
-      "article57"
-    ],
+    "related": ["article57"],
     "supplements": [
       {
         "comment": "VOTED: That no action be taken under this article.",
@@ -2314,9 +2299,7 @@
     "inserturl": "http://www.arlington.k12.ma.us/home/",
     "board": "Finance Committee",
     "recommend": "Finance Committee",
-    "related": [
-      "article61"
-    ],
+    "related": ["article61"],
     "supplements": [
       {
         "comment": "That the sum of $6,795,546 be and hereby is appropriated for the purpose of paying the Town’s apportioned share of the operating and maintenance costs, including capital costs, of the Minuteman Regional Vocational Technical High School District Budget; said sum to be raised by general tax and expended under the direction of the Minuteman Regional Vocational High School Committee.",
@@ -2450,10 +2433,7 @@
     "inserturl": "https://www.arlingtonma.gov/town-governance/all-boards-and-committees/envision-arlington",
     "board": "Finance Committee",
     "recommend": "Finance Committee",
-    "related": [
-      "article2",
-      "article65"
-    ],
+    "related": ["article2", "article65"],
     "supplements": [
       {
         "comment": "VOTED: That the sum of $50,000 be and hereby is appropriated to the Water Bodies Fund for the purpose of testing, maintaining, treating and oversight of the Town’s water bodies. Said sum to be raised by the general taxes and expended under the direction of the Town Manager.  COMMENT: The Water Bodies Fund, established by special legislation in 2008, is used for periodic testing, treatment, maintenance and oversight of the town's water bodies. The fund receives private donations as well as public appropriations.",
@@ -2540,9 +2520,7 @@
     "inserturl": "https://www.arlingtonma.gov/departments/health-human-services/council-on-aging",
     "board": "Finance Committee",
     "recommend": "Finance Committee",
-    "related": [
-      "article68"
-    ],
+    "related": ["article68"],
     "supplements": [
       {
         "comment": "VOTED: That the sum of $7,500 be and hereby is appropriated for the purpose of conducting the Harry Barber Community Service Program; said sum to be raised by general tax and expended under the direction of the Town Manager.  COMMENT: This program provides the opportunity for senior citizens to provide service in various Town departments in exchange for payment, which they can use to help with taxes and rent.",
@@ -2636,10 +2614,7 @@
     "board": "Finance Committee",
     "recommend": "Finance Committee",
 
-    "related": [
-      "article71",
-      "article72"
-    ],
+    "related": ["article71", "article72"],
     "supplements": [
       {
         "comment": "COMMENT: These recommendations continue the program to fund the unfunded liability for retiree health insurance.",
@@ -2658,10 +2633,7 @@
     "inserturl": "https://www.arlingtonma.gov/town-governance/all-boards-and-committees/retirement-board",
     "board": "Finance Committee",
     "recommend": "Finance Committee",
-    "related": [
-      "article71",
-      "article72"
-    ],
+    "related": ["article71", "article72"],
     "supplements": [
       {
         "comment": "COMMENT: This vote, which is required annually, allows the Retirement Board to ensure that retired employees will not drop below 50% of the current salary of the position they held as an active Town employee. An amount of $0 is voted so that funds may be expended under this article from available sources without further appropriation.",
