@@ -12,6 +12,7 @@ jq --slurp --raw-input \
   ) |
   map( if .[2] == "No Action" then {
     "article": .[1] | rtrimstr("\r"),
+    "articleNumber": .[1] | match("Art-(\\d+)") | .captures[0].string | tonumber,
     "voteType": "No Action",
     "for": .[-5] | rtrimstr("\r"),
     "against": .[-4] | rtrimstr("\r"),
@@ -19,6 +20,7 @@ jq --slurp --raw-input \
     "status": .[-1] | rtrimstr("\r")
   } else {
     "article": .[1] | rtrimstr("\r"),
+    "articleNumber": .[1] | match("Art-(\\d+)") | .captures[0].string | tonumber,
     "voteType": "Action",
     "for": .[-5] | rtrimstr("\r"),
     "against": .[-4] | rtrimstr("\r"),
