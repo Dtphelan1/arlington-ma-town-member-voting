@@ -1,7 +1,7 @@
 [
   {
     "precinct": "1",
-    "representativeFullName": "Leah Broder",
+    "fullName": "Leah Broder",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -567,7 +567,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Gregory Dennis",
+    "fullName": "Gregory Dennis",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -1133,7 +1133,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Nada El-Newahy",
+    "fullName": "Nada El-Newahy",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -1699,7 +1699,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Stephanie Ford-Weems",
+    "fullName": "Stephanie Ford-Weems",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -2265,7 +2265,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Asia Kepka",
+    "fullName": "Asia Kepka",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -2831,7 +2831,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Marian King",
+    "fullName": "Marian King",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -3397,7 +3397,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Paul Marshall",
+    "fullName": "Paul Marshall",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -3963,7 +3963,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Kevin Mills",
+    "fullName": "Kevin Mills",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -4529,7 +4529,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Juliet Moir",
+    "fullName": "Juliet Moir",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -5095,7 +5095,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Rebecca Persson",
+    "fullName": "Rebecca Persson",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -5661,7 +5661,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Stephen Revilak",
+    "fullName": "Stephen Revilak",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -6227,7 +6227,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Peter Young",
+    "fullName": "Peter Young",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -6793,7 +6793,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Steven Cella",
+    "fullName": "Steven Cella",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -7359,7 +7359,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Samit Chhabra",
+    "fullName": "Samit Chhabra",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -7925,7 +7925,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Stephen DeCourcey",
+    "fullName": "Stephen DeCourcey",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -8491,7 +8491,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Peter Gast",
+    "fullName": "Peter Gast",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -9057,7 +9057,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Bill Hayner",
+    "fullName": "Bill Hayner",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -9623,7 +9623,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Aimee Lim-Miller",
+    "fullName": "Aimee Lim-Miller",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -10189,7 +10189,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "William Logan",
+    "fullName": "William Logan",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -10755,7 +10755,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Mark McCabe",
+    "fullName": "Mark McCabe",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -11321,7 +11321,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Maxwell Palmer",
+    "fullName": "Maxwell Palmer",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -11887,7 +11887,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Virginia Reeder",
+    "fullName": "Virginia Reeder",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -12453,7 +12453,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Robert Rossi",
+    "fullName": "Robert Rossi",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -13019,7 +13019,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Brendan Sullivan",
+    "fullName": "Brendan Sullivan",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -13585,7 +13585,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Adam Auster",
+    "fullName": "Adam Auster",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -14151,7 +14151,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Lenard Diggins",
+    "fullName": "Lenard Diggins",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -14717,7 +14717,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "John Ellis",
+    "fullName": "John Ellis",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -15283,7 +15283,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Robert Marlin",
+    "fullName": "Robert Marlin",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -15849,7 +15849,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Amos Meeks",
+    "fullName": "Amos Meeks",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -16415,7 +16415,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Nandana Mewada",
+    "fullName": "Nandana Mewada",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -16981,7 +16981,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Kezia Simister",
+    "fullName": "Kezia Simister",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -17547,7 +17547,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Stacie Smith",
+    "fullName": "Stacie Smith",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -18113,7 +18113,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Susan Stamps",
+    "fullName": "Susan Stamps",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -18679,7 +18679,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Jennifer Susse",
+    "fullName": "Jennifer Susse",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -19245,7 +19245,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Courtney Urick",
+    "fullName": "Courtney Urick",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -19811,7 +19811,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Christopher Wilbur",
+    "fullName": "Christopher Wilbur",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -20377,7 +20377,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Alia Atlas",
+    "fullName": "Alia Atlas",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -20943,7 +20943,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Silvia Dominguez",
+    "fullName": "Silvia Dominguez",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -21509,7 +21509,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Ezra Fischer",
+    "fullName": "Ezra Fischer",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -22075,7 +22075,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Judith Garber",
+    "fullName": "Judith Garber",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -22641,7 +22641,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Nawwaf Kaba",
+    "fullName": "Nawwaf Kaba",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -23207,7 +23207,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Kate Leary",
+    "fullName": "Kate Leary",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -23773,7 +23773,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Madeleine McClure",
+    "fullName": "Madeleine McClure",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -24339,7 +24339,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Michele Phelan",
+    "fullName": "Michele Phelan",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -24905,7 +24905,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Clarissa Rowe",
+    "fullName": "Clarissa Rowe",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -25471,7 +25471,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Alham Saadat",
+    "fullName": "Alham Saadat",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -26037,7 +26037,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Carolyn Sullivan",
+    "fullName": "Carolyn Sullivan",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -26603,7 +26603,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Ethan Zimmer",
+    "fullName": "Ethan Zimmer",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -27169,7 +27169,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Adam Badik",
+    "fullName": "Adam Badik",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -27735,7 +27735,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Jason Donnelly",
+    "fullName": "Jason Donnelly",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -28301,7 +28301,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Catherine Farrell",
+    "fullName": "Catherine Farrell",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -28867,7 +28867,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Patrick Hanlon",
+    "fullName": "Patrick Hanlon",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -29433,7 +29433,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Sarah Huber",
+    "fullName": "Sarah Huber",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -29999,7 +29999,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Christa Kelleher",
+    "fullName": "Christa Kelleher",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -30565,7 +30565,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Karen Kelleher",
+    "fullName": "Karen Kelleher",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -31131,7 +31131,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Lauren Ledger",
+    "fullName": "Lauren Ledger",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -31697,7 +31697,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Terrance Marshall",
+    "fullName": "Terrance Marshall",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -32263,7 +32263,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Katherine Mayers",
+    "fullName": "Katherine Mayers",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -32829,7 +32829,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "David Swanson",
+    "fullName": "David Swanson",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -33395,7 +33395,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Peter Thompson",
+    "fullName": "Peter Thompson",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -33961,7 +33961,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "James Ballin",
+    "fullName": "James Ballin",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -34527,7 +34527,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Charles Blandy",
+    "fullName": "Charles Blandy",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -35093,7 +35093,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Mara Collins",
+    "fullName": "Mara Collins",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -35659,7 +35659,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Anna Henkin",
+    "fullName": "Anna Henkin",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -36225,7 +36225,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Daniel Jalkut",
+    "fullName": "Daniel Jalkut",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -36791,7 +36791,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Adele Kraus",
+    "fullName": "Adele Kraus",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -37357,7 +37357,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Adam MacNeill",
+    "fullName": "Adam MacNeill",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -37923,7 +37923,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "George McNinch",
+    "fullName": "George McNinch",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -38489,7 +38489,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Lisa Reynolds",
+    "fullName": "Lisa Reynolds",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -39055,7 +39055,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Jill Snyder",
+    "fullName": "Jill Snyder",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -39621,7 +39621,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Laura Tracey",
+    "fullName": "Laura Tracey",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -40187,7 +40187,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Lesley Waxman",
+    "fullName": "Lesley Waxman",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -40753,7 +40753,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Alexander Bagnall",
+    "fullName": "Alexander Bagnall",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -41319,7 +41319,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Sheri Baron",
+    "fullName": "Sheri Baron",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -41885,7 +41885,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Elizabeth Carlton-Gysan",
+    "fullName": "Elizabeth Carlton-Gysan",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -42451,7 +42451,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Phil Goff",
+    "fullName": "Phil Goff",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -43017,7 +43017,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Roderick Holland",
+    "fullName": "Roderick Holland",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -43583,7 +43583,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Marc Lefebvre",
+    "fullName": "Marc Lefebvre",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -44149,7 +44149,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Mary Malek-Odom",
+    "fullName": "Mary Malek-Odom",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -44715,7 +44715,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Catherine McParland",
+    "fullName": "Catherine McParland",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -45281,7 +45281,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Laurence Slotnick",
+    "fullName": "Laurence Slotnick",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -45847,7 +45847,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Betty Stone",
+    "fullName": "Betty Stone",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -46413,7 +46413,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Timur Yontar",
+    "fullName": "Timur Yontar",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -46979,7 +46979,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Rebecca Younkin",
+    "fullName": "Rebecca Younkin",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -47545,7 +47545,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Carol Band",
+    "fullName": "Carol Band",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -48111,7 +48111,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "William Berkowitz",
+    "fullName": "William Berkowitz",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -48677,7 +48677,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Elizabeth Dray",
+    "fullName": "Elizabeth Dray",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -49243,7 +49243,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Charles Foskett",
+    "fullName": "Charles Foskett",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -49809,7 +49809,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Sharon Grossman",
+    "fullName": "Sharon Grossman",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -50375,7 +50375,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Rebecca Gruber",
+    "fullName": "Rebecca Gruber",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -50941,7 +50941,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "John Leone",
+    "fullName": "John Leone",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -51507,7 +51507,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Joshua Lobel",
+    "fullName": "Joshua Lobel",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -52073,7 +52073,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Sophie Migliazzo",
+    "fullName": "Sophie Migliazzo",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -52639,7 +52639,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Brian Rehrig",
+    "fullName": "Brian Rehrig",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -53205,7 +53205,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "John Worden",
+    "fullName": "John Worden",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -53771,7 +53771,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Patricia Worden",
+    "fullName": "Patricia Worden",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -54337,7 +54337,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Lisa Blankespoor",
+    "fullName": "Lisa Blankespoor",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -54903,7 +54903,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Phedjina Jean",
+    "fullName": "Phedjina Jean",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -55469,7 +55469,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Steven Liggett",
+    "fullName": "Steven Liggett",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -56035,7 +56035,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Mona Mandal",
+    "fullName": "Mona Mandal",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -56601,7 +56601,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Jennifer Mansfield",
+    "fullName": "Jennifer Mansfield",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -57167,7 +57167,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Susan McCabe",
+    "fullName": "Susan McCabe",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -57733,7 +57733,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Beth Melofchik",
+    "fullName": "Beth Melofchik",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -58299,7 +58299,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Jo Anne Preston",
+    "fullName": "Jo Anne Preston",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -58865,7 +58865,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Michael Ruderman",
+    "fullName": "Michael Ruderman",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -59431,7 +59431,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Paul Schlichtman",
+    "fullName": "Paul Schlichtman",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -59997,7 +59997,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Susan Stewart",
+    "fullName": "Susan Stewart",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -60563,7 +60563,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Rieko Tanaka",
+    "fullName": "Rieko Tanaka",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -61129,7 +61129,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Barbara Costa",
+    "fullName": "Barbara Costa",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -61695,7 +61695,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Danuta Forbes",
+    "fullName": "Danuta Forbes",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -62261,7 +62261,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Jane Howard",
+    "fullName": "Jane Howard",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -62827,7 +62827,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Peter Howard",
+    "fullName": "Peter Howard",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -63393,7 +63393,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Christian Klein",
+    "fullName": "Christian Klein",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -63959,7 +63959,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Charlotte Milan",
+    "fullName": "Charlotte Milan",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -64525,7 +64525,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Sanjay Newton",
+    "fullName": "Sanjay Newton",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -65091,7 +65091,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Elizabeth Pyle",
+    "fullName": "Elizabeth Pyle",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -65657,7 +65657,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Michael Quinn",
+    "fullName": "Michael Quinn",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -66223,7 +66223,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Christopher Rohter",
+    "fullName": "Christopher Rohter",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -66789,7 +66789,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Mustafa Varoglu",
+    "fullName": "Mustafa Varoglu",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -67355,7 +67355,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Donna Wren",
+    "fullName": "Donna Wren",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -67921,7 +67921,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Mary Ellen Bilafer",
+    "fullName": "Mary Ellen Bilafer",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -68487,7 +68487,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Christine Carney",
+    "fullName": "Christine Carney",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -69053,7 +69053,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Lynette Culverhouse",
+    "fullName": "Lynette Culverhouse",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -69619,7 +69619,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Meredith DiMola",
+    "fullName": "Meredith DiMola",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -70185,7 +70185,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Ian Goodsell",
+    "fullName": "Ian Goodsell",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -70751,7 +70751,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Christopher Heigham",
+    "fullName": "Christopher Heigham",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -71317,7 +71317,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Leba Heigham",
+    "fullName": "Leba Heigham",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -71883,7 +71883,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Judson Pierce",
+    "fullName": "Judson Pierce",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -72449,7 +72449,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Joyce Radochia",
+    "fullName": "Joyce Radochia",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -73015,7 +73015,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Matthew Reck",
+    "fullName": "Matthew Reck",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -73581,7 +73581,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Carroll Schwartz",
+    "fullName": "Carroll Schwartz",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -74147,7 +74147,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Paulette Schwartz",
+    "fullName": "Paulette Schwartz",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -74713,7 +74713,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Benjamin Ames",
+    "fullName": "Benjamin Ames",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -75279,7 +75279,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Lisa Bielefeld",
+    "fullName": "Lisa Bielefeld",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -75845,7 +75845,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Juliana Brazile",
+    "fullName": "Juliana Brazile",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -76411,7 +76411,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Larry Dieringer",
+    "fullName": "Larry Dieringer",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -76977,7 +76977,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "James DiTullio",
+    "fullName": "James DiTullio",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -77543,7 +77543,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Alexander Franzosa",
+    "fullName": "Alexander Franzosa",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -78109,7 +78109,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Eric Helmuth",
+    "fullName": "Eric Helmuth",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -78675,7 +78675,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Gordon Jamieson",
+    "fullName": "Gordon Jamieson",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -79241,7 +79241,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Robert Jefferson",
+    "fullName": "Robert Jefferson",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -79807,7 +79807,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Caroline Murray",
+    "fullName": "Caroline Murray",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -80373,7 +80373,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Jeffrey Thielman",
+    "fullName": "Jeffrey Thielman",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -80939,7 +80939,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Sanjay Vakil",
+    "fullName": "Sanjay Vakil",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -81505,7 +81505,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Kristin Anderson",
+    "fullName": "Kristin Anderson",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -82071,7 +82071,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Lynn Bishop",
+    "fullName": "Lynn Bishop",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -82637,7 +82637,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Michael Byrne",
+    "fullName": "Michael Byrne",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -83203,7 +83203,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "John Deyst",
+    "fullName": "John Deyst",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -83769,7 +83769,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Mary Deyst",
+    "fullName": "Mary Deyst",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -84335,7 +84335,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "DeAnne Dupont",
+    "fullName": "DeAnne Dupont",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -84901,7 +84901,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Laura Fuller",
+    "fullName": "Laura Fuller",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -85467,7 +85467,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "David Good",
+    "fullName": "David Good",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -86033,7 +86033,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Zachary Grunko",
+    "fullName": "Zachary Grunko",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -86599,7 +86599,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Marie Krepelka",
+    "fullName": "Marie Krepelka",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -87165,7 +87165,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Lee Poage",
+    "fullName": "Lee Poage",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -87731,7 +87731,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Priya Sankalia",
+    "fullName": "Priya Sankalia",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -88297,7 +88297,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Elisabeth Carr-Jones",
+    "fullName": "Elisabeth Carr-Jones",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -88863,7 +88863,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Wynelle Evans",
+    "fullName": "Wynelle Evans",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -89429,7 +89429,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Richard Gallagher",
+    "fullName": "Richard Gallagher",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -89995,7 +89995,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Amy Goldstein",
+    "fullName": "Amy Goldstein",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -90561,7 +90561,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Guillermo Hamlin",
+    "fullName": "Guillermo Hamlin",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -91127,7 +91127,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Michaiah Healy",
+    "fullName": "Michaiah Healy",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -91693,7 +91693,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Alan Jones",
+    "fullName": "Alan Jones",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -92259,7 +92259,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "John Maher",
+    "fullName": "John Maher",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -92825,7 +92825,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Diane Mahon",
+    "fullName": "Diane Mahon",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -93391,7 +93391,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Christopher Moore",
+    "fullName": "Christopher Moore",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -93957,7 +93957,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Brendan O'Day",
+    "fullName": "Brendan O'Day",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -94523,7 +94523,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Michael Stern",
+    "fullName": "Michael Stern",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -95089,7 +95089,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Kirsi Allison-Ampe",
+    "fullName": "Kirsi Allison-Ampe",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -95655,7 +95655,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Gregory Christiana",
+    "fullName": "Gregory Christiana",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -96221,7 +96221,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Frank Ciano",
+    "fullName": "Frank Ciano",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -96787,7 +96787,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Joseph Curro",
+    "fullName": "Joseph Curro",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -97353,7 +97353,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Rachelle Dobbs",
+    "fullName": "Rachelle Dobbs",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -97919,7 +97919,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Elizabeth Exton",
+    "fullName": "Elizabeth Exton",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -98485,7 +98485,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Beth Ann Friedman",
+    "fullName": "Beth Ann Friedman",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -99051,7 +99051,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Naomi Greenfield",
+    "fullName": "Naomi Greenfield",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -99617,7 +99617,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Annie LaCourt",
+    "fullName": "Annie LaCourt",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -100183,7 +100183,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Nancy Mara",
+    "fullName": "Nancy Mara",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -100749,7 +100749,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Jane Morgan",
+    "fullName": "Jane Morgan",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -101315,7 +101315,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Amy Speare",
+    "fullName": "Amy Speare",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -101881,7 +101881,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Lauren Boyle",
+    "fullName": "Lauren Boyle",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -102447,7 +102447,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Holly Czapski",
+    "fullName": "Holly Czapski",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -103013,7 +103013,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Chris DiMeo",
+    "fullName": "Chris DiMeo",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -103579,7 +103579,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Melanie Francis",
+    "fullName": "Melanie Francis",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -104145,7 +104145,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Deanna Graham",
+    "fullName": "Deanna Graham",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -104711,7 +104711,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "William Brooks Harrelson",
+    "fullName": "William Brooks Harrelson",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -105277,7 +105277,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Kevin Koch",
+    "fullName": "Kevin Koch",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -105843,7 +105843,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Marvin Lewiton",
+    "fullName": "Marvin Lewiton",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -106409,7 +106409,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Carol Luddecke",
+    "fullName": "Carol Luddecke",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -106975,7 +106975,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Sandra Mostajo",
+    "fullName": "Sandra Mostajo",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -107541,7 +107541,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Barbara Thornton",
+    "fullName": "Barbara Thornton",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -108107,7 +108107,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "John Weiss",
+    "fullName": "John Weiss",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -108673,7 +108673,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Joshua Arnold",
+    "fullName": "Joshua Arnold",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -109239,7 +109239,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Michael Brown",
+    "fullName": "Michael Brown",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -109805,7 +109805,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "John Finochetti",
+    "fullName": "John Finochetti",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -110371,7 +110371,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Ann Fitzgerald",
+    "fullName": "Ann Fitzgerald",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -110937,7 +110937,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Laura Gitelson",
+    "fullName": "Laura Gitelson",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -111503,7 +111503,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "John Leonard",
+    "fullName": "John Leonard",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -112069,7 +112069,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Ann LeRoyer",
+    "fullName": "Ann LeRoyer",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -112635,7 +112635,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Angela Olszewski",
+    "fullName": "Angela Olszewski",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -113201,7 +113201,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Xavid Pretzer",
+    "fullName": "Xavid Pretzer",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -113767,7 +113767,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Amy Slutzky",
+    "fullName": "Amy Slutzky",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -114333,7 +114333,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Allan Tosti",
+    "fullName": "Allan Tosti",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -114899,7 +114899,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Susan Webber",
+    "fullName": "Susan Webber",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -115465,7 +115465,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Nancy Bloom",
+    "fullName": "Nancy Bloom",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -116031,7 +116031,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Shirley Canniff",
+    "fullName": "Shirley Canniff",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -116597,7 +116597,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Heather Cooke",
+    "fullName": "Heather Cooke",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -117163,7 +117163,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "John Donato",
+    "fullName": "John Donato",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -117729,7 +117729,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Jon Gersh",
+    "fullName": "Jon Gersh",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -118295,7 +118295,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Kristin Greeley",
+    "fullName": "Kristin Greeley",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -118861,7 +118861,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Jeffrey Hadden",
+    "fullName": "Jeffrey Hadden",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -119427,7 +119427,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "John Hurd",
+    "fullName": "John Hurd",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -119993,7 +119993,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Gilbert Irizarry",
+    "fullName": "Gilbert Irizarry",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -120559,7 +120559,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "David Levy",
+    "fullName": "David Levy",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -121125,7 +121125,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Carolyn Parsons",
+    "fullName": "Carolyn Parsons",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -121691,7 +121691,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Michael Watson",
+    "fullName": "Michael Watson",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -122257,7 +122257,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Melanie Brown",
+    "fullName": "Melanie Brown",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -122823,7 +122823,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Deborah Butler",
+    "fullName": "Deborah Butler",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -123389,7 +123389,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Dganit Cohen",
+    "fullName": "Dganit Cohen",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -123955,7 +123955,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Neva Corbo-Hudek",
+    "fullName": "Neva Corbo-Hudek",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -124521,7 +124521,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Elaine Crowder",
+    "fullName": "Elaine Crowder",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -125087,7 +125087,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Christine Deshler",
+    "fullName": "Christine Deshler",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -125653,7 +125653,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Michelle Durocher",
+    "fullName": "Michelle Durocher",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -126219,7 +126219,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Doralee Fleurant-Heurtlou",
+    "fullName": "Doralee Fleurant-Heurtlou",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -126785,7 +126785,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Claire Johnson",
+    "fullName": "Claire Johnson",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -127351,7 +127351,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Flynn Monks",
+    "fullName": "Flynn Monks",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -127917,7 +127917,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Jonathan Rabinowitz",
+    "fullName": "Jonathan Rabinowitz",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -128483,7 +128483,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Ines Zuckerman",
+    "fullName": "Ines Zuckerman",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -129049,7 +129049,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Dean Carman",
+    "fullName": "Dean Carman",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -129615,7 +129615,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Curtis Connors",
+    "fullName": "Curtis Connors",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -130181,7 +130181,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Samantha Dutra",
+    "fullName": "Samantha Dutra",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -130747,7 +130747,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Peter Fuller",
+    "fullName": "Peter Fuller",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -131313,7 +131313,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Maureen Gormley",
+    "fullName": "Maureen Gormley",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -131879,7 +131879,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Leonard Kardon",
+    "fullName": "Leonard Kardon",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -132445,7 +132445,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Michaela May",
+    "fullName": "Michaela May",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -133011,7 +133011,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Sarah McKinnon",
+    "fullName": "Sarah McKinnon",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -133577,7 +133577,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Patricia Muldoon",
+    "fullName": "Patricia Muldoon",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -134143,7 +134143,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Kristin Pennarun",
+    "fullName": "Kristin Pennarun",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -134709,7 +134709,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Katharine Radville",
+    "fullName": "Katharine Radville",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -135275,7 +135275,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Robert Tosi",
+    "fullName": "Robert Tosi",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -135841,7 +135841,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Beth Benedikt",
+    "fullName": "Beth Benedikt",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -136407,7 +136407,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Susan Doctrow",
+    "fullName": "Susan Doctrow",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -136973,7 +136973,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Daniel Dunn",
+    "fullName": "Daniel Dunn",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -137539,7 +137539,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Anne Ehlert",
+    "fullName": "Anne Ehlert",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -138105,7 +138105,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Carmine Granucci",
+    "fullName": "Carmine Granucci",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -138671,7 +138671,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Lori Leahy",
+    "fullName": "Lori Leahy",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -139237,7 +139237,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Leslie Mayer",
+    "fullName": "Leslie Mayer",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -139803,7 +139803,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Zarina Memon",
+    "fullName": "Zarina Memon",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -140369,7 +140369,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Christopher Rowell",
+    "fullName": "Christopher Rowell",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -140935,7 +140935,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Janice Weber",
+    "fullName": "Janice Weber",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -141501,7 +141501,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Jordan Weinstein",
+    "fullName": "Jordan Weinstein",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -142067,7 +142067,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "David White",
+    "fullName": "David White",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -142633,7 +142633,7 @@
   },
   {
     "precinct": "",
-    "representativeFullName": "Total 1 = Yes",
+    "fullName": "Total 1 = Yes",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -143199,7 +143199,7 @@
   },
   {
     "precinct": "",
-    "representativeFullName": "Total 2 = No",
+    "fullName": "Total 2 = No",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -143765,7 +143765,7 @@
   },
   {
     "precinct": "",
-    "representativeFullName": "Total 3 = Abstain",
+    "fullName": "Total 3 = Abstain",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -144331,7 +144331,7 @@
   },
   {
     "precinct": "",
-    "representativeFullName": "Total Voters",
+    "fullName": "Total Voters",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",
@@ -144897,7 +144897,7 @@
   },
   {
     "precinct": "",
-    "representativeFullName": "Pass/Fail",
+    "fullName": "Pass/Fail",
     "votes": [
       {
         "articleName": "Art-3: REPORTS OF COMMITTEES ",

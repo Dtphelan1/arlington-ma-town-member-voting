@@ -93,7 +93,7 @@ function TableFilters({
           [precinct, onPrecinctChange]
         )}
       </div>
-      {/* Representative Search */}
+      {/* TMM Search */}
       <div className="filter">
         <label htmlFor="tmmSearch">{copy.tmmSearchLabel}</label>
         <input

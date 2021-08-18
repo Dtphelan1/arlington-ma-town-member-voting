@@ -2,7 +2,7 @@ jq --slurp --raw-input \
   'split("\n") | .[1:] | map(split(",")) |
   map({
     "precinct": .[0],
-    "representativeFullName": .[1],
+    "fullName": .[1],
     "votes": [
 {
     "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",

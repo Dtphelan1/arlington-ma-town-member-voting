@@ -14,24 +14,24 @@ function setupRoutes(app) {
 
     return precincts;
   }
-  app.get(`${apiPrefix}/representatives`, function (req, res) {
+  app.get(`${apiPrefix}/townMeetingMembers`, function (req, res) {
     const precincts = getPrecinctsQueryParam(req);
     if (precincts.length === 0) {
-      return res.send(dao.getRepresentatives());
+      return res.send(dao.getTownMeetingMembers());
     } else {
       const result = [];
       precincts.forEach(precinct => {
-        result.push(...dao.getRepresentatives(precinct));
+        result.push(...dao.getTownMeetingMembers(precinct));
       });
 
       return res.send(result);
     }
   });
 
-  app.get(`${apiPrefix}/representatives/history`, function (req, res) {
+  app.get(`${apiPrefix}/townMeetingMembers/history`, function (req, res) {
     const precincts = getPrecinctsQueryParam(req);
     if (precincts.length === 0) {
-      precincts.push(...Array.from(new Set(dao.getRepresentatives().map(rep => rep.precinct))));
+      precincts.push(...Array.from(new Set(dao.getTownMeetingMembers().map(rep => rep.precinct))));
     }
 
     const result = [];
@@ -39,21 +39,21 @@ function setupRoutes(app) {
     const articles = dao.getArticles();
     const articleIds = new Set(articles.map(a => a.id));
 
-    const representatives = dao.getRepresentatives();
+    const townMeetingMembers = dao.getTownMeetingMembers();
     precincts.forEach(precinct => {
-      const representativeNameToVotes = dao.getVotingRecordByPrecinct(precinct);
-      Object.keys(representativeNameToVotes).forEach(memberName => {
-        const representativeData = representatives.find(r => r.fullName === memberName);
+      const townMeetingMemberNameToVotes = dao.getVotingRecordByPrecinct(precinct);
+      Object.keys(townMeetingMemberNameToVotes).forEach(memberName => {
+        const townMeetingMemberData = townMeetingMembers.find(r => r.fullName === memberName);
         const voteHistory = {
-          representative: {
+          townMeetingMember: {
             fullName: memberName,
-            precinct: representativeData.precinct,
-            reelection: representativeData.reelection
+            precinct: townMeetingMemberData.precinct,
+            reelection: townMeetingMemberData.reelection
           },
           votes: []
         };
 
-        representativeNameToVotes[memberName].forEach(voteRecord => {
+        townMeetingMemberNameToVotes[memberName].forEach(voteRecord => {
           const isArticle = articleIds.has(voteRecord.articleId);
 
           // The data is structured on-disk with amendment votes being at the same level,
@@ -78,7 +78,7 @@ function setupRoutes(app) {
                 article.amendments &&
                 article.amendments
                   .map(amendment => {
-                    const amendmentVote = representativeNameToVotes[memberName].find(
+                    const amendmentVote = townMeetingMemberNameToVotes[memberName].find(
                       voteable => voteable.articleId === amendment.id
                     );
 
@@ -86,7 +86,7 @@ function setupRoutes(app) {
                     // An example is the 2020 ranked choice voting article which had three amendments but none of those votes
                     // show up in the public vote data.
                     if (amendmentVote == null) {
-                      // console.log(memberName, "\n", voteRecord, "\n", amendment, "\n", representativeNameToVotes[memberName])
+                      // console.log(memberName, "\n", voteRecord, "\n", amendment, "\n", townMeetingMemberNameToVotes[memberName])
                       return null;
                     }
                     return {

@@ -2,7 +2,7 @@ jq --slurp --raw-input \
   'split("\n") | .[1:] | map(split(",")) |
   map({
     "precinct": .[0],
-    "representativeFullName": .[1],
+    "fullName": .[1],
     "votes": [
       {
         "articleId": "D4FB9490-1894-4FDA-8B56-7F4F3ED9B091",
@@ -41,5 +41,5 @@ jq --slurp --raw-input \
         "vote": .[10]
       }
     ]
-  })' 2020-12-02_raw.csv 
+  })' 2020-12-02_raw.csv
 

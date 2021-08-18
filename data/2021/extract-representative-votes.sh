@@ -6,7 +6,7 @@ jq --slurp --raw-input \
   | . as $voters
   | [foreach ($voters | length | range(.)) as $i ({}; true; {
     "precinct": $voters[$i][0] | rtrimstr("\r"),
-    "representativeFullName": $voters[$i][1] | rtrimstr("\r"),
+    "fullName": $voters[$i][1] | rtrimstr("\r"),
     "votes": [foreach ($articles | length | range(.)) as $j ({}; true; {
       "articleName": $articles[$j] | rtrimstr("\r"),
       "articleNumber": $articles[$j] | match("Art-(\\d+)") | .captures[0].string | tonumber,

@@ -19,9 +19,9 @@ function DataPage() {
   // Use Async to load the data anytime the APIURL changes
   const dataState = useAsync(async () => {
     if (precinct) {
-      return fetch(`${apiURL}/representatives/history?precincts=${precinct}`).then(res => res.json());
+      return fetch(`${apiURL}/townMeetingMember/history?precincts=${precinct}`).then(res => res.json());
     }
-    return fetch(`${apiURL}/representatives/history`).then(res => res.json());
+    return fetch(`${apiURL}/townMeetingMember/history`).then(res => res.json());
   }, [precinct]);
 
   return (

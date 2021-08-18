@@ -1,7 +1,7 @@
 [
   {
     "precinct": "1",
-    "representativeFullName": "Leah Broder",
+    "fullName": "Leah Broder",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -47,7 +47,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Gregory Dennis",
+    "fullName": "Gregory Dennis",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -93,7 +93,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Nada El-Newahy",
+    "fullName": "Nada El-Newahy",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -139,7 +139,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Stephanie Ford-Weems",
+    "fullName": "Stephanie Ford-Weems",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -185,7 +185,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Asia Kepka",
+    "fullName": "Asia Kepka",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -231,7 +231,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Marian King",
+    "fullName": "Marian King",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -277,7 +277,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Paul Marshall",
+    "fullName": "Paul Marshall",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -323,7 +323,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Kevin Mills",
+    "fullName": "Kevin Mills",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -369,7 +369,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Juliet Moir",
+    "fullName": "Juliet Moir",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -415,7 +415,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Rebecca Persson",
+    "fullName": "Rebecca Persson",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -461,7 +461,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Stephen Revilak",
+    "fullName": "Stephen Revilak",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -507,7 +507,7 @@
   },
   {
     "precinct": "1",
-    "representativeFullName": "Peter Young",
+    "fullName": "Peter Young",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -553,7 +553,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Alexander Bilsky",
+    "fullName": "Alexander Bilsky",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -599,7 +599,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Steven Cella",
+    "fullName": "Steven Cella",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -645,7 +645,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Samit Chhabra",
+    "fullName": "Samit Chhabra",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -691,7 +691,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Stephen DeCourcey",
+    "fullName": "Stephen DeCourcey",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -737,7 +737,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Peter Gast",
+    "fullName": "Peter Gast",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -783,7 +783,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Bill Hayner",
+    "fullName": "Bill Hayner",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -829,7 +829,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Aimee Lim-Miller",
+    "fullName": "Aimee Lim-Miller",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -875,7 +875,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "William Logan",
+    "fullName": "William Logan",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -921,7 +921,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Mark McCabe",
+    "fullName": "Mark McCabe",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -967,7 +967,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Virginia Reeder",
+    "fullName": "Virginia Reeder",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1013,7 +1013,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Robert Rossi",
+    "fullName": "Robert Rossi",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1059,7 +1059,7 @@
   },
   {
     "precinct": "2",
-    "representativeFullName": "Brendan Sullivan",
+    "fullName": "Brendan Sullivan",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1105,7 +1105,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Adam Auster",
+    "fullName": "Adam Auster",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1151,7 +1151,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Lenard Diggins",
+    "fullName": "Lenard Diggins",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1197,7 +1197,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Robin Dratch",
+    "fullName": "Robin Dratch",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1243,7 +1243,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "John Ellis",
+    "fullName": "John Ellis",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1289,7 +1289,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Robert Marlin",
+    "fullName": "Robert Marlin",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1335,7 +1335,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Kezia Simister",
+    "fullName": "Kezia Simister",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1381,7 +1381,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Stacie Smith",
+    "fullName": "Stacie Smith",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1427,7 +1427,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Susan Stamps",
+    "fullName": "Susan Stamps",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1473,7 +1473,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Jennifer Susse",
+    "fullName": "Jennifer Susse",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1519,7 +1519,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Anne Thompson",
+    "fullName": "Anne Thompson",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1565,7 +1565,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Courtney Urick",
+    "fullName": "Courtney Urick",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1611,7 +1611,7 @@
   },
   {
     "precinct": "3",
-    "representativeFullName": "Christopher Wilbur",
+    "fullName": "Christopher Wilbur",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1657,7 +1657,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Alia Atlas",
+    "fullName": "Alia Atlas",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1703,7 +1703,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Patricia Costa",
+    "fullName": "Patricia Costa",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1749,7 +1749,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Silvia Domínguez",
+    "fullName": "Silvia Domínguez",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1795,7 +1795,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Nawwaf Kaba",
+    "fullName": "Nawwaf Kaba",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1841,7 +1841,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Kate Leary",
+    "fullName": "Kate Leary",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1887,7 +1887,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Adam MacNeill",
+    "fullName": "Adam MacNeill",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1933,7 +1933,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Madeleine McClure",
+    "fullName": "Madeleine McClure",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -1979,7 +1979,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Michele Phelan",
+    "fullName": "Michele Phelan",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2025,7 +2025,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Clarissa Rowe",
+    "fullName": "Clarissa Rowe",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2071,7 +2071,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Alham Saadat",
+    "fullName": "Alham Saadat",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2117,7 +2117,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Carolyn Sullivan",
+    "fullName": "Carolyn Sullivan",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2163,7 +2163,7 @@
   },
   {
     "precinct": "4",
-    "representativeFullName": "Ethan Zimmer",
+    "fullName": "Ethan Zimmer",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2209,7 +2209,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Adam Badik",
+    "fullName": "Adam Badik",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2255,7 +2255,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Jason Donnelly",
+    "fullName": "Jason Donnelly",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2301,7 +2301,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Catherine Farrell",
+    "fullName": "Catherine Farrell",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2347,7 +2347,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Patrick Hanlon",
+    "fullName": "Patrick Hanlon",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2393,7 +2393,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Christa Kelleher",
+    "fullName": "Christa Kelleher",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2439,7 +2439,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Karen Kelleher",
+    "fullName": "Karen Kelleher",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2485,7 +2485,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Lauren Ledger",
+    "fullName": "Lauren Ledger",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2531,7 +2531,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Katherine Mayers",
+    "fullName": "Katherine Mayers",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2577,7 +2577,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Brian McMurray",
+    "fullName": "Brian McMurray",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2623,7 +2623,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Christine Michael",
+    "fullName": "Christine Michael",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2669,7 +2669,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "David Swanson",
+    "fullName": "David Swanson",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2715,7 +2715,7 @@
   },
   {
     "precinct": "5",
-    "representativeFullName": "Peter Thompson",
+    "fullName": "Peter Thompson",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2761,7 +2761,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "James Ballin",
+    "fullName": "James Ballin",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2807,7 +2807,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Charles Blandy",
+    "fullName": "Charles Blandy",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2853,7 +2853,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Mara Collins",
+    "fullName": "Mara Collins",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2899,7 +2899,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Andrew Fischer",
+    "fullName": "Andrew Fischer",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2945,7 +2945,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Daniel Jalkut",
+    "fullName": "Daniel Jalkut",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -2991,7 +2991,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Adele Kraus",
+    "fullName": "Adele Kraus",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3037,7 +3037,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "George McNinch",
+    "fullName": "George McNinch",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3083,7 +3083,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Theodore Peluso",
+    "fullName": "Theodore Peluso",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3129,7 +3129,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Lisa Reynolds",
+    "fullName": "Lisa Reynolds",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3175,7 +3175,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Jill Snyder",
+    "fullName": "Jill Snyder",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3221,7 +3221,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Laura Tracey",
+    "fullName": "Laura Tracey",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3267,7 +3267,7 @@
   },
   {
     "precinct": "6",
-    "representativeFullName": "Lesley Waxman",
+    "fullName": "Lesley Waxman",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3313,7 +3313,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Alexander Bagnall",
+    "fullName": "Alexander Bagnall",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3359,7 +3359,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Sheri Baron",
+    "fullName": "Sheri Baron",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3405,7 +3405,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Phil Goff",
+    "fullName": "Phil Goff",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3451,7 +3451,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Roderick Holland",
+    "fullName": "Roderick Holland",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3497,7 +3497,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Mary Malek-Odom",
+    "fullName": "Mary Malek-Odom",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3543,7 +3543,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Catherine McParland",
+    "fullName": "Catherine McParland",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3589,7 +3589,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Thomas Michelman",
+    "fullName": "Thomas Michelman",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3635,7 +3635,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Lisa Pedulla",
+    "fullName": "Lisa Pedulla",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3681,7 +3681,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Laurence Slotnick",
+    "fullName": "Laurence Slotnick",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3727,7 +3727,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Betty Stone",
+    "fullName": "Betty Stone",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3773,7 +3773,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Timur Yontar",
+    "fullName": "Timur Yontar",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3819,7 +3819,7 @@
   },
   {
     "precinct": "7",
-    "representativeFullName": "Rebecca Younkin",
+    "fullName": "Rebecca Younkin",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3865,7 +3865,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Carol Band",
+    "fullName": "Carol Band",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3911,7 +3911,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "William Berkowitz",
+    "fullName": "William Berkowitz",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -3957,7 +3957,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Elizabeth Dray",
+    "fullName": "Elizabeth Dray",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4003,7 +4003,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Charles Foskett",
+    "fullName": "Charles Foskett",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4049,7 +4049,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Irwin Grossman",
+    "fullName": "Irwin Grossman",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4095,7 +4095,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Sharon Grossman",
+    "fullName": "Sharon Grossman",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4141,7 +4141,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Scott Lever",
+    "fullName": "Scott Lever",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4187,7 +4187,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Joshua Lobel",
+    "fullName": "Joshua Lobel",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4233,7 +4233,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Sophie Migliazzo",
+    "fullName": "Sophie Migliazzo",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4279,7 +4279,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Brian Rehrig",
+    "fullName": "Brian Rehrig",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4325,7 +4325,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "John Worden",
+    "fullName": "John Worden",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4371,7 +4371,7 @@
   },
   {
     "precinct": "8",
-    "representativeFullName": "Patricia Worden",
+    "fullName": "Patricia Worden",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4417,7 +4417,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Lisa Blankespoor",
+    "fullName": "Lisa Blankespoor",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4463,7 +4463,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Barbara Boltz",
+    "fullName": "Barbara Boltz",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4509,7 +4509,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Brian Hasbrouck",
+    "fullName": "Brian Hasbrouck",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4555,7 +4555,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Steven Liggett",
+    "fullName": "Steven Liggett",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4601,7 +4601,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Mona Mandal",
+    "fullName": "Mona Mandal",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4647,7 +4647,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Susan McCabe",
+    "fullName": "Susan McCabe",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4693,7 +4693,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Beth Melofchik",
+    "fullName": "Beth Melofchik",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4739,7 +4739,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Jo Anne Preston",
+    "fullName": "Jo Anne Preston",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4785,7 +4785,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Michael Ruderman",
+    "fullName": "Michael Ruderman",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4831,7 +4831,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Paul Schlichtman",
+    "fullName": "Paul Schlichtman",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4877,7 +4877,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Susan Stewart",
+    "fullName": "Susan Stewart",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4923,7 +4923,7 @@
   },
   {
     "precinct": "9",
-    "representativeFullName": "Rieko Tanaka",
+    "fullName": "Rieko Tanaka",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -4969,7 +4969,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Barbara Costa",
+    "fullName": "Barbara Costa",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5015,7 +5015,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Danuta Forbes",
+    "fullName": "Danuta Forbes",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5061,7 +5061,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Jane Howard",
+    "fullName": "Jane Howard",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5107,7 +5107,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Peter Howard",
+    "fullName": "Peter Howard",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5153,7 +5153,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Christian Klein",
+    "fullName": "Christian Klein",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5199,7 +5199,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Charlotte Milan",
+    "fullName": "Charlotte Milan",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5245,7 +5245,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Sanjay Newton",
+    "fullName": "Sanjay Newton",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5291,7 +5291,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Elizabeth Pyle",
+    "fullName": "Elizabeth Pyle",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5337,7 +5337,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Michael Quinn",
+    "fullName": "Michael Quinn",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5383,7 +5383,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Christopher Rohter",
+    "fullName": "Christopher Rohter",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5429,7 +5429,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Mustafa Varoglu",
+    "fullName": "Mustafa Varoglu",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5475,7 +5475,7 @@
   },
   {
     "precinct": "10",
-    "representativeFullName": "Donna Wren",
+    "fullName": "Donna Wren",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5521,7 +5521,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Mary Ellen Bilafer",
+    "fullName": "Mary Ellen Bilafer",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5567,7 +5567,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Christine Carney",
+    "fullName": "Christine Carney",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5613,7 +5613,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Lynette Culverhouse",
+    "fullName": "Lynette Culverhouse",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5659,7 +5659,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Meredith DiMola",
+    "fullName": "Meredith DiMola",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5705,7 +5705,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Ian Goodsell",
+    "fullName": "Ian Goodsell",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5751,7 +5751,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Christopher Heigham",
+    "fullName": "Christopher Heigham",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5797,7 +5797,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Leba Heigham",
+    "fullName": "Leba Heigham",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5843,7 +5843,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Judson Pierce",
+    "fullName": "Judson Pierce",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5889,7 +5889,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Joyce Radochia",
+    "fullName": "Joyce Radochia",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5935,7 +5935,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Matthew Reck",
+    "fullName": "Matthew Reck",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -5981,7 +5981,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Carroll Schwartz",
+    "fullName": "Carroll Schwartz",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6027,7 +6027,7 @@
   },
   {
     "precinct": "11",
-    "representativeFullName": "Paulette Schwartz",
+    "fullName": "Paulette Schwartz",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6073,7 +6073,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Benjamin Ames",
+    "fullName": "Benjamin Ames",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6119,7 +6119,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Lisa Bielefeld",
+    "fullName": "Lisa Bielefeld",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6165,7 +6165,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Juliana Brazile",
+    "fullName": "Juliana Brazile",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6211,7 +6211,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Larry Dieringer",
+    "fullName": "Larry Dieringer",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6257,7 +6257,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "James DiTullio",
+    "fullName": "James DiTullio",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6303,7 +6303,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Eric Helmuth",
+    "fullName": "Eric Helmuth",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6349,7 +6349,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Gordon Jamieson",
+    "fullName": "Gordon Jamieson",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6395,7 +6395,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Robert Jefferson",
+    "fullName": "Robert Jefferson",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6441,7 +6441,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Caroline Murray",
+    "fullName": "Caroline Murray",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6487,7 +6487,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Helene Newberg",
+    "fullName": "Helene Newberg",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6533,7 +6533,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Jeffrey Thielman",
+    "fullName": "Jeffrey Thielman",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6579,7 +6579,7 @@
   },
   {
     "precinct": "12",
-    "representativeFullName": "Sanjay Vakil",
+    "fullName": "Sanjay Vakil",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6625,7 +6625,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Kristin Anderson",
+    "fullName": "Kristin Anderson",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6671,7 +6671,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Lynn Bishop",
+    "fullName": "Lynn Bishop",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6717,7 +6717,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Michael Byrne",
+    "fullName": "Michael Byrne",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6763,7 +6763,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "John Deyst",
+    "fullName": "John Deyst",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6809,7 +6809,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Mary Deyst",
+    "fullName": "Mary Deyst",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6855,7 +6855,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "DeAnne Dupont",
+    "fullName": "DeAnne Dupont",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6901,7 +6901,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Laura Fuller",
+    "fullName": "Laura Fuller",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6947,7 +6947,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "David Good",
+    "fullName": "David Good",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -6993,7 +6993,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Zachary Grunko",
+    "fullName": "Zachary Grunko",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7039,7 +7039,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Marie Krepelka",
+    "fullName": "Marie Krepelka",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7085,7 +7085,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Lee Poage",
+    "fullName": "Lee Poage",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7131,7 +7131,7 @@
   },
   {
     "precinct": "13",
-    "representativeFullName": "Priya Sankalia",
+    "fullName": "Priya Sankalia",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7177,7 +7177,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Elisabeth Carr-Jones",
+    "fullName": "Elisabeth Carr-Jones",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7223,7 +7223,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Richard Gallagher",
+    "fullName": "Richard Gallagher",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7269,7 +7269,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Amy Goldstein",
+    "fullName": "Amy Goldstein",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7315,7 +7315,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Guillermo Hamlin",
+    "fullName": "Guillermo Hamlin",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7361,7 +7361,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Michaiah Healy",
+    "fullName": "Michaiah Healy",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7407,7 +7407,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Alan Jones",
+    "fullName": "Alan Jones",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7453,7 +7453,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Diane Mahon",
+    "fullName": "Diane Mahon",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7499,7 +7499,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Christopher Moore",
+    "fullName": "Christopher Moore",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7545,7 +7545,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Brendan O'Day",
+    "fullName": "Brendan O'Day",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7591,7 +7591,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Adam Pachter",
+    "fullName": "Adam Pachter",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7637,7 +7637,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Michael Stern",
+    "fullName": "Michael Stern",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7683,7 +7683,7 @@
   },
   {
     "precinct": "14",
-    "representativeFullName": "Joseph Tully",
+    "fullName": "Joseph Tully",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7729,7 +7729,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Kirsi Allison-Ampe",
+    "fullName": "Kirsi Allison-Ampe",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7775,7 +7775,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Gregory Christiana",
+    "fullName": "Gregory Christiana",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7821,7 +7821,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Frank Ciano",
+    "fullName": "Frank Ciano",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7867,7 +7867,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Joseph Curro",
+    "fullName": "Joseph Curro",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7913,7 +7913,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Rachelle Dobbs",
+    "fullName": "Rachelle Dobbs",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -7959,7 +7959,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Elizabeth Exton",
+    "fullName": "Elizabeth Exton",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8005,7 +8005,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Beth Ann Friedman",
+    "fullName": "Beth Ann Friedman",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8051,7 +8051,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Naomi Greenfield",
+    "fullName": "Naomi Greenfield",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8097,7 +8097,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Annie LaCourt",
+    "fullName": "Annie LaCourt",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8143,7 +8143,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Nancy Mara",
+    "fullName": "Nancy Mara",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8189,7 +8189,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Jane Morgan",
+    "fullName": "Jane Morgan",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8235,7 +8235,7 @@
   },
   {
     "precinct": "15",
-    "representativeFullName": "Amy Speare",
+    "fullName": "Amy Speare",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8281,7 +8281,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Lauren Boyle",
+    "fullName": "Lauren Boyle",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8327,7 +8327,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Holly Czapski",
+    "fullName": "Holly Czapski",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8373,7 +8373,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Chris DiMeo",
+    "fullName": "Chris DiMeo",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8419,7 +8419,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Deanna Graham",
+    "fullName": "Deanna Graham",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8465,7 +8465,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Brooks Harrelson",
+    "fullName": "Brooks Harrelson",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8511,7 +8511,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Kevin Koch",
+    "fullName": "Kevin Koch",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8557,7 +8557,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Marvin Lewiton",
+    "fullName": "Marvin Lewiton",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8603,7 +8603,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Carol Luddecke",
+    "fullName": "Carol Luddecke",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8649,7 +8649,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Sandra Mostajo",
+    "fullName": "Sandra Mostajo",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8695,7 +8695,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Allen Reedy",
+    "fullName": "Allen Reedy",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8741,7 +8741,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "Barbara Thornton",
+    "fullName": "Barbara Thornton",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8787,7 +8787,7 @@
   },
   {
     "precinct": "16",
-    "representativeFullName": "John Weiss",
+    "fullName": "John Weiss",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8833,7 +8833,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Joshua Arnold",
+    "fullName": "Joshua Arnold",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8879,7 +8879,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Michael Brown",
+    "fullName": "Michael Brown",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8925,7 +8925,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Sarah Burks",
+    "fullName": "Sarah Burks",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -8971,7 +8971,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "John Finochetti",
+    "fullName": "John Finochetti",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9017,7 +9017,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Ann Fitzgerald",
+    "fullName": "Ann Fitzgerald",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9063,7 +9063,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Laura Gitelson",
+    "fullName": "Laura Gitelson",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9109,7 +9109,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "John Leonard",
+    "fullName": "John Leonard",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9155,7 +9155,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Ann LeRoyer",
+    "fullName": "Ann LeRoyer",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9201,7 +9201,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Angela Olszewski",
+    "fullName": "Angela Olszewski",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9247,7 +9247,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Amy Slutzky",
+    "fullName": "Amy Slutzky",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9293,7 +9293,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Allan Tosti",
+    "fullName": "Allan Tosti",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9339,7 +9339,7 @@
   },
   {
     "precinct": "17",
-    "representativeFullName": "Susan Webber",
+    "fullName": "Susan Webber",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9385,7 +9385,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Nancy Bloom",
+    "fullName": "Nancy Bloom",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9431,7 +9431,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Shirley Canniff",
+    "fullName": "Shirley Canniff",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9477,7 +9477,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Heather Cooke",
+    "fullName": "Heather Cooke",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9523,7 +9523,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "John Donato",
+    "fullName": "John Donato",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9569,7 +9569,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "William Ford",
+    "fullName": "William Ford",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9615,7 +9615,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Jon Gersh",
+    "fullName": "Jon Gersh",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9661,7 +9661,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Jeffrey Hadden",
+    "fullName": "Jeffrey Hadden",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9707,7 +9707,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Gilbert Irizarry",
+    "fullName": "Gilbert Irizarry",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9753,7 +9753,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "David Levy",
+    "fullName": "David Levy",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9799,7 +9799,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Daniel Parmer",
+    "fullName": "Daniel Parmer",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9845,7 +9845,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Carolyn Parsons",
+    "fullName": "Carolyn Parsons",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9891,7 +9891,7 @@
   },
   {
     "precinct": "18",
-    "representativeFullName": "Michael Watson",
+    "fullName": "Michael Watson",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9937,7 +9937,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Melanie Brown",
+    "fullName": "Melanie Brown",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -9983,7 +9983,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Deborah Butler",
+    "fullName": "Deborah Butler",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10029,7 +10029,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Dganit Cohen",
+    "fullName": "Dganit Cohen",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10075,7 +10075,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Neva Corbo-Hudek",
+    "fullName": "Neva Corbo-Hudek",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10121,7 +10121,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Elaine Crowder",
+    "fullName": "Elaine Crowder",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10167,7 +10167,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Christine Deshler",
+    "fullName": "Christine Deshler",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10213,7 +10213,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Michelle Durocher",
+    "fullName": "Michelle Durocher",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10259,7 +10259,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Claire Johnson",
+    "fullName": "Claire Johnson",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10305,7 +10305,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Flynn Monks",
+    "fullName": "Flynn Monks",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10351,7 +10351,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "James O'Conor",
+    "fullName": "James O'Conor",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10397,7 +10397,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Jonathan Rabinowitz",
+    "fullName": "Jonathan Rabinowitz",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10443,7 +10443,7 @@
   },
   {
     "precinct": "19",
-    "representativeFullName": "Edward Trembly",
+    "fullName": "Edward Trembly",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10489,7 +10489,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Dean Carman",
+    "fullName": "Dean Carman",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10535,7 +10535,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Curtis Connors",
+    "fullName": "Curtis Connors",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10581,7 +10581,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Samantha Dutra",
+    "fullName": "Samantha Dutra",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10627,7 +10627,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Peter Fuller",
+    "fullName": "Peter Fuller",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10673,7 +10673,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Maureen Gormley",
+    "fullName": "Maureen Gormley",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10719,7 +10719,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Camilla Haase",
+    "fullName": "Camilla Haase",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10765,7 +10765,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Leonard Kardon",
+    "fullName": "Leonard Kardon",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10811,7 +10811,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Michaela May",
+    "fullName": "Michaela May",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10857,7 +10857,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Patricia Muldoon",
+    "fullName": "Patricia Muldoon",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10903,7 +10903,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Kristin Pennarun",
+    "fullName": "Kristin Pennarun",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10949,7 +10949,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Katharine Radville",
+    "fullName": "Katharine Radville",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -10995,7 +10995,7 @@
   },
   {
     "precinct": "20",
-    "representativeFullName": "Robert Tosi",
+    "fullName": "Robert Tosi",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -11041,7 +11041,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Beth Benedikt",
+    "fullName": "Beth Benedikt",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -11087,7 +11087,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Susan Doctrow",
+    "fullName": "Susan Doctrow",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -11133,7 +11133,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Daniel Dunn",
+    "fullName": "Daniel Dunn",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -11179,7 +11179,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Anne Ehlert",
+    "fullName": "Anne Ehlert",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -11225,7 +11225,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Pamela Hallett",
+    "fullName": "Pamela Hallett",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -11271,7 +11271,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Lori Leahy",
+    "fullName": "Lori Leahy",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -11317,7 +11317,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Leslie Mayer",
+    "fullName": "Leslie Mayer",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -11363,7 +11363,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Zarina Memon",
+    "fullName": "Zarina Memon",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -11409,7 +11409,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Christopher Rowell",
+    "fullName": "Christopher Rowell",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -11455,7 +11455,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Janice Weber",
+    "fullName": "Janice Weber",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -11501,7 +11501,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "Jordan Weinstein",
+    "fullName": "Jordan Weinstein",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
@@ -11547,7 +11547,7 @@
   },
   {
     "precinct": "21",
-    "representativeFullName": "David White",
+    "fullName": "David White",
     "votes": [
       {
         "articleId": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
