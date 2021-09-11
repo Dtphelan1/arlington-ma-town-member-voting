@@ -6,11 +6,13 @@ import '../styles/splash.scss';
 
 const homeCopy = {
   title: 'Voting Record of Arlington, MA Town Meeting Members',
-  subtitle: 'See how your precinct town meeting members voted in 2020 before you vote in 2021',
+  subtitle: 'See how your town meeting members voted on the Arlington issues most important to you',
   inputPlaceholder: 'Precinct #',
   inputHelperText: 'Find your precinct here',
   inputHelperTextLink: 'https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx'
 };
+
+const YEAR = 2021;
 
 function HomePage() {
   const history = useHistory();
@@ -18,9 +20,9 @@ function HomePage() {
   const setPrecinct = useCallback(
     precinct => {
       if (precinct.value) {
-        history.push(`/data?precinct=${precinct.value}`);
+        history.push(`/data?precinct=${precinct.value}&year=${YEAR}`);
       } else {
-        history.push(`/data`);
+        history.push(`/data?&year=${YEAR}`);
       }
     },
     [history]

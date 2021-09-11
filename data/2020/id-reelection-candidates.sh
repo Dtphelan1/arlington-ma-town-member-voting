@@ -6,4 +6,4 @@ jq --slurp '
         inside($tmm2020 | .[])
       )
     )
-  ' representatives-up-for-reelection.json 2020tmm.json > 2020reelectioncandidates.json
+  ' tmm-up-for-reelection.json 2020tmm.json > 2020reelectioncandidates.json

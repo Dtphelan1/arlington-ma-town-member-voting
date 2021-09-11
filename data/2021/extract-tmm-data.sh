@@ -3,5 +3,5 @@ jq --slurp --raw-input \
   map({
     "precinct": .[0],
     "fullName": .[1]
-  })' 2021_ATM_all_votes.csv > extracted-representatives.json
+  })' 2021_ATM_all_votes.csv > extracted-tmms.json
 

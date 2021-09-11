@@ -14,5 +14,5 @@ jq --slurp --raw-input \
       }
     )]
   })]
-  ' 2021_ATM_all_votes.csv > extracted-representative-votes.json
+  ' 2021_ATM_all_votes.csv > extracted-tmm-votes.json
 
