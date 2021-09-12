@@ -9,7 +9,6 @@ jq --slurp --raw-input \
     "fullName": $voters[$i][1] | rtrimstr("\r"),
     "votes": [foreach ($articles | length | range(.)) as $j ({}; true; {
       "articleName": $articles[$j] | rtrimstr("\r"),
-      "articleNumber": $articles[$j] | match("Art-(\\d+)") | .captures[0].string | tonumber,
       "vote": $voters[$i][$j + 2] | rtrimstr("\r")
       }
     )]
