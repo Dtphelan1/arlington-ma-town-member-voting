@@ -10,10 +10,7 @@
     "status": "Pass",
     "id": "D4225B2A-4451-41C8-8F51-1FC6E6CF754D",
     "articleNumber": 1,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article1",
-      "arlingtonGov": null
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article1"
   },
   {
     "video": null,
@@ -26,10 +23,7 @@
     "status": null,
     "id": "EFBEB8CD-3070-4B50-8966-7FB669A4FCA1",
     "articleNumber": 2,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article2",
-      "arlingtonGov": null
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article2"
   },
   {
     "video": null,
@@ -54,10 +48,7 @@
     ],
     "id": "44E061A4-CEA7-4860-BC83-0FE44334EC3A",
     "articleNumber": 3,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article3",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10224&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article3"
   },
   {
     "video": null,
@@ -72,15 +63,12 @@
       {
         "id": "F2EE5268-B3D7-4FFB-946D-BBA6420CD08A",
         "comment": "AMENDMENT P. Muldoon - removing entirely Section 10 of bylaws specifying hours, extending hours indefinitely. VOTED: 23-Nov Pass (for: 211, against: 29, abstain: 2)",
-        "url":"https://www.arlingtonma.gov/home/showpublisheddocument?id=53681"
+        "url": "https://www.arlingtonma.gov/home/showpublisheddocument?id=53681"
       }
     ],
     "id": "F269811E-0182-4910-88CA-B722AD80ED7A",
     "articleNumber": 4,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article4",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10225&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article4"
   },
   {
     "video": null,
@@ -93,10 +81,7 @@
     "status": "Pass",
     "id": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
     "articleNumber": 5,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article5",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10226&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article5"
   },
   {
     "video": null,
@@ -121,10 +106,7 @@
     ],
     "id": "A869A967-3995-40D1-BF38-D3D6B5BDCE9B",
     "articleNumber": 6,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article6",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10227&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article6"
   },
   {
     "video": null,
@@ -137,10 +119,7 @@
     "status": "Pass",
     "id": "FAF3F964-ED31-405C-B894-FFE28FFB5A69",
     "articleNumber": 7,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article7",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10228&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article7"
   },
   {
     "video": "https://youtu.be/WhvsWzppF8A",
@@ -175,10 +154,7 @@
     ],
     "id": "D2DC06A2-1437-4CBC-8AD2-898893D1B6B9",
     "articleNumber": 8,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article8",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10229&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article8"
   },
   {
     "video": null,
@@ -191,10 +167,7 @@
     "status": "Pass",
     "id": "C74EB903-21E9-4B6E-B8E8-173A93317BC3",
     "articleNumber": 9,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article9",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10230&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article9"
   },
   {
     "video": null,
@@ -207,10 +180,7 @@
     "status": "Pass",
     "id": "33DB7292-EF25-4C2D-854C-671FA58B2E69",
     "articleNumber": 10,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article10",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10231&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article10"
   },
   {
     "video": null,
@@ -223,10 +193,7 @@
     "status": "Pass",
     "id": "8B8D956A-CC99-495B-8E11-C1580FC1B801",
     "articleNumber": 11,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#defer11",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10232&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#defer11"
   },
   {
     "video": null,
@@ -239,10 +206,7 @@
     "status": "Pass",
     "id": "D9012F47-326C-49BE-AF14-A6E27EE894FC",
     "articleNumber": 12,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article12",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10233&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article12"
   },
   {
     "video": "https://youtu.be/niKQjstChp4",
@@ -272,10 +236,7 @@
     ],
     "id": "85DC6F60-7483-47B6-9914-C185FDD4E380",
     "articleNumber": 13,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article13",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10234&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article13"
   },
   {
     "video": null,
@@ -288,10 +249,7 @@
     "status": "Pass",
     "id": "D99F5D0D-87C5-493E-84AD-64B31987F6E9",
     "articleNumber": 14,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article14",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10235&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article14"
   },
   {
     "video": null,
@@ -304,10 +262,7 @@
     "status": "Pass",
     "id": "1C10B7B9-0F5D-4F3C-B202-D38255144435",
     "articleNumber": 15,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article15",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10236&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article15"
   },
   {
     "video": null,
@@ -320,10 +275,7 @@
     "status": "Pass-No Action",
     "id": "33E3472F-ED82-4471-99C4-1E180B6C016B",
     "articleNumber": 16,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article16",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10237&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article16"
   },
   {
     "video": null,
@@ -343,10 +295,7 @@
     ],
     "id": "644C66DB-A941-4A6B-84E8-F6BC74C141C9",
     "articleNumber": 17,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article17",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10238&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article17"
   },
   {
     "video": null,
@@ -359,10 +308,7 @@
     "status": "Pass-No Action",
     "id": "9CDF26E3-3012-4632-8C7B-C1456DDF3064",
     "articleNumber": 18,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article18",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10239&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article18"
   },
   {
     "video": null,
@@ -375,10 +321,7 @@
     "status": "Pass-No Action",
     "id": "99BD0065-026B-4EA4-B088-501D2FC573E1",
     "articleNumber": 19,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article19",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10240&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article19"
   },
   {
     "video": "https://youtu.be/_Xwg7RJVjQY",
@@ -391,10 +334,7 @@
     "status": "Pass",
     "id": "A62D6806-BC94-4561-A4B0-64452E37D193",
     "articleNumber": 20,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article20",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10241&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article20"
   },
   {
     "video": "https://youtu.be/NSQSq5A2JX0",
@@ -407,10 +347,7 @@
     "status": "Pass",
     "id": "509E1F9B-270D-4409-B7F1-8A0487C52CF1",
     "articleNumber": 21,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article21",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10242&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article21"
   },
   {
     "video": null,
@@ -423,10 +360,7 @@
     "status": "Pass-No Action",
     "id": "EB8CB5C3-1BB2-4E6C-85D3-13194B72280A",
     "articleNumber": 22,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article22",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10243&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article22"
   },
   {
     "video": "https://www.youtube.com/watch?v=M7vVBIj0uxw&list=PLztbi9KA9roVEhX9eU23jGuYZrNp9s3Ly&index=2",
@@ -439,10 +373,7 @@
     "status": "Pass",
     "id": "3FE6C2C4-E9A9-47C5-A501-C1A1B6D375F1",
     "articleNumber": 23,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article23",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10244&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article23"
   },
   {
     "video": null,
@@ -455,10 +386,7 @@
     "status": "Pass",
     "id": "677FE63A-EE90-4D5E-9A6D-C1A5AA59863A",
     "articleNumber": 24,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article24",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10245&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article24"
   },
   {
     "video": "https://youtu.be/C1yRMxp8Igg",
@@ -478,9 +406,6 @@
     ],
     "id": "86436A87-85C4-4462-8155-61ED1422AF89",
     "articleNumber": 25,
-    "urls": {
-      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article25",
-      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10246&MeetingID=1192"
-    }
+    "menotomyMattersUrl": "https://menotomymatters.com/tm/2020special/#article25"
   }
 ]
