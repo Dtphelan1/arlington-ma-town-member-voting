@@ -7,15 +7,15 @@ import Tooltip from 'react-tooltip';
 import ArticleModal from './ArticleModal';
 import '../styles/table.scss';
 
-function repUpForReelection(representative) {
-  return representative.reelection === '2021';
+function repUpForReelection(townMeetingMember) {
+  return townMeetingMember.reelection === '2021';
 }
 
 function VotingHistoryTable({ data, precinct, articleFilters, tmm = '', reelectionToggle, articles }) {
   const tableData = useMemo(() => {
     const mappedData = [];
-    data.forEach(({ representative, votes }) => {
-      const voteObj = { member: representative.fullName, precinct: representative.precinct };
+    data.forEach(({ townMeetingMember, votes }) => {
+      const voteObj = { member: townMeetingMember.fullName, precinct: townMeetingMember.precinct };
       votes.forEach(v => {
         voteObj[v.article.title] = v.vote;
       });
@@ -37,9 +37,9 @@ function VotingHistoryTable({ data, precinct, articleFilters, tmm = '', reelecti
 
   const membersUpForReelection = useMemo(() => {
     const result = new Set();
-    data.forEach(({ representative }) => {
-      if (reelectionToggle && repUpForReelection(representative)) {
-        result.add(representative.fullName);
+    data.forEach(({ townMeetingMember }) => {
+      if (reelectionToggle && repUpForReelection(townMeetingMember)) {
+        result.add(townMeetingMember.fullName);
       }
     });
     return result;

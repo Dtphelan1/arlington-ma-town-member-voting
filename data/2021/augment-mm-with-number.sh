@@ -1,0 +1,1 @@
+sed 's/"article": "ARTICLE \([0-9]*\)",/&\n    "articleNumber": \1,/g' MM-articles.json > MM-articles-with-id.json

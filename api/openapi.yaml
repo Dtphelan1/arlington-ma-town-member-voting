@@ -1,30 +1,33 @@
 openapi: 3.0.1
 info:
   title: Arlington Vote Transparency
-  description: 'This is a sample server Petstore server.  You can find out more about     Swagger
-    at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).      For
-    this sample, you can use the api key `special-key` to test the authorization     filters.'
-  termsOfService: http://swagger.io/terms/
+  description: 'An API for Arlington MA town meeting member voting data.'
+  # termsOfService: http://swagger.io/terms/
   contact:
-    email: apiteam@swagger.io
+    email: contact@votesmartarlington.com
   version: 1.0.0
 tags:
-- name: avt
-  description: Arlington Vote Transparency
+  - name: avt
+    description: Arlington Vote Transparency
 paths:
-  /api/v1/representatives:
+  /api/v1/townMeetingMembers:
     get:
       tags:
-      - avt
+        - avt
       parameters:
-      - name: precincts
-        in: query
-        description: CSV list of precincts the user is interested in, or all if empty
-        schema:
-          type: array
-          items:
-            type: integer
-      description: Get representative data
+        - name: year
+          in: query
+          schema:
+            $ref: '#/components/schemas/YearsSupportedEnum'
+          description: Integer year of the desired articles
+        - name: precincts
+          in: query
+          description: CSV list of precincts the user is interested in, or all if empty
+          schema:
+            type: array
+            items:
+              type: integer
+      description: Get townMeetingMember data
       responses:
         200:
           description: success
@@ -33,20 +36,25 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/Representative'
-  /api/v1/representatives/history:
+                  $ref: '#/components/schemas/TownMeetingMember'
+  /api/v1/townMeetingMembers/history:
     get:
       tags:
-      - avt
+        - avt
       parameters:
-      - name: precincts
-        in: query
-        description: CSV precincts the user is interested in, or all if empty
-        schema:
-          type: array
-          items:
-            type: integer
-      description: Get all representatives' voting history
+        - name: year
+          in: query
+          schema:
+            $ref: '#/components/schemas/YearsSupportedEnum'
+          description: Integer year of the desired articles
+        - name: precincts
+          in: query
+          description: CSV precincts the user is interested in, or all if empty
+          schema:
+            type: array
+            items:
+              type: integer
+      description: Get all townMeetingMembers' voting history
       responses:
         200:
           description: success
@@ -59,8 +67,14 @@ paths:
   /api/v1/articles:
     get:
       tags:
-      - avt
+        - avt
       description: Get all articles that received votes
+      parameters:
+        - name: year
+          in: query
+          schema:
+            $ref: '#/components/schemas/YearsSupportedEnum'
+          description: Integer year of the desired articles
       responses:
         200:
           description: success
@@ -73,7 +87,7 @@ paths:
   /api/v1/article/{id}:
     get:
       tags:
-      - avt
+        - avt
       description: Get the information for a specific article
       parameters:
         - in: path
@@ -88,41 +102,40 @@ paths:
           content:
             application/json:
               schema:
-                type: object 
+                type: object
                 items:
                   $ref: '#/components/schemas/Article'
 components:
   schemas:
-    Representative:
+    TownMeetingMember:
       type: object
       properties:
         fullName:
           type: string
         precinct:
           type: integer
+        years:
+          type: array
+          items:
+            $ref: '#/components/schemas/YearsSupportedEnum'
     VoteHistory:
       type: object
       properties:
-        representative:
-          $ref: '#/components/schemas/Representative'
+        townMeetingMember:
+          $ref: '#/components/schemas/TownMeetingMember'
         votes:
           type: array
           items:
             $ref: '#/components/schemas/ArticleVote'
+        year:
+          $ref: '#/components/schemas/YearsSupportedEnum'
     ArticleVote:
       type: object
       properties:
         article:
           $ref: '#/components/schemas/Article'
-        infoUrl:
-          type: string
-          description: Link off to some external source for info
         vote:
-          enum:
-          - 'yes'
-          - 'no'
-          - 'abstain'
-          - 'no data'
+          $ref: '#/components/schemas/VoteEnum'
         amendmentVotes:
           type: array
           items:
@@ -132,26 +145,72 @@ components:
         amendmentId:
           type: integer
         vote:
-          enum:
-          - 'yes'
-          - 'no'
-          - 'abstain'
-          - 'no data'
+          $ref: '#/components/schemas/VoteEnum'
     Article:
       type: object
       properties:
         id:
           type: string
+        year:
+          $ref: '#/components/schemas/YearsSupportedEnum'
+        official:
+          type: string
+          format: uri
+          description: 'Link to the Town-official article document.'
         title:
           type: string
+        text:
+          type: string
+          description: 'A long-form string describing the content of the article'
+        for:
+          type: integer
+          description: 'Votes cast for the article passing'
+        against:
+          type: integer
+          description: 'Votes cast against the article passing'
+        abstain:
+          type: integer
+          description: "Town meeting members who actively abstained from voting. Note: this is not the same as all members who did not vote 'for' or 'against'; espeically in a digital forum, there are many town meeting members who cast no vote for any number reasons, instead of casting a vote of absten"
+        articleNumber:
+          type: integer
         amendments:
           type: array
           items:
             $ref: '#/components/schemas/Amendment'
+        urls:
+          $ref: '#/components/schemas/ArticleLinks'
     Amendment:
       type: object
       properties:
         id:
           type: integer
+        comment:
+          type: string
         name:
           type: string
+        url:
+          type: string
+          format: uri
+        year:
+          $ref: '#/components/schemas/YearsSupportedEnum'
+    ArticleLinks:
+      type: object
+      properties:
+        menotomyMatters:
+          type: string
+          format: uri
+        arlingtonGov:
+          type: string
+          format: uri
+    VoteEnum:
+      type: string
+      enum:
+        - 'yes'
+        - 'no'
+        - 'abstain'
+        - 'no data'
+    YearsSupportedEnum:
+      type: integer
+      enum:
+        - 2020
+        - 2021

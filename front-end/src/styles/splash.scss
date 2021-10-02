@@ -2,7 +2,7 @@
 
 #homepage-splash {
   width: 100vw;
-  height: 80vh;
+  height: 82vh; // NOTE: Should be tall enough fro there to be no whitespace below the footer
   min-height: 450px;
   background-position: center left;
   background-image: url('../images/mail-vote.jpg');
@@ -18,7 +18,7 @@
       max-width: 550px;
     }
     p {
-      max-width: 300px;
+      max-width: 320px;
       font-size: 1.25rem;
     }
     a {

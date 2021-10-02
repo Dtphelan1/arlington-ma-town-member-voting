@@ -1,0 +1,486 @@
+[
+  {
+    "video": null,
+    "official": null,
+    "title": "REPORTS OF COMMITTEES",
+    "text": "To receive, hear, and act upon the reports of the Select Board, Finance Committee, Redevelopment Board, School Committee and other committees, commissions, and boards heretofore appointed, or dissolve any inactive committees; and take any action related thereto.",
+    "for": "242",
+    "against": "",
+    "abstain": "1",
+    "status": "Pass",
+    "id": "D4225B2A-4451-41C8-8F51-1FC6E6CF754D",
+    "articleNumber": 1,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article1",
+      "arlingtonGov": null
+    }
+  },
+  {
+    "video": null,
+    "official": null,
+    "title": "CONSENT AGENDA",
+    "text": "To see if the Town will vote to take affirmative action on the Warrant Articles listed on the Consent Agenda as printed in the Moderator’s Report, without debate on any of the Articles, provided that, upon the request of any one Town Meeting Member present made before a vote is taken on this Article, an Article requested to be omitted shall be removed from the Consent Agenda and shall be acted upon in the ordinary course of business at this Town Meeting; or take any action related thereto. ",
+    "for": null,
+    "against": null,
+    "abstain": null,
+    "status": null,
+    "id": "EFBEB8CD-3070-4B50-8966-7FB669A4FCA1",
+    "articleNumber": 2,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article2",
+      "arlingtonGov": null
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10224&MeetingID=1192",
+    "title": "BYLAW AMENDMENT/REGULATION OF OUTDOOR LIGHTING – UPLIGHTING",
+    "text": "To see if the Town will vote to amend [Title V Article 14 Section 3D of the Town Bylaws](https://www.arlingtonma.gov/town-governance/laws-and-regulations/town-bylaws/title-v-regulations-upon-the-use-of-private-property#A14) to include structures used for religious purposes, and structures used for commercial purposes, among the exemptions to the prohibition of uplighting; or take any action related thereto.",
+    "for": "194",
+    "against": "50",
+    "abstain": "1",
+    "status": "Pass",
+    "amendments": [
+      {
+        "id": "222072C0-5577-4FCF-A436-42FBD22B8480",
+        "comment": "AMENDMENT by A.Badik: changing the specific hours allowed. VOTED: 16-Nov Pass (for: 177, against: 58, abstain: 5)",
+        "url": "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=10455&ItemID=10224"
+      },
+      {
+        "id": "A2594459-C799-4660-8A04-D074587BE1B6",
+        "comment": "AMENDMENT bt B.Friedman: adding 'exclusively' before commercial buildings. VOTED: 16-Nov Pass (for: 180, against: 54, abstain: 5)",
+        "url": "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=10456&ItemID=10224"
+      }
+    ],
+    "id": "44E061A4-CEA7-4860-BC83-0FE44334EC3A",
+    "articleNumber": 3,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article3",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10224&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10225&MeetingID=1192",
+    "title": "BYLAW AMENDMENT/MINUTEMAN BIKEWAY HOURS",
+    "text": "To see if the town will vote to amend [Title III, Article 1, Section 10 of the town bylaws](https://www.arlingtonma.gov/town-governance/laws-and-regulations/town-bylaws/title-iii-public-and-private-ways#A1) (Minuteman Bikeway Hours) to extend the operating hours of the Minuteman Bikeway; or any action related thereto.",
+    "for": "228",
+    "against": "14",
+    "abstain": "2",
+    "status": "Pass",
+    "amendments": [
+      {
+        "id": "F2EE5268-B3D7-4FFB-946D-BBA6420CD08A",
+        "comment": "AMENDMENT P. Muldoon - removing entirely Section 10 of bylaws specifying hours, extending hours indefinitely. VOTED: 23-Nov Pass (for: 211, against: 29, abstain: 2)",
+        "url":"https://www.arlingtonma.gov/home/showpublisheddocument?id=53681"
+      }
+    ],
+    "id": "F269811E-0182-4910-88CA-B722AD80ED7A",
+    "articleNumber": 4,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article4",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10225&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10226&MeetingID=1192",
+    "title": "HOME RULE LEGISLATION/BYLAW AMENDMENT/FOSSIL FUEL INFRASTRUCTURE",
+    "text": "To see if the Town will vote to authorize and request the Select Board to file Home Rule Legislation to allow the Town of Arlington to regulate fossil fuel infrastructure in new construction and/or major renovation and rehabilitation projects in Arlington for the purposes of reducing greenhouse gas emissions and encouraging renewable energy production and use, notwithstanding the State Building Code, the Gas Code,  M.G.L. c. 164 or any other law of the Commonwealth regulating natural gas as a residential utility; and further to vote to establish a new section of Title VI of the Town Bylaws prohibiting or otherwise regulating the installation of fossil fuel infrastructure in new construction projects and/or major renovation and rehabilitation projects in Arlington, and to set forth the terms and scope of such prohibition, including exemptions or waivers to same; or take any action related thereto.",
+    "for": "225",
+    "against": "18",
+    "abstain": "2",
+    "status": "Pass",
+    "id": "1D88D3F7-F555-4343-A4A6-481B7F4D5B55",
+    "articleNumber": 5,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article5",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10226&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10227&MeetingID=1192",
+    "title": "VOTE/ESTABLISHMENT OF POLICE CIVILIAN ADVISORY BOARD STUDY COMMITTEE",
+    "text": "To see if the Town will vote to form a committee of Town Meeting to study, craft and submit a Warrant Article to Town Meeting in 2021 for the creation of an Arlington police civilian advisory board comprised of seven (7) voting members and three (3) non-voting members, or take any action related thereto. The study committee would make decisions based on the vote of a simple majority of the committee's voting members who shall be appointed to the committee by: the Envision Arlington Standing Committee (1); the Arlington Human Rights Commission (1); the LGBTQIA & Rainbow Commission (1); the  Disability Commission (1); the  Board of Youth Services (1); the Equal Opportunity  Advisory Committee  (1); and the  Town Moderator  (1). Non-voting  members of  the  committee shall include one  (1)  representative from the Arlington Police Department, the Town's Diversity, Equity and Inclusion Coordinator, and the Town Counsel. The membership of the study committee's voting members will include at  least one Town Meeting member  and shall reflect racial/ethnic  and    other  forms of diversity  of Town residents. The study committee will complete its work and recommendations and shall report to the 2021 Annual town Meeting; or take any action related thereto.",
+    "for": "205",
+    "against": "36",
+    "abstain": "3",
+    "status": "Pass",
+    "amendments": [
+      {
+        "id": "F901FF06-DDAC-4784-812F-46EC012086C2",
+        "comment": "AMENDMENT proposal by E Dray 16-November changing specific roles of the group to reflect more diversity in town; VOTED: 18-Nov Pass (for: 148, against: 90, abstain: 4)",
+        "url": "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=10454&ItemID=10227"
+      },
+      {
+        "id": "16C9B17C-7CFF-4F13-9D84-687326F60D38",
+        "comment": "AMENDMENT proposal by C. Kelleher 9 November; changing number in group and who comprises it; VOTED: 18-Nov Pass (for: 162, against: 77, abstain: 2)",
+        "url": "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=10422&ItemID=10227"
+      }
+    ],
+    "id": "A869A967-3995-40D1-BF38-D3D6B5BDCE9B",
+    "articleNumber": 6,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article6",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10227&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10228&MeetingID=1192",
+    "title": "VOTE/BYLAW AMENDMENT/ENVISION ARLINGTON UPDATED LANGUAGE",
+    "text": "To see if the Town will vote to amend Title I, Article 15 to change the name of “Vision 2020” to comport with its current name “Envision Arlington;” to revise the Bylaw’s articulation of “Goals” as a “Statement of Community Values” or similar term; and to modernize the “Goals” as set forth in the vote of the 1993 Town Meeting (Article 19) with more inclusive language; or take any action related thereto.",
+    "for": "242",
+    "against": "2",
+    "abstain": "1",
+    "status": "Pass",
+    "id": "FAF3F964-ED31-405C-B894-FFE28FFB5A69",
+    "articleNumber": 7,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article7",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10228&MeetingID=1192"
+    }
+  },
+  {
+    "video": "https://youtu.be/WhvsWzppF8A",
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10229&MeetingID=1192",
+    "title": "ACCEPTANCE OF LEGISLATION/BYLAW AMENDMENT/ MUNICIPAL AFFORDABLE HOUSING TRUST FUND",
+    "text": "To see if the Town will vote to accept [Massachusetts General Laws c. 44 § 55C](https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter44/Section55C), to authorize the creation of a Municipal Affordable Housing Trust Fund to support the development of affordable housing in Arlington, establish a new bylaw for the administration of same; or take any action related thereto.",
+    "for": "221",
+    "against": "13",
+    "abstain": "4",
+    "status": "Pass",
+    "amendments": [
+      {
+        "id": "E57E94DE-0BDE-4C5C-A75C-6510F9DEB412",
+        "comment": "AMENDMENT - K. Kelleher - change definitions in article to match CPA definitions; VOTED 18-Nov Pass (for: 170, against: 53, abstain:11)",
+        "url": "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=10461&ItemID=10229"
+      },
+      {
+        "id": "4B32F748-1155-4BB5-B293-C4CA431F3530",
+        "comment": "AMENDMENT - J. Gersh - section 2.",
+        "url": "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=10441&ItemID=10229"
+      },
+      {
+        "id": "DCD861B8-C3AB-4B9D-8A71-B68CCA0A23B2",
+        "comment": "AMENDMENT - J. Gersh - section 3 #1.",
+        "url": "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=10441&ItemID=10229"
+      },
+      {
+        "id": "84522EF1-9E2D-4037-8FDA-0D9D906E7F6D",
+        "comment": "AMENDMENT - J. Gersh - section 3 #2.",
+        "url": "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=10441&ItemID=10229"
+      }
+    ],
+    "id": "D2DC06A2-1437-4CBC-8AD2-898893D1B6B9",
+    "articleNumber": 8,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article8",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10229&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10230&MeetingID=1192",
+    "title": "VOTE/ELECTION MODERNIZATION COMMITTEE",
+    "text": "To see if the Town will vote to extend the life of the [Election Modernization Committee](https://www.arlingtonma.gov/town-governance/all-boards-and-committees/election-modernization-committee), change its structure, objectives, or membership; or take any action related thereto.",
+    "for": "234",
+    "against": "5",
+    "abstain": "4",
+    "status": "Pass",
+    "id": "C74EB903-21E9-4B6E-B8E8-173A93317BC3",
+    "articleNumber": 9,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article9",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10230&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10231&MeetingID=1192",
+    "title": "ACCEPTANCE OF LEGISLATION/GOLD STAR FAMILY TAX EXEMPTION",
+    "text": "To see if the Town will vote to accept Massachusetts General Law Chapter 59 sec. 5(22H) to provide a local to surviving parents or guardians of members of the United States armed services who died on active duty tax exemption; or take any action related thereto.",
+    "for": "229",
+    "against": "6",
+    "abstain": "8",
+    "status": "Pass",
+    "id": "33DB7292-EF25-4C2D-854C-671FA58B2E69",
+    "articleNumber": 10,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article10",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10231&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10232&MeetingID=1192",
+    "title": "HOME RULE LEGISLATION/JUSTIN BROWN",
+    "text": "To see if the Town will vote to request and authorize the Select Board to file Home Rule Legislation so as to enable Justin Brown, a resident of the Town, to be eligible for appointment as firefighter in the Town of Arlington notwithstanding the fact that he has attained the age of 32, or  take any action related there",
+    "for": "214",
+    "against": "24",
+    "abstain": "4",
+    "status": "Pass",
+    "id": "8B8D956A-CC99-495B-8E11-C1580FC1B801",
+    "articleNumber": 11,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#defer11",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10232&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10233&MeetingID=1192",
+    "title": "HOME RULE LEGISLATION/CONSOLIDATION OF TOWN MEETING MEMBER ELECTIONS",
+    "text": "To see if the Town will vote to authorize and request the Select Board to file Home Rule Legislation to reform the nomination and election process for Town Meeting seats to permit the consolidation of elections of Town Meeting Members when there are vacant seats into a single election per precinct, such that the highest vote-getters win the longest available terms, to promulgate regulations to effectuate the same; or take any action related thereto.",
+    "for": "213",
+    "against": "29",
+    "abstain": "2",
+    "status": "Pass",
+    "id": "D9012F47-326C-49BE-AF14-A6E27EE894FC",
+    "articleNumber": 12,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article12",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10233&MeetingID=1192"
+    }
+  },
+  {
+    "video": "https://youtu.be/niKQjstChp4",
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10234&MeetingID=1192",
+    "title": "HOME RULE LEGISLATION/RANKED CHOICE VOTING",
+    "text": "To see if the Town will vote to authorize and request the Select Board to file Home Rule Legislation to elect Town offices by Ranked Choice Voting; or take any action related thereto.",
+    "for": "222",
+    "against": "5",
+    "abstain": "14",
+    "status": "Pass",
+    "amendments": [
+      {
+        "id": "D0839E3A-8781-48FE-8A27-EFB9666C2E61",
+        "comment": "AMENDMENT 1 - P. Schlichtman - removing ranked choice from any multi-seat election",
+        "url": "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=10423&ItemID=10234"
+      },
+      {
+        "id": "4D81119A-AF6F-4B8D-B3B2-617C9986D406",
+        "comment": "AMENDMENT 2 - P. Schlichtman - requiring a townwide ballot to enact this provision",
+        "url": "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=10424&ItemID=10234"
+      },
+      {
+        "id": "6281FB5C-76EA-433F-96EE-6D4F83672EB7",
+        "comment": "AMENDMENT 3 - A. Auster - changing details of single-seat vs. multi-seat elections",
+        "url": "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=10442&ItemID=10234"
+      }
+    ],
+    "id": "85DC6F60-7483-47B6-9914-C185FDD4E380",
+    "articleNumber": 13,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article13",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10234&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10235&MeetingID=1192",
+    "title": "HOME RULE/SENIOR WATER DISCOUNT",
+    "text": "To see if the Town will vote to authorize and request the Select Board to file Home Rule Legislation or other Special Legislation which would permit the Town to discount fees charged to qualifying, means-tested Arlington Seniors for water and sewer usage; or take any action related thereto.",
+    "for": "217",
+    "against": "9",
+    "abstain": "8",
+    "status": "Pass",
+    "id": "D99F5D0D-87C5-493E-84AD-64B31987F6E9",
+    "articleNumber": 14,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article14",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10235&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10236&MeetingID=1192",
+    "title": "HOME RULE LEGISLATION/RETIRED POLICE OFFICER DETAILS",
+    "text": "To see if the Town will vote to authorize and request the Select Board to file Home Rule Legislation, as set forth below, to allow retired police officers to work police details: or take any other action relative thereto. (Please see [official warrant, p.8](https://www.arlingtonma.gov/town-governance/town-meeting/2021-special-town-meeting-warrant) for full rule proposal.)",
+    "for": "158",
+    "against": "78",
+    "abstain": "9",
+    "status": "Pass",
+    "id": "1C10B7B9-0F5D-4F3C-B202-D38255144435",
+    "articleNumber": 15,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article15",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10236&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10237&MeetingID=1192",
+    "title": "ZONING BYLAW AMENDMENT/DEFINITIONS RELATED TO OPEN SPACE",
+    "text": "To see if the Town will vote to amend the [Zoning Bylaw](https://www.arlingtonma.gov/town-governance/laws-and-regulations/zoning-bylaws) of the Town of Arlington by renaming the terms 'Open Space', 'Open Space, Usable', and 'Open Space, Landscaped' in Section 2 - Definitions, or take any action related thereto.",
+    "for": "228",
+    "against": "7",
+    "abstain": "6",
+    "status": "Pass-No Action",
+    "id": "33E3472F-ED82-4471-99C4-1E180B6C016B",
+    "articleNumber": 16,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article16",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10237&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10238&MeetingID=1192",
+    "title": "ZONING BYLAW AMENDMENT/NOTICE OF DEMOLITION, OPEN FOUNDATION EXCAVATION, NEW CONSTRUCTION, OR LARGE ADDITIONS",
+    "text": "To see if the Town will vote to amend the [Zoning Bylaw](https://www.arlingtonma.gov/town-governance/laws-and-regulations/zoning-bylaws) in **Section 3.1.8** by appending to the end of this section the sentence: \"No such permit shall be issued until the Building inspector finds that the applicant is in compliance with the applicable provisions of [Title VI, Article 7 of the Town Bylaws](https://www.arlingtonma.gov/town-governance/laws-and-regulations/town-bylaws/title-vi-building-regulations#A7).\" or take any action related thereto.",
+    "for": "164",
+    "against": "75",
+    "abstain": "3",
+    "status": "Pass",
+    "amendments": [
+      {
+        "id": "D4FB9490-1894-4FDA-8B56-7F4F3ED9B091",
+        "comment": "Substitute Motion - M. Ruderman - updated 4-November;  VOTED: 2-Dec Pass (for: 151, against: 84, abstain: 8)",
+        "url": "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=10359&ItemID=10238"
+      }
+    ],
+    "id": "644C66DB-A941-4A6B-84E8-F6BC74C141C9",
+    "articleNumber": 17,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article17",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10238&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10239&MeetingID=1192",
+    "title": "ZONING BYLAW AMENDMENT/IMPROVING RESIDENTIAL INCLUSIVENESS, SUSTAINABILITY, AND AFFORDABILITY BY ENDING SINGLE FAMILY ZONING",
+    "text": "To see if the Town will vote to or take any action related thereto: to Amend the [Zoning Bylaw](https://www.arlingtonma.gov/town-governance/laws-and-regulations/zoning-bylaws) for the Town of Arlington by expanding the set of allowed residential uses in the RO and R1 zoning districts with the goal of expanding and diversifying the housing stock by altering the district definitions for the RO and R1 zoning districts.",
+    "for": "233",
+    "against": "3",
+    "abstain": "7",
+    "status": "Pass-No Action",
+    "id": "9CDF26E3-3012-4632-8C7B-C1456DDF3064",
+    "articleNumber": 18,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article18",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10239&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10240&MeetingID=1192",
+    "title": "ZONING BYLAW AMENDMENT/ACCESSORY DWELLING UNITS",
+    "text": "To see if the town will vote to allow Accessory Dwelling Units (ADUs) in single and two-family dwellings in residential districts, or take any action related thereto by amending the [Zoning Bylaw](https://www.arlingtonma.gov/town-governance/laws-and-regulations/zoning-bylaws) as follows: \n\n**Section 1.2 Purposes** to add \"to encourage housing for persons at all income levels and stages of life\": and \n\n **Section 2 5 Definitions Associated with Dwelling:** to add An ACCESSORY DWELLING UNIT, or ACCESSORY APARTMENT, \"Accessory dwelling unit\", four or more rooms constituting a self-contained accessory housing unit, inclusive of sleeping, cooking and sanitary facilities on the same premises as the principal dwelling, subject to otherwise applicable dimensional and parking requirements, that: (i) maintains a separate entrance, either directly from the outside or through an entry hall or corridor shared with the principal dwelling sufficient to meet the requirements of the state building code and state fire safety code; (ii) is not larger in floor area than 1/2 the floor area of the principal dwelling., and \n\n **Section 3.3.3 Special Permits** to add \"in the case of requests for special permits for Accessory Dwelling Units, the use will add to the need for a range of affordable housing opportunities for the Town.\" and\n\n**Section 5.2.3 Districts and Uses:** to add 'to allow for the creation of accessory dwelling units in all zoning districts which allow residential use. (include in Section 5.4 Residential Districts); or take any action related thereto.",
+    "for": "233",
+    "against": "3",
+    "abstain": "7",
+    "status": "Pass-No Action",
+    "id": "99BD0065-026B-4EA4-B088-501D2FC573E1",
+    "articleNumber": 19,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article19",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10240&MeetingID=1192"
+    }
+  },
+  {
+    "video": "https://youtu.be/_Xwg7RJVjQY",
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10241&MeetingID=1192",
+    "title": "ZONING BYLAW AMENDMENT/PARKING REDUCTIONS IN THE B3 AND B5 DISTRICTS",
+    "text": "To see if the Town will vote to amend the [Zoning Bylaw](https://www.arlingtonma.gov/town-governance/laws-and-regulations/zoning-bylaws) to allow the Board of Appeals or Arlington Redevelopment Board, as applicable, to reduce the parking requirement to zero in the B3 and B5 Districts through Special Permit where businesses have no ability to create new parking by amending SECTION 6.1.5. PARKING REDUCTION IN BUSINESS, INDUSTRIAL, AND MULTI-FAMILY RESIDENTIAL ZONES; or take any action related thereto.",
+    "for": "213",
+    "against": "26",
+    "abstain": "2",
+    "status": "Pass",
+    "id": "A62D6806-BC94-4561-A4B0-64452E37D193",
+    "articleNumber": 20,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article20",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10241&MeetingID=1192"
+    }
+  },
+  {
+    "video": "https://youtu.be/NSQSq5A2JX0",
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10242&MeetingID=1192",
+    "title": "ZONING MAP AMENDMENT/REZONE TOWN PROPERTY",
+    "text": "To see if the Town will vote to rezone a parcel of land belonging to the Town of Arlington with access from Grove Street and being identified by Map 54, Block 3, Lot 2.B from R1 to I, or take any other action related thereto.",
+    "for": "237",
+    "against": "4",
+    "abstain": "2",
+    "status": "Pass",
+    "id": "509E1F9B-270D-4409-B7F1-8A0487C52CF1",
+    "articleNumber": 21,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article21",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10242&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10243&MeetingID=1192",
+    "title": "COLLECTIVE BARGAINING",
+    "text": "To see if the Town will vote to fund any fiscal items in the event that any are contained in collective bargaining agreements between the Town and the following named collective bargaining unit’s salaries or fringe benefits, determine how the money shall be raised and expended; or take any action related thereto:\n\n- A. Arlington Police Patrol Officers’ Association (formerly Arlington Patrolmen’s Association);",
+    "for": "242",
+    "against": "0",
+    "abstain": "1",
+    "status": "Pass-No Action",
+    "id": "EB8CB5C3-1BB2-4E6C-85D3-13194B72280A",
+    "articleNumber": 22,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article22",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10243&MeetingID=1192"
+    }
+  },
+  {
+    "video": "https://www.youtube.com/watch?v=M7vVBIj0uxw&list=PLztbi9KA9roVEhX9eU23jGuYZrNp9s3Ly&index=2",
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10244&MeetingID=1192",
+    "title": "CAPITAL BUDGET/DPW YARD",
+    "text": "To see if the Town will vote to appropriate a sum of money for remodeling, reconstructing, or making extraordinary repairs to the DPW Yard and associated buildings, including original equipment and landscaping, paving and other site improvements incidental or directly related to such remodeling, reconstruction or repair, and determine whether such appropriations shall be raised by taxation, transferred from available funds, borrowed or provided by any combination of the foregoing; or take any action related thereto.",
+    "for": "237",
+    "against": "9",
+    "abstain": "0",
+    "status": "Pass",
+    "id": "3FE6C2C4-E9A9-47C5-A501-C1A1B6D375F1",
+    "articleNumber": 23,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article23",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10244&MeetingID=1192"
+    }
+  },
+  {
+    "video": null,
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10245&MeetingID=1192",
+    "title": "APPROPRIATION/COMMUNITY PRESERVATION FUND",
+    "text": "To see if the Town will vote to make appropriations from the Community Preservation Fund for eligible community preservation projects; for community preservation reserve accounts for historic preservation, open space and recreation, and affordable housing; for Community Preservation Act Committee administrative expenses or other eligible expenses; or take any action related thereto.",
+    "for": "236",
+    "against": "6",
+    "abstain": "2",
+    "status": "Pass",
+    "id": "677FE63A-EE90-4D5E-9A6D-C1A5AA59863A",
+    "articleNumber": 24,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article24",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10245&MeetingID=1192"
+    }
+  },
+  {
+    "video": "https://youtu.be/C1yRMxp8Igg",
+    "official": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10246&MeetingID=1192",
+    "title": "RESOLUTION/BLACK LIVES MATTER BANNER AT TOWN HALL",
+    "text": "To see if the Town will vote to or take any action related thereto: Be it hereby resolved, that it is the will of Town Meeting that the Town of Arlington continue to display a Black Lives Matter banner on Town Hall until such time as Town Meeting recommends its removal, or takes any action related thereto.",
+    "for": "166",
+    "against": "34",
+    "abstain": "38",
+    "status": "Pass",
+    "amendments": [
+      {
+        "id": "34EBB1ED-214E-4930-A9FA-DA40D22EAF55",
+        "comment": "Substitute Motion J. Brown; VOTED 2-Dec (for: 170, against: 40, abstain: 30).",
+        "url": "https://arlington.novusagenda.com/Agendapublic/AttachmentViewer.ashx?AttachmentID=10625&ItemID=10246"
+      }
+    ],
+    "id": "86436A87-85C4-4462-8155-61ED1422AF89",
+    "articleNumber": 25,
+    "urls": {
+      "menotomyMatters": "https://menotomymatters.com/tm/2020special/#article25",
+      "arlingtonGov": "https://arlington.novusagenda.com/Agendapublic/CoverSheet.aspx?ItemID=10246&MeetingID=1192"
+    }
+  }
+]
