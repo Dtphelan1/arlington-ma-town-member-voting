@@ -2,6 +2,9 @@
 
 Vote Smart Arlington is an effort to present Arlington, MA town member voting records in a novel and accessible way. Our site gives Arlington town residents the ability to select their precinct and view their town meeting members' voting history for all of 2020, which we hope will serve as an informational resource as we approach the municipal election on April 10, 2021.
 
+<img width="1372" alt="Screen Shot 2022-11-04 at 1 01 33 PM" src="https://user-images.githubusercontent.com/5703736/200033481-4807654e-832b-467f-b094-4b9d6b47e9ef.png">
+
+
 ## Local Development
 
 Consult the READMEs in each of the respective directories for API development and front-end development.
