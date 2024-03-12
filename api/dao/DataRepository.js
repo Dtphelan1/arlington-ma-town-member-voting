@@ -3,49 +3,49 @@ const fs = require('fs');
 class FileBackedDataRepository {
   constructor() {
     this.articleData = JSON.parse(fs.readFileSync('./dao/articles.json'));
-    this.representativeVotes = JSON.parse(fs.readFileSync('./dao/representative-votes-with-reelection.json'));
+    this.tmmVotes = JSON.parse(fs.readFileSync('./dao/tmm-votes-with-reelection.json'));
   }
 
-  getRepresentatives(precinct = null) {
-    const seenRepresentatives = new Set();
-    const representatives = [];
-    this.representativeVotes.forEach(voteRecord => {
+  getTownMeetingMembers(precinct = null) {
+    const seenTownMeetingMembers = new Set();
+    const townMeetingMembers = [];
+    this.townMeetingMemberVotes.forEach(voteRecord => {
       if (
-        seenRepresentatives.has(voteRecord.representativeFullName) ||
+        seenTownMeetingMembers.has(voteRecord.townMeetingMemberFullName) ||
         (precinct != null && voteRecord.precinct !== precinct)
       ) {
         return;
       }
 
-      representatives.push({
-        fullName: voteRecord.representativeFullName,
+      townMeetingMembers.push({
+        fullName: voteRecord.townMeetingMemberFullName,
         precinct: voteRecord.precinct,
         reelection: voteRecord.reelection
       });
-      seenRepresentatives.add(voteRecord.representativeFullName);
+      seenTownMeetingMembers.add(voteRecord.townMeetingMemberFullName);
     });
 
-    return representatives;
+    return townMeetingMembers;
   }
 
   /**
    * @param precinct The string name of the precinct we're interested in, or omit for all precincts
-   * @return A map of representative name to (articleId, vote) tuples. Note that there's no distinction
-   * between representatives from different precincts, if `null` is passed into this function
+   * @return A map of townMeetingMember name to (articleId, vote) tuples. Note that there's no distinction
+   * between townMeetingMembers from different precincts, if `null` is passed into this function
    */
   getVotingRecordByPrecinct(precinct = null) {
-    const representativeNameToVotes = {};
-    this.representativeVotes
+    const townMeetingMemberNameToVotes = {};
+    this.townMeetingMemberVotes
       .filter(record => precinct == null || record.precinct === precinct)
       .forEach(record => {
-        if (record.representativeFullName in representativeNameToVotes) {
-          representativeNameToVotes[record.representativeFullName].push(...record.votes);
+        if (record.townMeetingMemberFullName in townMeetingMemberNameToVotes) {
+          townMeetingMemberNameToVotes[record.townMeetingMemberFullName].push(...record.votes);
         } else {
-          representativeNameToVotes[record.representativeFullName] = [...record.votes];
+          townMeetingMemberNameToVotes[record.townMeetingMemberFullName] = [...record.votes];
         }
       });
 
-    return representativeNameToVotes;
+    return townMeetingMemberNameToVotes;
   }
 
   /**

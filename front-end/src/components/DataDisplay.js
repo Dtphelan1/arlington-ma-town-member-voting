@@ -61,7 +61,7 @@ function DataDisplay({ data }) {
     };
     pushNewQueryParams(precinctParams);
   };
-  // Representative of Interest
+  // TMM of Interest
   const tmm = searchParams.tmm ? searchParams.tmm : '';
   const pushTMMQueryToHistory = e => {
     const tmm = e.target.value;

@@ -11,18 +11,14 @@ function useQuery() {
 
 function DataPage() {
   const query = useQuery();
-  const precinct = query.get('precinct');
 
   // Define the URL
   const apiURL = process.env.REACT_APP_API_BASEURL + process.env.REACT_APP_API_SLUG;
 
   // Use Async to load the data anytime the APIURL changes
   const dataState = useAsync(async () => {
-    if (precinct) {
-      return fetch(`${apiURL}/representatives/history?precincts=${precinct}`).then(res => res.json());
-    }
-    return fetch(`${apiURL}/representatives/history`).then(res => res.json());
-  }, [precinct]);
+    return fetch(`${apiURL}/townMeetingMember/history?${query.toString()}`);
+  });
 
   return (
     <section>

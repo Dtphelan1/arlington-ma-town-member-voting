@@ -1,0 +1,254 @@
+[
+  {
+    "article": "Art-15-Amend-Amendment: - Meeks",
+    "articleNumber": 15,
+    "voteType": "Action",
+    "for": "192",
+    "against": "37",
+    "abstain": "9",
+    "status": "Pass"
+  },
+  {
+    "article": "Art-20-Amend-Amendment: - Auster",
+    "articleNumber": 20,
+    "voteType": "Action",
+    "for": "207",
+    "against": "19",
+    "abstain": "7",
+    "status": "Pass"
+  },
+  {
+    "article": "Art-20-Amend-Amendment: Dray 1",
+    "articleNumber": 20,
+    "voteType": "Action",
+    "for": "197",
+    "against": "37",
+    "abstain": "5",
+    "status": "Pass"
+  },
+  {
+    "article": "Art-20-Amend-Amendment: Dray 2",
+    "articleNumber": 20,
+    "voteType": "Action",
+    "for": "98",
+    "against": "131",
+    "abstain": "10",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-20-Amend-Amendment: Jamieson",
+    "articleNumber": 20,
+    "voteType": "Action",
+    "for": "118",
+    "against": "106",
+    "abstain": "7",
+    "status": "Pass"
+  },
+  {
+    "article": "Art-20-Amend-As: Amended (3)",
+    "articleNumber": 20,
+    "voteType": "Action",
+    "for": "230",
+    "against": "6",
+    "abstain": "1",
+    "status": "Pass"
+  },
+  {
+    "article": "Art-24-Amend-Friedman: Amendment by B Friedman ",
+    "articleNumber": 24,
+    "voteType": "Action",
+    "for": "204",
+    "against": "29",
+    "abstain": "4",
+    "status": "Pass"
+  },
+  {
+    "article": "Art-24-Amend-Schlichtman: Amendment by P Schlichtman ",
+    "articleNumber": 24,
+    "voteType": "Action",
+    "for": "33",
+    "against": "204",
+    "abstain": "1",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-25-Amend-Jamieson: Amendment G. Jamieson ",
+    "articleNumber": 25,
+    "voteType": "Action",
+    "for": "113",
+    "against": "108",
+    "abstain": "15",
+    "status": "Pass"
+  },
+  {
+    "article": "Art-55-Amend-Ellis-Terminate-Debate: Not Debatable ",
+    "articleNumber": 55,
+    "voteType": "Action",
+    "for": "184",
+    "against": "49",
+    "abstain": "2",
+    "status": "Pass"
+  },
+  {
+    "article": "Art-55-Amend-Ellis: Amendment J Ellis ",
+    "articleNumber": 55,
+    "voteType": "Action",
+    "for": "45",
+    "against": "171",
+    "abstain": "6",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-56-Amend-Leonard: Amendment J Leonard ",
+    "articleNumber": 56,
+    "voteType": "Action",
+    "for": "23",
+    "against": "205",
+    "abstain": "7",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-56-Amend-Foskett: Amendment C Foskett ",
+    "articleNumber": 56,
+    "voteType": "Action",
+    "for": "210",
+    "against": "20",
+    "abstain": "4",
+    "status": "Pass"
+  },
+  {
+    "article": "Art-35-Amend-Article: 35 Amendment - Gast",
+    "articleNumber": 35,
+    "voteType": "Action",
+    "for": "125",
+    "against": "95",
+    "abstain": "4",
+    "status": "Pass"
+  },
+  {
+    "article": "Art-35-Amend-Anderson: Amendment K Anderson ",
+    "articleNumber": 35,
+    "voteType": "Action",
+    "for": "58",
+    "against": "166",
+    "abstain": "1",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-38-Amend-Amendment: - Levy",
+    "articleNumber": 38,
+    "voteType": "Action",
+    "for": "122",
+    "against": "107",
+    "abstain": "5",
+    "status": "Pass"
+  },
+  {
+    "article": "Art-43-Amend-Preston: Amendment J Preston ",
+    "articleNumber": 43,
+    "voteType": "Action",
+    "for": "56",
+    "against": "173",
+    "abstain": "1",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-43-Amend-Heigham: Amendment C Heigham ",
+    "articleNumber": 43,
+    "voteType": "Action",
+    "for": "73",
+    "against": "155",
+    "abstain": "1",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-43-Amend-Leahy3: Amendment L Leahy 3 ",
+    "articleNumber": 43,
+    "voteType": "Action",
+    "for": "36",
+    "against": "194",
+    "abstain": "2",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-43-Amend-Leahy2: Amendment L Leahy 2 ",
+    "articleNumber": 43,
+    "voteType": "Action",
+    "for": "61",
+    "against": "168",
+    "abstain": "1",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-43-Amend-JWorden3: Amendment J Worden 3 ",
+    "articleNumber": 43,
+    "voteType": "Action",
+    "for": "47",
+    "against": "182",
+    "abstain": "1",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-43-Amend-JWorden2: Amendment J Worden 2 ",
+    "articleNumber": 43,
+    "voteType": "Action",
+    "for": "56",
+    "against": "173",
+    "abstain": "0",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-43-Amend-JWorden1: Amendment J Worden 1 ",
+    "articleNumber": 43,
+    "voteType": "Action",
+    "for": "40",
+    "against": "187",
+    "abstain": "1",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-43-Amend-Gersh: Amendment J Gersh ",
+    "articleNumber": 43,
+    "voteType": "Action",
+    "for": "47",
+    "against": "181",
+    "abstain": "1",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-43-Amend-Leahy1: Amendment L Leahy 1 ",
+    "articleNumber": 43,
+    "voteType": "Action",
+    "for": "52",
+    "against": "177",
+    "abstain": "1",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-43-Amend-Evans2: Amendment W Evans 2 ",
+    "articleNumber": 43,
+    "voteType": "Action",
+    "for": "59",
+    "against": "174",
+    "abstain": "1",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-43-Amend-Evans1: Amendment W Evans 1 ",
+    "articleNumber": 43,
+    "voteType": "Action",
+    "for": "69",
+    "against": "161",
+    "abstain": "1",
+    "status": "Fail"
+  },
+  {
+    "article": "Art-43-Amend-PWorden: Amendment P Worden ",
+    "articleNumber": 43,
+    "voteType": "Action",
+    "for": "49",
+    "against": "178",
+    "abstain": "1",
+    "status": "Fail"
+  }
+]

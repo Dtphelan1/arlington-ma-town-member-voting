@@ -1,0 +1,412 @@
+[
+    {
+        "article": "Art-3: REPORTS OF COMMITTEES ",
+        "articleNumber": 3,
+        "voteType": "Action",
+        "for": "238",
+        "against": "0",
+        "abstain": "0",
+        "status": "Pass",
+        "id": "2977d907-3308-52f0-93f9-af9609d5e25d"
+    },
+    {
+        "article": "Art-4: APPOINTMENT OF MEASURER OF WOOD AND BARK ",
+        "articleNumber": 4,
+        "voteType": "Action",
+        "for": "222",
+        "against": "5",
+        "abstain": "5",
+        "status": "Pass",
+        "id": "d5ef370f-e5b8-59c3-b301-e4eaaedf96d5"
+    },
+    {
+        "article": "Art-5: ELECTION OF ASSISTANT TOWN MODERATOR ",
+        "articleNumber": 5,
+        "voteType": "Action",
+        "for": "126",
+        "against": "108",
+        "abstain": "6",
+        "status": "Pass",
+        "id": "ca84084c-cd2a-5587-ad8d-b587272bee64"
+    },
+    {
+        "article": "Art-6: BYLAW AMENDMENT/CPAC MEMBER TERM LIMITS ",
+        "articleNumber": 6,
+        "voteType": "Action",
+        "for": "164",
+        "against": "70",
+        "abstain": "0",
+        "status": "Pass",
+        "id": "43c64baa-ea11-5a75-ba61-51102647b8bc"
+    },
+    {
+        "article": "Art-7: BYLAW AMENDMENT/ROCK REMOVAL REQUIREMENTS ",
+        "articleNumber": 7,
+        "voteType": "Action",
+        "for": "12",
+        "against": "3",
+        "abstain": "1",
+        "status": "Pass",
+        "id": "840d8bec-b9f5-5bff-a256-4b1be0e450e0"
+    },
+    {
+        "article": "Art-7: BYLAW AMENDMENT/ROCK REMOVAL REQUIREMENTS ",
+        "articleNumber": 7,
+        "voteType": "Action",
+        "for": "62",
+        "against": "172",
+        "abstain": "5",
+        "status": "Fail",
+        "id": "840d8bec-b9f5-5bff-a256-4b1be0e450e0"
+    },
+    {
+        "article": "Art-15: BYLAW AMENDMENT/DOMESTIC PARTNERSHIPS ",
+        "articleNumber": 15,
+        "voteType": "Action",
+        "for": "221",
+        "against": "11",
+        "abstain": "6",
+        "status": "Pass",
+        "id": "0b4c73a1-c8ee-51e8-8bb5-a1eea8f37a8d"
+    },
+    {
+        "article": "Art-21: VOTE/RESERVE AFFORDABLE HOUSING FOR PEOPLE ",
+        "articleNumber": 21,
+        "voteType": "No Action",
+        "for": "190",
+        "against": "49",
+        "abstain": "6",
+        "status": "Pass",
+        "id": "7e65a4da-cb6e-510e-bb7e-429f5bd86a51"
+    },
+    {
+        "article": "Art-24: HOME RULE LEGISLATION/RANKED CHOICE VOTING ",
+        "articleNumber": 24,
+        "voteType": "Action",
+        "for": "202",
+        "against": "38",
+        "abstain": "2",
+        "status": "Pass",
+        "id": "5e9bbf50-9074-5ae0-9237-537dde77c751"
+    },
+    {
+        "article": "Art-25: HOME RULE LEGISLATION/REAL ESTATE TRANSFER ",
+        "articleNumber": 25,
+        "voteType": "Action",
+        "for": "187",
+        "against": "50",
+        "abstain": "2",
+        "status": "Pass",
+        "id": "ca449365-2daa-57eb-b8fe-859fa0cedc3c"
+    },
+    {
+        "article": "Art-28: ZONING BYLAW AMENDMENT/AFFORDABLE HOUSING REQUIREMENTS ",
+        "articleNumber": 28,
+        "voteType": "Action",
+        "for": "235",
+        "against": "4",
+        "abstain": "2",
+        "status": "Pass",
+        "id": "8435862e-1e49-5c95-9c00-b03ba7312ce7"
+    },
+    {
+        "article": "Art-29: ZONING BYLAW AMENDMENT/APARTMENT CONVERSION ",
+        "articleNumber": 29,
+        "voteType": "Action",
+        "for": "225",
+        "against": "7",
+        "abstain": "2",
+        "status": "Pass",
+        "id": "dde479ff-d2c1-58ee-8327-3b66dd601c98"
+    },
+    {
+        "article": "Art-30: ZONING BYLAW AMENDMENT/GROSS FLOOR AREA ",
+        "articleNumber": 30,
+        "voteType": "Action",
+        "for": "222",
+        "against": "14",
+        "abstain": "1",
+        "status": "Pass",
+        "id": "6f773b2a-3874-5586-be5a-77ef70d9cdda"
+    },
+    {
+        "article": "Art-33: ZONING BYLAW AMENDMENT/ADMINISTRATIVE AMENDMENTS ",
+        "articleNumber": 33,
+        "voteType": "Action",
+        "for": "223",
+        "against": "6",
+        "abstain": "2",
+        "status": "Pass",
+        "id": "d3553582-e57c-50a7-bb5c-e6b21f066538"
+    },
+    {
+        "article": "Art-55: APPROPRIATION/TOWN BUDGETS ",
+        "articleNumber": 55,
+        "voteType": "Action",
+        "for": "213",
+        "against": "10",
+        "abstain": "6",
+        "status": "Pass",
+        "id": "913fbdbc-0168-54e0-b98e-adf594576696"
+    },
+    {
+        "article": "Art-61: APPROPRIATION/MINUTEMAN REGIONAL VOCATIONAL TECHNICAL HIGH SCHOOL AND OUT OF DISTRICT VOCATIONAL PLACEMENTS ",
+        "articleNumber": 61,
+        "voteType": "Action",
+        "for": "169",
+        "against": "55",
+        "abstain": "13",
+        "status": "Pass",
+        "id": "041865b5-7fdf-5dfe-912a-dbd1329635b8"
+    },
+    {
+        "article": "Art-56: CAPITAL BUDGET ",
+        "articleNumber": 56,
+        "voteType": "Action",
+        "for": "228",
+        "against": "7",
+        "abstain": "0",
+        "status": "Pass",
+        "id": "7137cd21-592b-58a4-9452-f9cd9798aed1"
+    },
+    {
+        "article": "Art-44: ZONING BYLAW/PARKING MINIMUMS ",
+        "articleNumber": 44,
+        "voteType": "Action",
+        "for": "180",
+        "against": "51",
+        "abstain": "2",
+        "status": "Pass",
+        "id": "4d5e1065-a56c-58a3-a3f8-62481051c597"
+    },
+    {
+        "article": "Art-46: ZONING BYLAW/TEARDOWN MORATORIUM ",
+        "articleNumber": 46,
+        "voteType": "No Action",
+        "for": "189",
+        "against": "37",
+        "abstain": "9",
+        "status": "Pass",
+        "id": "f5836dc0-681d-5cb2-a8a7-fb35ceef9978"
+    },
+    {
+        "article": "Art-48: ZONING BYLAW AMENDMENT/ADA/MAAB STANDARDS ",
+        "articleNumber": 48,
+        "voteType": "Action",
+        "for": "230",
+        "against": "2",
+        "abstain": "1",
+        "status": "Pass",
+        "id": "cd442c39-87cd-5395-a835-fd41c78169b5"
+    },
+    {
+        "article": "Art-49: ZONING BYLAW AMENDMENT/SIDEYARD SKY EXPOSURE PLANES ",
+        "articleNumber": 49,
+        "voteType": "No Action",
+        "for": "176",
+        "against": "41",
+        "abstain": "2",
+        "status": "Pass",
+        "id": "ee5afdaa-0731-5f0d-8d86-ae9d1d3f8c2a"
+    },
+    {
+        "article": "Art-53: POSITIONS RECLASSIFICATION ",
+        "articleNumber": 53,
+        "voteType": "Action",
+        "for": "213",
+        "against": "8",
+        "abstain": "3",
+        "status": "Pass",
+        "id": "d8bef643-8d60-54a8-9f47-ccd575c2a4df"
+    },
+    {
+        "article": "Art-45: ZONING BYLAW/INCREASE PERCENTAGE OF AFFORDABLE HOUSING UNITS ",
+        "articleNumber": 45,
+        "voteType": "No Action",
+        "for": "195",
+        "against": "41",
+        "abstain": "2",
+        "status": "Pass",
+        "id": "eb0a0ebb-ac70-5c59-b1b3-3d646fb48edd"
+    },
+    {
+        "article": "Art-35: ZONING BYLAW AMENDMENT/INDUSTRIAL USES ",
+        "articleNumber": 35,
+        "voteType": "Action",
+        "for": "201",
+        "against": "41",
+        "abstain": "1",
+        "status": "Pass",
+        "id": "22b79ac0-9231-5734-81f7-75744a15a709"
+    },
+    {
+        "article": "Art-38: ZONING BYLAW AMENDMENT/ENERGY EFFICIENT HOMES ",
+        "articleNumber": 38,
+        "voteType": "Action",
+        "for": "226",
+        "against": "8",
+        "abstain": "2",
+        "status": "Pass",
+        "id": "7bd10455-fdfa-50d6-8f04-456cbe236d0a"
+    },
+    {
+        "article": "Art-39: ZONING BYLAW AMENDMENT/ CLARIFICATION OF DEFINITION OF MIXED USE ",
+        "articleNumber": 39,
+        "voteType": "No Action",
+        "for": "174",
+        "against": "58",
+        "abstain": "3",
+        "status": "Pass",
+        "id": "3b50c483-ba35-54d9-8b2f-4cda694309fd"
+    },
+    {
+        "article": "Art-40: ZONING BYLAW AMENDMENT/CONVERSION OF COMMERCIAL TO RESIDENTIAL",
+        "articleNumber": 40,
+        "voteType": "No Action",
+        "for": "191",
+        "against": "40",
+        "abstain": "4",
+        "status": "Pass",
+        "id": "8b22fe9b-3e06-5786-86db-8b805b064054"
+    },
+    {
+        "article": "Art-41: ZONING BYLAW AMENDMENT/DEFINITION OF FOUNDATION ",
+        "articleNumber": 41,
+        "voteType": "No Action",
+        "for": "183",
+        "against": "42",
+        "abstain": "3",
+        "status": "Pass",
+        "id": "4b63ed20-01eb-5abd-bdfd-edbec4914bb3"
+    },
+    {
+        "article": "Art-43: ZONING BYLAW/ADOPTION OF ACCESSORY DWELLING UNITS (majority) ",
+        "articleNumber": 43,
+        "voteType": "Action",
+        "for": "189",
+        "against": "48",
+        "abstain": "2",
+        "status": "Pass",
+        "id": "9908127e-781c-5b66-85a4-e8b470ec6176"
+    },
+    {
+        "article": "Art-54: COLLECTIVE BARGAINING ",
+        "articleNumber": 54,
+        "voteType": "Action",
+        "for": "203",
+        "against": "3",
+        "abstain": "6",
+        "status": "Pass",
+        "id": "49e66108-0352-536f-bc5e-9b95ffa6956e"
+    },
+    {
+        "article": "Art-22: VOTE/PROVISION OF TOWN EMAIL ADDRESSES FOR ",
+        "articleNumber": 22,
+        "voteType": "No Action",
+        "for": "177",
+        "against": "48",
+        "abstain": "5",
+        "status": "Pass",
+        "id": "96cdb743-0f20-5d84-b830-a21363dbcc2a"
+    },
+    {
+        "article": "Art-62: APPROPRIATION/COMMITTEES AND COMMISSIONS ",
+        "articleNumber": 62,
+        "voteType": "Action",
+        "for": "227",
+        "against": "1",
+        "abstain": "0",
+        "status": "Pass",
+        "id": "9b3fa096-ec6e-5e4b-bed4-85172fdfe2cb"
+    },
+    {
+        "article": "Art-67: APPROPRIATION/COMMUNITY PRESERVATION FUND ",
+        "articleNumber": 67,
+        "voteType": "Action",
+        "for": "223",
+        "against": "3",
+        "abstain": "1",
+        "status": "Pass",
+        "id": "4633770a-816b-5aa0-afe2-744dc86bfdee"
+    },
+    {
+        "article": "Art-69: VOTE/APPROPRIATION/SCHOOL COMMITTEE MEMBER STIPENDS ",
+        "articleNumber": 69,
+        "voteType": "Action",
+        "for": "193",
+        "against": "22",
+        "abstain": "10",
+        "status": "Pass",
+        "id": "585774f3-5406-53eb-829d-56aa3c97e748"
+    },
+    {
+        "article": "Art-70: VOTE/TOWN CLERK STUDY ",
+        "articleNumber": 70,
+        "voteType": "Action",
+        "for": "133",
+        "against": "93",
+        "abstain": "0",
+        "status": "Pass",
+        "id": "64922296-b588-50a9-a017-17e306b7b1e9"
+    },
+    {
+        "article": "Art-77: USE OF FREE CASH ",
+        "articleNumber": 77,
+        "voteType": "Action",
+        "for": "218",
+        "against": "0",
+        "abstain": "0",
+        "status": "Pass",
+        "id": "a095387c-0fcf-56ba-a23f-75479f95d792"
+    },
+    {
+        "article": "Art-75: APPROPRIATION/FISCAL STABILITY STABILIZATION FUND ",
+        "articleNumber": 75,
+        "voteType": "Action",
+        "for": "202",
+        "against": "2",
+        "abstain": "2",
+        "status": "Pass",
+        "id": "3476cdbb-9185-5416-9754-2075b24ca441"
+    },
+    {
+        "article": "Art-78: RESOLUTION/TREE CANOPY AS A PUBLIC HEALTH RESOURCE ",
+        "articleNumber": 78,
+        "voteType": "No Action",
+        "for": "157",
+        "against": "35",
+        "abstain": "4",
+        "status": "Pass",
+        "id": "a783efb3-44fc-54e1-9c0b-73abb4bb357b"
+    },
+    {
+        "article": "Art-81: RESOLUTION/BROADWAY CORRIDOR DESIGN COMPETITION ",
+        "articleNumber": 81,
+        "voteType": "Action",
+        "for": "137",
+        "against": "48",
+        "abstain": "5",
+        "status": "Pass",
+        "id": "f4149e7e-f88a-52bf-9a41-a878a60aff90"
+    },
+    {
+        "article": "Art-90: RESOLUTION/PROGRAM TO INSTALL ELECTRIC VEHICLE CHARGING STATIONS ",
+        "articleNumber": 90,
+        "voteType": "Action",
+        "for": "163",
+        "against": "17",
+        "abstain": "10",
+        "status": "Pass",
+        "id": "19b9c27b-85c4-5735-8178-4400c8e625b4"
+    },
+    {
+        "article": "Art-91: RESOLUTION/DECLARE CLIMATE EMERGENCY",
+        "articleNumber": 91,
+        "voteType": "Action",
+        "for": "172",
+        "against": "13",
+        "abstain": "5",
+        "status": "Pass",
+        "id": "d3ca60c4-c274-56c0-ad99-b49eb5d14431"
+    }
+]
